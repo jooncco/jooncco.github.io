@@ -20,7 +20,7 @@ title                    : "JOONCCO CODE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "JOONCCO"
-description              : "About JOONCCO."
+description              : "About s/w engineer jooncco."
 url                      : "https://jooncco.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jooncco/jooncco.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
