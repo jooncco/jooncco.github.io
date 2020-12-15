@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "neon" # "default", "air", "aqua", "contrast", "dark"
 # Site Settings
 locale                   : "en-US"
 title                    : "JOONCCO CODE"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "Let the boy have fun, cuz why not?" # site tagline that appears below site title in masthead
 name                     : "JOONCCO"
-description              : "About s/w engineer jooncco."
+description              : "About software engineer jooncco."
 url                      : "https://jooncco.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jooncco/jooncco.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -53,7 +53,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : google # lunr (default), algolia, google
+search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -96,7 +96,7 @@ author:
   name             : "jooncco"
   avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "알고리즘과<br> 디제잉이 취미인 웹개발자."
-  location         : "Seoul, South Korea"
+  location         : "Seoul, Republic of Korea"
   # email            : ""
   links:
     - label: "jooncco.g@gmail.com"
@@ -105,6 +105,12 @@ author:
     - label: "Codeforces"
       icon: "fas fa-fw fa-link"
       url: "https://codeforces.com/profile/jooncco"
+    - label: "Baekjoon"
+      icon: "fas fa-code"
+      url: "https://www.acmicpc.net/user/jooncco"
+    - label: "Stack Overflow"
+      icon: "fab fa-stack-overflow"
+      url: "https://stackoverflow.com/users/11834258/jooncco"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jooncco"
@@ -271,8 +277,16 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
