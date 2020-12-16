@@ -4,7 +4,7 @@ permalink: /bio/
 ---
 > | 1992. 02. | Created                                                            |
 > | 2004.     | Took 3rd place in student president election (out of 4)            |
-> | 2011. 03. | Bio Medical Engineering B.S. @Yonsei, Wonju                        |
+> | 2011. 03. | Bio Medical Engineering B.E. @Yonsei, Wonju                        |
 > | 2014. 11. | SGT JEONG ETS @Camp Humphreys, US ARMY Hooah                       |
 > | 2016. 03. | Computer Science B.S. @Yonsei, Seoul                               |
 > | 2017. 02. | The most geeky, passionate Intern @LG CNS                          |
