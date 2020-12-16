@@ -27,7 +27,7 @@ permalink: /bio/
 
 > ### _Codeforces_
 
-<canvas id='chartCanvas' style='height: 600px; width: 100%;'></canvas>
+<canvas id='chartCanvas' height= '300'></canvas>
 * Current Rating: <span id='myRating' style='font-weight:bold;font-style:italic;'>- </span>,
                   <span id='myRatingName' style='font-weight:bold;font-style:italic;'> - </span>
 
