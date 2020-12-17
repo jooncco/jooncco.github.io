@@ -74,6 +74,33 @@ permalink: /bio/
 
 <!--------------------------------------------- scripts -->
 <script type='text/javascript'>
+
+    const ratingNames= [
+        'newbie',
+        'pupil',
+        'specialist',
+        'expert',
+        'candidate master',
+        'master',
+        'international master',
+        'grandmaster',
+        'international grandmaster',
+        'legendary grandmaster'
+    ];
+    const ratingColor= [
+        'rgb(204,204,204)',
+        'rgb(14, 106, 55)',
+        'rgb(35,169,176)',
+        'rgb(16,0,230)',
+        'rgb(122,35,128)',
+        'rgb(252,190,86)',
+        'rgb(252,190,86)',
+        'rgb(229,13,18)',
+        'rgb(229,13,18)',
+        'rgb(229,13,18)'
+    ];
+    const cutOffs= [0, 1200, 1400, 1600, 1900, 2100, 2300, 2400, 2600, 3000];
+
     var chartData= [];
     var dateTimes= [];
     var contestNames= [];
@@ -100,6 +127,10 @@ permalink: /bio/
                 ratingData.push(part['newRating']);
                 ratingChangeData.push(part['newRating']-part['oldRating']);
                 rankData.push(part['rank']);
+
+                if (i == ratingData.length-1) {
+                    currentRating= part['newRating'];
+                }
             }
             chartData= {
                 labels: dateTimes,
@@ -107,7 +138,7 @@ permalink: /bio/
                     {
                         label: ' new rating',
                         borderWidth: 2.5,
-                        borderColor: '#f5b942',
+                        borderColor: '#e4a831',
                         pointBackgroundColor: '#dddddd',
                         lineTension: 0,
                         fill: false,
@@ -116,40 +147,6 @@ permalink: /bio/
                 ]
             };
 
-            return fetch("https://codeforces.com/api/user.info?handles=jooncco")
-                .catch(err => console.log("[GET] user.info", err));
-        })
-        .then(res => res.json())
-        .then(res => {
-            const userInfoData= res['result'][0];
-
-            const ratingNames= [
-                'newbie',
-                'pupil',
-                'specialist',
-                'expert',
-                'candidate master',
-                'master',
-                'international master',
-                'grandmaster',
-                'international grandmaster',
-                'legendary grandmaster'
-            ];
-            const ratingColor= [
-                'rgb(204,204,204)',
-                'rgb(14, 106, 55)',
-                'rgb(35,169,176)',
-                'rgb(16,0,230)',
-                'rgb(122,35,128)',
-                'rgb(252,190,86)',
-                'rgb(252,190,86)',
-                'rgb(229,13,18)',
-                'rgb(229,13,18)',
-                'rgb(229,13,18)'
-            ];
-            const cutOffs= [0, 1200, 1400, 1600, 1900, 2100, 2300, 2400, 2600, 3000];
-
-            currentRating= userInfoData['rating'];
             for (let i= cutOffs.length-1; i >= 0; --i) {
                 if (currentRating >= cutOffs[i]) {
                     currentRatingName= ratingNames[i];
@@ -287,7 +284,7 @@ permalink: /bio/
                 }
             };
 
-            // draw
+            // render
             const myRating= document.getElementById('myRating').textContent= currentRating;
             const myRatingName= document.getElementById('myRatingName').textContent= currentRatingName;
             const canvas= document.getElementById('chartCanvas');
