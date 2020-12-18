@@ -1,5 +1,6 @@
 ---
 title: "JunHa Jeong (jooncco)"
+layout: single
 permalink: /bio/
 ---
 > | 1992. 02. | Created                                                            |
@@ -174,17 +175,13 @@ permalink: /bio/
                         ticks: {
                             min: 800,
                             max: 2500
-                        },
-                        gridLines: {
-                            display: true,
-                            color: 'rgba(255,99,132,0.2)'
                         }
                     }],
                     xAxes: [{
                         type: 'time',
                         gridLines: {
                             display: true,
-                            color: 'rgba(255,99,132,0.2)'
+                            color: 'rgba(255,99,132,0.1)'
                         }
                     }]
                 },
