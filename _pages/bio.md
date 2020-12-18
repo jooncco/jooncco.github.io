@@ -1,8 +1,21 @@
 ---
-title: "JunHa Jeong (jooncco)"
-layout: single
 permalink: /bio/
+title: "JunHa Jeong (jooncco)"
+excerpt: "About developer jooncco."
+layouts_gallery:
+  - url: /assets/images/bio_pic_1.jpg
+    image_path: /assets/images/bio_pic_1.jpg
+    alt: "bio #1"
+  - url: 
+    image_path:
+    alt: 
+last_modified_at: 2020-12-18T17:36:00+09:00
+toc: true
+share: false
 ---
+
+{% include gallery id="layouts_gallery" %}
+
 > | 1992. 02. | Created                                                            |
 > | 2004.     | Took 3rd place in student president election (out of 4)            |
 > | 2011. 03. | Bio Medical Engineering B.E. @Yonsei, Wonju                        |
@@ -13,7 +26,8 @@ permalink: /bio/
 
 ## Languages
 
-<cite> Java8, c++11, c, python, javascript, postgre SQL, Korean, English </cite>
+🎹 <cite> Java8, c++11, c, python, javascript, postgre SQL </cite><br>
+💬 <cite> Korean, English </cite>
 
 ## Engineering Experience
 * Spring 5 (webflux)
