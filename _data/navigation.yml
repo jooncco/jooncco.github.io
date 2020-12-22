@@ -3,7 +3,7 @@ main:
   - title: "Bio"
     url: /bio/
   - title: "Algorithms"
-    url: ""
+    url: /algorithms/
   - title: "Posts"
     url: ""
   - title: "Music"
