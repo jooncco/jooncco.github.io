@@ -11,6 +11,7 @@ layouts_gallery:
     alt: 
 last_modified_at: 2020-12-18T17:36:00+09:00
 toc: true
+toc_sticky: true
 share: false
 ---
 
@@ -45,7 +46,11 @@ share: false
 <canvas id='chartCanvas' height= '300'></canvas>
 * Current Rating: <span id='myRating' style='font-weight:bold;font-style:italic;'>- </span>,
                   <span id='myRatingName' style='font-weight:bold;font-style:italic;'> - </span>
-* Profile Link: <b>[jooncco](http://codeforces.com/profile/jooncco)</b>
+* Profile Link: <b>[📊](http://codeforces.com/profile/jooncco)</b>
+
+> ### _Baekjoon Online Judge_
+
+* Profile Link: <b>[💯](https://www.acmicpc.net/user/jooncco)</b>
 
 ## Project / Study
 
