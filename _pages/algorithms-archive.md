@@ -8,4 +8,4 @@ entries_layout: grid
 classes: wide
 ---
 
-<cite>Practice problems included at the bottom of each page.</cite>
+<cite>Practice problems included. Check out the bottom of each page.</cite>
