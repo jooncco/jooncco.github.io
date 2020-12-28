@@ -1,6 +1,6 @@
 ---
 title: "Ad Hoc"
-excerpt: "A problem-specific solution exists for these problems."
+excerpt: "Problem-specific solutions."
 # header:
 #   image: /assets/images/unsplash-gallery-image-1.jpg
 #   teaser: assets/images/unsplash-gallery-image-1-th.jpg

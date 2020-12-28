@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "jooncco"
   avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "알고리즘과 디제잉<br>
+  bio              : "알고리즘과 모바일앱 개발<br>
                       이 취미인 AB형 웹개발자"
   location         : "Seoul, Republic of Korea"
   # email            : ""

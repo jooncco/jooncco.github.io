@@ -1,6 +1,6 @@
 ---
 title: "Brute Force"
-excerpt: "Solutions based on complete search."
+excerpt: "Solutions based on naive complete search."
 # header:
 #   image: /assets/images/unsplash-gallery-image-2.jpg
 #   teaser: assets/images/unsplash-gallery-image-2-th.jpg
