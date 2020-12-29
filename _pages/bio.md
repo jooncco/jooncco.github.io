@@ -23,6 +23,7 @@ share: false
 > | 2014. 11. | SGT JEONG ETS @Camp Humphreys, US ARMY Hooah                       |
 > | 2016. 03. | Computer Science B.S. @Yonsei, Seoul                               |
 > | 2017. 02. | The most geeky, passionate Intern @LG CNS                          |
+> | 2017. 12. | First prize: thesis project "EYEAR" @Yonsei, Seoul                 |
 > | 2019. 01. | Enterprise Application Development Associate @LG CNS               |
 
 ## Languages
@@ -46,11 +47,11 @@ share: false
 <canvas id='chartCanvas' height= '300'></canvas>
 * Current Rating: <span id='myRating' style='font-weight:bold;font-style:italic;'>- </span>,
                   <span id='myRatingName' style='font-weight:bold;font-style:italic;'> - </span>
-* Profile Link: <b>[📊](http://codeforces.com/profile/jooncco)</b>
+* Profile Link: [🔗](http://codeforces.com/profile/jooncco)
 
 > ### _Baekjoon Online Judge_
 
-* Profile Link: <b>[💯](https://www.acmicpc.net/user/jooncco)</b>
+* Profile Link: [🔗](https://www.acmicpc.net/user/jooncco)
 
 ## Project / Study
 
