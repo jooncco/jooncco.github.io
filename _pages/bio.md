@@ -51,6 +51,7 @@ share: false
 
 > ### _Baekjoon Online Judge_
 
+* Solved: 1245 problems
 * Profile Link: [🔗](https://www.acmicpc.net/user/jooncco)
 
 ## Project / Study
