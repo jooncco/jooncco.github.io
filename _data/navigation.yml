@@ -2,7 +2,9 @@
 main:
   - title: "Bio"
     url: /bio/
+  - title: "Posts"
+    url: ""
   - title: "Algorithms"
     url: /algorithms/
-  - title: "Posts"
+  - title: "Music"
     url: ""
