@@ -98,6 +98,7 @@ share: false
 <!--------------------------------------------- scripts -->
 <script type='text/javascript'>
 
+    const cutOffs= [0, 1200, 1400, 1600, 1900, 2100, 2300, 2400, 2600, 3000];
     const ratingNames= [
         'newbie',
         'pupil',
@@ -122,7 +123,129 @@ share: false
         'rgb(229,13,18)',
         'rgb(229,13,18)'
     ];
-    const cutOffs= [0, 1200, 1400, 1600, 1900, 2100, 2300, 2400, 2600, 3000];
+    var chartOption= {
+        legend: {
+            display: false
+        },
+        title: {
+            text: 'no response from codeforces.com',
+            fontColor: ratingColor[0],
+            fontSize: 20,
+            fontWeight: 'bold',
+            position: 'top',
+            display: true
+        },
+        scales: {
+            yAxes: [{
+                stacked: true,
+                ticks: {
+                    min: 800,
+                    max: 2500
+                }
+            }],
+            xAxes: [{
+                type: 'time',
+                gridLines: {
+                    display: true,
+                    color: 'rgba(255,99,132,0.1)'
+                }
+            }]
+        },
+        annotation: {
+            annotations: [
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'newbie-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 0,
+                    yMax: 1200,
+                    backgroundColor: 'rgba(204,204,204,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'pupil-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 1200,
+                    yMax: 1400,
+                    backgroundColor: 'rgba(119,255,119,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'specialist-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 1400,
+                    yMax: 1600,
+                    backgroundColor: 'rgba(120,221,187,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'expert-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 1600,
+                    yMax: 1900,
+                    backgroundColor: 'rgba(176,167,255,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'candidate-master-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 1900,
+                    yMax: 2100,
+                    backgroundColor: 'rgba(254,136,255,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'master-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 2100,
+                    yMax: 2300,
+                    backgroundColor: 'rgba(254,204,135,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'international-master-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 2300,
+                    yMax: 2400,
+                    backgroundColor: 'rgba(252,190,86,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'grandmaster-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 2400,
+                    yMax: 2600,
+                    backgroundColor: 'rgba(255,119,115,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'international-grandmaster-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 2600,
+                    yMax: 3000,
+                    backgroundColor: 'rgba(255,51,52,0.85)'
+                },
+                {
+                    type: 'box',
+                    drawTime: 'beforeDatasetsDraw',
+                    id: 'legendary-grandmaster-area',
+                    yScaleID: 'y-axis-0',
+                    yMin: 3000,
+                    yMax: 4000,
+                    backgroundColor: 'rgba(170,0,0,0.85)'
+                }
+            ]
+        }
+    };
 
     var chartData= [];
     var dateTimes= [];
@@ -178,140 +301,27 @@ share: false
                 }
             }
 
-            // draw chart
-            const chartOption= {
-                legend: {
-                    display: false
-                },
-                title: {
-                    text: currentRatingName+' jooncco',
-                    fontColor: currentRatingColor,
-                    fontSize: 20,
-                    fontWeight: 'bold',
-                    position: 'top',
-                    display: true
-                },
-                scales: {
-                    yAxes: [{
-                        stacked: true,
-                        ticks: {
-                            min: 800,
-                            max: 2500
-                        }
-                    }],
-                    xAxes: [{
-                        type: 'time',
-                        gridLines: {
-                            display: true,
-                            color: 'rgba(255,99,132,0.1)'
-                        }
-                    }]
-                },
-                annotation: {
-                    annotations: [
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'newbie-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 0,
-                            yMax: 1200,
-                            backgroundColor: 'rgba(204,204,204,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'pupil-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 1200,
-                            yMax: 1400,
-                            backgroundColor: 'rgba(119,255,119,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'specialist-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 1400,
-                            yMax: 1600,
-                            backgroundColor: 'rgba(120,221,187,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'expert-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 1600,
-                            yMax: 1900,
-                            backgroundColor: 'rgba(176,167,255,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'candidate-master-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 1900,
-                            yMax: 2100,
-                            backgroundColor: 'rgba(254,136,255,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'master-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 2100,
-                            yMax: 2300,
-                            backgroundColor: 'rgba(254,204,135,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'international-master-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 2300,
-                            yMax: 2400,
-                            backgroundColor: 'rgba(252,190,86,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'grandmaster-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 2400,
-                            yMax: 2600,
-                            backgroundColor: 'rgba(255,119,115,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'international-grandmaster-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 2600,
-                            yMax: 3000,
-                            backgroundColor: 'rgba(255,51,52,0.85)'
-                        },
-                        {
-                            type: 'box',
-                            drawTime: 'beforeDatasetsDraw',
-                            id: 'legendary-grandmaster-area',
-                            yScaleID: 'y-axis-0',
-                            yMin: 3000,
-                            yMax: 4000,
-                            backgroundColor: 'rgba(170,0,0,0.85)'
-                        }
-                    ]
-                }
-            };
-
-            // render
+            // rating info
             const myRating= document.getElementById('myRating').textContent= currentRating;
             const myRatingName= document.getElementById('myRatingName').textContent= currentRatingName;
+
+            // draw chart
+            chartOption['title']['text']= currentRatingName+' jooncco';
+            chartOption['title']['fontColor']= currentRatingColor;
             const canvas= document.getElementById('chartCanvas');
-            const myBarChart= new Chart(canvas, {
+            const myChart= new Chart(canvas, {
                 type: 'line',
                 data: chartData,
                 options: chartOption
             });
         })
-        .catch(err => console.log("[GET] user.rating", err));
+        .catch(err => {
+            console.log("[GET] user.rating", err);
+            const canvas= document.getElementById('chartCanvas');
+            const myChart= new Chart(canvas, {
+                type: 'line',
+                data: [],
+                options: chartOption
+            });
+        });
 </script>
