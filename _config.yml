@@ -245,10 +245,10 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /posts
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /algorithms
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -269,13 +269,6 @@ compress_html:
   ignore:
     envs: development
 
-# Collections
-collections:
-  algorithms:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
   # _pages
@@ -287,14 +280,14 @@ defaults:
       author_profile: true
       share: true
   # _posts
-  # - scope:
-  #     path: ""
-  #     type: posts
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     show_date: true
-  #     comments: true
-  #     share: true
-  #     related: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true

@@ -1,11 +1,10 @@
 ---
-title: Algorithm Design Patterns
-excerpt: "Algorithm theory & solutions in c++."
-layout: collection
-permalink: /algorithms/
-collection: algorithms
-entries_layout: grid
-classes: wide
+title: "Algorithms"
+excerpt: "Problem Solutions in c++"
+layout: tags
+permalink: /algorithms
+header:
+  overlay_image: /assets/images/algorithms_title.jpg
+# sort_by: 
+# sort_order: 
 ---
-
-<cite>Practice problems included. Check out the bottom of each page.</cite>

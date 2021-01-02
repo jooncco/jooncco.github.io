@@ -1,10 +1,11 @@
 # main links
 main:
   - title: "Bio"
-    url: /bio/
+    url: /bio
   - title: "Posts"
-    url: ""
+    url: /posts
   - title: "Algorithms"
-    url: /algorithms/
+    url: /algorithms
   - title: "Music"
-    url: ""
+    # url: /music
+    url: 
