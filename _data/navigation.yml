@@ -7,5 +7,4 @@ main:
   - title: "Algorithms"
     url: /algorithms
   - title: "Music"
-    # url: /music
-    url: 
+    url: /music
