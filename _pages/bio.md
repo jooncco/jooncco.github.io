@@ -1,5 +1,5 @@
 ---
-permalink: /bio/
+permalink: /bio
 title: "JunHa Jeong (jooncco)"
 excerpt: "About developer jooncco."
 layouts_gallery:
@@ -32,13 +32,13 @@ share: false
 💬 <cite> Korean, English </cite>
 
 ## Engineering Experience
-* Spring 5 (webflux)
-* Spring boot 2
-* AWS (EC2, S3, RDS, DocumentDB, CodeCommit, Sumerian)
-* React 16
-* Angular 5
-* PostgreSQL
-* MongoDB
+* <u>React</u>: 2021 ~ now
+* <u>React Native</u>: 2021 ~ now
+* Angular: 0.5yr
+* Spring boot(2.0): 1.5yr
+* PostgreSQL: 1.5yr
+* MongoDB: 0.5yr
+* AWS(EC2, S3, RDS, DocumentDB, CodeCommit, Sumerian): 1yr
 
 ## Competitive Programming
 

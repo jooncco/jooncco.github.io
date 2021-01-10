@@ -1,6 +1,6 @@
 ---
 title: "Algorithms"
-excerpt: "Problem Solutions in c++"
+excerpt: "Ya guess I'm a geek"
 layout: tags
 permalink: /algorithms
 header:
