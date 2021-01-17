@@ -254,15 +254,11 @@
 /*
    Customs
    ========================================================================== */
-
-div {
-  ul {
-    .skill_detail {
-      font-size: $type-size-6;
-      margin: 1px;
-      padding: 2px 4px;
-      border-radius: $border-radius $border-radius $border-radius $border-radius;
-      background-color: darkslateblue;
-    }
-  }
+   
+.skill_detail {
+  font-size: $type-size-6;
+  margin: 1px;
+  padding: 2px 4px;
+  border-radius: $border-radius $border-radius $border-radius $border-radius;
+  background-color: darkslateblue;
 }
