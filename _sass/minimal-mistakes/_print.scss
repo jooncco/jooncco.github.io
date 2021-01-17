@@ -254,11 +254,33 @@
 /*
    Customs
    ========================================================================== */
+
    
+.collapsible {
+  padding: 2px 5px;
+  background-color: #4287f5;
+}
+  
+.skill_term {
+  font-size: 15px;
+  color: #4287f5;
+  display: inline-block;
+  vertical-align: bottom;
+}
+    
 .skill_detail {
   font-size: $type-size-6;
   margin: 1px;
   padding: 2px 4px;
   border-radius: $border-radius $border-radius $border-radius $border-radius;
   background-color: darkslateblue;
+}
+
+.git_link {
+  font-size: $type-size-6;
+  margin: 1px;
+  padding: 1px 4px;
+  display: inline-block;
+  vertical-align: bottom;
+  border-radius: $border-radius $border-radius $border-radius $border-radius;
 }
