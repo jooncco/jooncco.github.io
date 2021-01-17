@@ -258,12 +258,12 @@
    
 .collapsible {
   padding: 2px 5px;
-  background-color: #4287f5;
+  background-color: $primary-color;
 }
   
 .skill_term {
   font-size: 15px;
-  color: #4287f5;
+  color: $primary-color;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -272,7 +272,7 @@
   font-size: $type-size-6;
   margin: 1px;
   padding: 2px 4px;
-  border-radius: $border-radius $border-radius $border-radius $border-radius;
+  border-radius: $border-radius;
   background-color: darkslateblue;
 }
 
@@ -282,5 +282,12 @@
   padding: 1px 4px;
   display: inline-block;
   vertical-align: bottom;
-  border-radius: $border-radius $border-radius $border-radius $border-radius;
+}
+
+.problem_link {
+  font-size: $type-size-6;
+  margin: 1px;
+  padding: 1px 4px;
+  display: inline-block;
+  vertical-align: bottom;
 }

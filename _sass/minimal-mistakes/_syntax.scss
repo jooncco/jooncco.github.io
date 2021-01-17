@@ -5,12 +5,13 @@
 div.highlighter-rouge,
 figure.highlight {
   position: relative;
-  margin-bottom: 1em;
-  background: $base00;
-  color: $base05;
+  margin-bottom: 0.5em;
+  background: $base06;
+  color: $base03;
   font-family: $monospace;
-  font-size: $type-size-6;
-  line-height: 1.8;
+  font-size: $type-size-7;
+  font-weight: 700;
+  line-height: 1.4;
   border-radius: $border-radius;
 
   > pre,
@@ -35,8 +36,8 @@ figure.highlight {
     &.rouge-gutter {
       padding-right: 1em;
       width: 1em;
-      color: $base04;
-      border-right: 1px solid $base04;
+      color: $base03;
+      border-right: 1px solid $base03;
       text-align: right;
     }
 
@@ -62,51 +63,51 @@ figure.highlight {
 .highlight {
   .c {
     /* Comment */
-    color: $base04;
+    color: $base0a;
   }
   .err {
     /* Error */
-    color: $base08;
+    color: $base0d;
   }
   .k {
     /* Keyword */
-    color: $base0e;
+    color: $base0d;
   }
   .l {
     /* Literal */
-    color: $base09;
+    color: $base03;
   }
   .n {
     /* Name */
-    color: $base05;
+    color: $base02;
   }
-  .o {
+  .o { 
     /* Operator */
-    color: $base0c;
+    color: #7184c0;
   }
   .p {
     /* Punctuation */
-    color: $base05;
+    color: #706a6a;
   }
   .cm {
     /* Comment.Multiline */
-    color: $base04;
+    color: $base0a;
   }
   .cp {
     /* Comment.Preproc */
-    color: $base04;
+    color: #bd2621;
   }
   .c1 {
     /* Comment.Single */
-    color: $base04;
+    color: $base0a;
   }
   .cs {
     /* Comment.Special */
-    color: $base04;
+    color: $base0a;
   }
   .gd {
     /* Generic.Deleted */
-    color: $base08;
+    color: $base0d;
   }
   .ge {
     /* Generic.Emph */
@@ -114,7 +115,7 @@ figure.highlight {
   }
   .gh {
     /* Generic.Heading */
-    color: $base05;
+    color: $base09;
     font-weight: bold;
   }
   .gi {
@@ -132,32 +133,32 @@ figure.highlight {
   }
   .gu {
     /* Generic.Subheading */
-    color: $base0c;
+    color: #7184c0;
     font-weight: bold;
   }
   .kc {
     /* Keyword.Constant */
-    color: $base0e;
+    color: $base0d;
   }
   .kd {
     /* Keyword.Declaration */
-    color: $base0e;
+    color: #203a68;
   }
   .kn {
     /* Keyword.Namespace */
-    color: $base0c;
+    color: #7184c0;
   }
   .kp {
     /* Keyword.Pseudo */
-    color: $base0e;
+    color: $base0d;
   }
   .kr {
     /* Keyword.Reserved */
-    color: $base0e;
+    color: $base0d;
   }
   .kt {
     /* Keyword.Type */
-    color: $base0a;
+    color: #7184c0;
   }
   .ld {
     /* Literal.Date */
@@ -169,7 +170,7 @@ figure.highlight {
   }
   .s {
     /* Literal.String */
-    color: $base0b;
+    color: $base09;
   }
   .na {
     /* Name.Attribute */
@@ -177,63 +178,63 @@ figure.highlight {
   }
   .nb {
     /* Name.Builtin */
-    color: $base05;
+    color: $base09;
   }
   .nc {
     /* Name.Class */
-    color: $base0a;
+    color: #7184c0;
   }
   .no {
     /* Name.Constant */
-    color: $base08;
+    color: $base0d;
   }
   .nd {
     /* Name.Decorator */
-    color: $base0c;
+    color: #7184c0;
   }
   .ni {
     /* Name.Entity */
-    color: $base05;
+    color: $base03;
   }
   .ne {
     /* Name.Exception */
-    color: $base08;
+    color: $base0d;
   }
   .nf {
     /* Name.Function */
-    color: $base0d;
+    color: #7184c0  $base0d;
   }
   .nl {
     /* Name.Label */
-    color: $base05;
+    color: $base09;
   }
   .nn {
     /* Name.Namespace */
-    color: $base0a;
+    color: $base03;
   }
   .nx {
     /* Name.Other */
-    color: $base0d;
+    color: $base03;
   }
   .py {
     /* Name.Property */
-    color: $base05;
+    color: $base09;
   }
   .nt {
     /* Name.Tag */
-    color: $base0c;
+    color: #7184c0;
   }
   .nv {
     /* Name.Variable */
-    color: $base08;
+    color: $base03;
   }
   .ow {
     /* Operator.Word */
-    color: $base0c;
+    color: #7184c0;
   }
   .w {
     /* Text.Whitespace */
-    color: $base05;
+    color: $base09;
   }
   .mf {
     /* Literal.Number.Float */
@@ -253,11 +254,11 @@ figure.highlight {
   }
   .sb {
     /* Literal.String.Backtick */
-    color: $base0b;
+    color: $base09;
   }
   .sc {
     /* Literal.String.Char */
-    color: $base05;
+    color: $base09;
   }
   .sd {
     /* Literal.String.Doc */
@@ -265,7 +266,7 @@ figure.highlight {
   }
   .s2 {
     /* Literal.String.Double */
-    color: $base0b;
+    color: $base09;
   }
   .se {
     /* Literal.String.Escape */
@@ -273,7 +274,7 @@ figure.highlight {
   }
   .sh {
     /* Literal.String.Heredoc */
-    color: $base0b;
+    color: $base09;
   }
   .si {
     /* Literal.String.Interpol */
@@ -281,35 +282,35 @@ figure.highlight {
   }
   .sx {
     /* Literal.String.Other */
-    color: $base0b;
+    color: $base09;
   }
   .sr {
     /* Literal.String.Regex */
-    color: $base0b;
+    color: $base09;
   }
   .s1 {
     /* Literal.String.Single */
-    color: $base0b;
+    color: $base09;
   }
   .ss {
     /* Literal.String.Symbol */
-    color: $base0b;
+    color: $base09;
   }
   .bp {
     /* Name.Builtin.Pseudo */
-    color: $base05;
+    color: $base09;
   }
   .vc {
     /* Name.Variable.Class */
-    color: $base08;
+    color: $base03;
   }
   .vg {
     /* Name.Variable.Global */
-    color: $base08;
+    color: $base03;
   }
   .vi {
     /* Name.Variable.Instance */
-    color: $base08;
+    color: $base03;
   }
   .il {
     /* Literal.Number.Integer.Long */
