@@ -1,7 +1,7 @@
 ---
-permalink: /bio
 title: "JunHa Jeong (jooncco)"
 excerpt: "About developer jooncco."
+permalink: /bio
 layouts_gallery:
   - url: /assets/images/bio_pic_1.jpg
     image_path: /assets/images/bio_pic_1.jpg
@@ -32,13 +32,66 @@ share: false
 💬 <cite> Korean, English </cite>
 
 ## Engineering Experience
-* <u>React</u>: 2021 ~ now
-* <u>React Native</u>: 2021 ~ now
-* Angular: 0.5yr
-* Spring boot(2.0): 1.5yr
-* PostgreSQL: 1.5yr
-* MongoDB: 0.5yr
-* AWS(EC2, S3, RDS, DocumentDB, CodeCommit, Sumerian): 1yr
+<ul>
+    <li>
+        <div>
+            <u>React</u> <span style="display: inline-block; vertical-align: bottom; color: #4287f5; font-size: 15px;">2021 ~ now</span>
+        </div>
+        <!-- <div> -->
+            <!-- <button></button> -->
+        <!-- </div> -->
+    </li>
+    <li>
+        <div>
+            <u>React Native</u> <span style="display: inline-block; vertical-align: bottom; color: #4287f5; font-size: 15px;">2021 ~ now</span>
+        </div>
+    </li>
+    <li>
+        <div>
+            <span style="display:inline-block; width:70%;">
+                Spring Framework <span style="display: inline-block; vertical-align: bottom; color: #4287f5; font-size: 15px;">12 months</span>
+            </span>
+            <span style="display:inline-block; width:10%;">
+                <button class="btn collapsible" id="spring" style= "padding: 2px 5px; background-color: #4287f5;">details</button>
+            </span>
+        </div>
+        <div class="content" id="springdata" style="display: none;">
+            <span class="skill_detail">spring-boot(2.0)</span>
+            <span class="skill_detail">spring-webflux(Spring 5.0)</span>
+            <span class="skill_detail">JPA</span>
+            <span class="skill_detail">aws S3 module</span>
+        </div>
+    </li>
+    <li>
+        <div>
+            <span style="display:inline-block; width:70%;">
+                AWS <span style="display: inline-block; vertical-align: bottom; color: #4287f5; font-size: 15px;">12 months</span>
+            </span>
+            <span style="display:inline-block; width:10%;">
+                <button class="btn collapsible" id="aws" style= "padding: 2px 5px; background-color: #4287f5;">details</button>
+            </span>
+        </div>
+        <div class="content" id="awsdata" style="display: none;">
+            <span class="skill_detail">EC2</span>
+            <span class="skill_detail">S3</span>
+            <span class="skill_detail">RDS</span>
+            <span class="skill_detail">DocumentDB</span>
+            <span class="skill_detail">IAM</span>
+            <span class="skill_detail">CodeCommit</span>
+            <span class="skill_detail">Sumerian</span>
+        </div>
+    </li>
+    <li>
+        <div>
+            PostgreSQL <span style="display: inline-block; vertical-align: bottom; color: #4287f5; font-size: 15px;">12 months</span>
+        </div>
+    </li>
+    <li>
+        <div>
+            Angular <span style="display: inline-block; vertical-align: bottom; color: #4287f5; font-size: 15px;">1 month</span>
+        </div>
+    </li>
+</ul>
 
 ## Competitive Programming
 
@@ -98,6 +151,9 @@ share: false
 <!--------------------------------------------- scripts -->
 <script type='text/javascript'>
 
+    /*
+     codeforces rating change graph
+     ================================*/
     const cutOffs= [0, 1200, 1400, 1600, 1900, 2100, 2300, 2400, 2600, 3000];
     const ratingNames= [
         'newbie',
@@ -324,4 +380,23 @@ share: false
                 options: chartOption
             });
         });
+
+    /*
+     skill set 'details' button
+     ================================*/
+    let coll= document.getElementsByClassName("collapsible");
+    for (let i= 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        let content= document.getElementById(this.id+"data");
+        if (content.style.display === "block") {
+            content.style.display= "none";
+            coll[i].innerHTML= "details";
+        }
+        else {
+            content.style.display= "block";
+            coll[i].innerHTML= "hide";
+        }
+    });
+}
 </script>
