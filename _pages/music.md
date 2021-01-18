@@ -1,6 +1,6 @@
 ---
 title: "Music"
-excerpt: "Gets you out of toxic emotions"
+excerpt: "gets you out of toxic emotions"
 layout: single
 permalink: /music
 header:

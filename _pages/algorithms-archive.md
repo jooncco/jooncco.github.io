@@ -1,6 +1,6 @@
 ---
 title: "Algorithms"
-excerpt: "Ya guess I'm a geek"
+excerpt: "are art."
 layout: tags
 permalink: /algorithms
 header:
