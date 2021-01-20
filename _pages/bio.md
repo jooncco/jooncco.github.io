@@ -36,13 +36,18 @@ share: false
         <div>
             <u>React</u> <span class="skill_term">2021 ~ now</span>
         </div>
-        <!-- <div> -->
-            <!-- <button></button> -->
-        <!-- </div> -->
     </li>
     <li>
         <div>
-            <u>React Native</u> <span class="skill_term">2021 ~ now</span>
+            <span style="display:inline-block; width:70%;">
+                <u>React Native</u> <span class="skill_term">2021 ~ now</span>
+            </span>
+            <span style="display:inline-block; width:10%;">
+                <button class="btn collapsible" id="react-native">details</button>
+            </span>
+        </div>
+        <div class="content" id="react-nativedata" style="display: none;">
+            <span class="skill_detail">react-navigation</span>
         </div>
     </li>
     <li>
