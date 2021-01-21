@@ -34,11 +34,6 @@ share: false
 <ul>
     <li>
         <div>
-            <u>React</u> <span class="skill_term">2021 ~ now</span>
-        </div>
-    </li>
-    <li>
-        <div>
             <span style="display:inline-block; width:70%;">
                 <u>React Native</u> <span class="skill_term">2021 ~ now</span>
             </span>
