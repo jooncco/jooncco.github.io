@@ -27,7 +27,7 @@ share: false
 
 ## Languages
 
-🎹 <cite> Java8, c++11, c, python, javascript, postgre SQL </cite><br>
+🎹 <cite> Java8, typescript, javascript, c++11, c, python, postgre SQL </cite><br>
 💬 <cite> Korean, English </cite>
 
 ## Engineering Experience
