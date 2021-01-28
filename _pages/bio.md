@@ -42,7 +42,8 @@ share: false
             </span>
         </div>
         <div class="content" id="react-nativedata" style="display: none;">
-            <span class="skill_detail">react-navigation</span>
+            <span class="skill_detail">react-navigation 5.x</span>
+            <span class="skill_detail">Animated</span>
         </div>
     </li>
     <li>
