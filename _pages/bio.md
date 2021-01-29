@@ -35,21 +35,7 @@ share: false
     <li>
         <div>
             <span style="display:inline-block; width:70%;">
-                <u>React Native</u> <span class="skill_term">2021 ~ now</span>
-            </span>
-            <span style="display:inline-block; width:10%;">
-                <button class="btn collapsible" id="react-native">details</button>
-            </span>
-        </div>
-        <div class="content" id="react-nativedata" style="display: none;">
-            <span class="skill_detail">react-navigation 5.x</span>
-            <span class="skill_detail">Animated</span>
-        </div>
-    </li>
-    <li>
-        <div>
-            <span style="display:inline-block; width:70%;">
-                Spring Framework <span class="skill_term">12 months</span>
+                <u>Spring</u> <span class="skill_term">12 months<b> (on going)</b></span>
             </span>
             <span style="display:inline-block; width:10%;">
                 <button class="btn collapsible" id="spring">details</button>
@@ -59,7 +45,21 @@ share: false
             <span class="skill_detail">spring-boot(2.0)</span>
             <span class="skill_detail">spring-webflux(Spring 5.0)</span>
             <span class="skill_detail">JPA</span>
-            <span class="skill_detail">aws S3 module</span>
+            <span class="skill_detail">aws S3 sdk</span>
+        </div>
+    </li>
+    <li>
+        <div>
+            <span style="display:inline-block; width:70%;">
+                React Native <span class="skill_term">1 month</span>
+            </span>
+            <span style="display:inline-block; width:10%;">
+                <button class="btn collapsible" id="react-native">details</button>
+            </span>
+        </div>
+        <div class="content" id="react-nativedata" style="display: none;">
+            <span class="skill_detail">react-navigation 5.x</span>
+            <span class="skill_detail">Animated</span>
         </div>
     </li>
     <li>
