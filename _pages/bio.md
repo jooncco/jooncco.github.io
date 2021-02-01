@@ -105,7 +105,7 @@ share: false
 > ### _Baekjoon Online Judge_
 
 * Solved: 1256 problems
-* Tier:Platinum V
+* Tier: Platinum V
 * Profile Link: [🔗](https://www.acmicpc.net/user/jooncco)
 
 ## Project / Study
