@@ -1,6 +1,5 @@
 ---
 title: "Posts"
-excerpt: "engineering tips."
 layout: categories
 permalink: /posts
 header:

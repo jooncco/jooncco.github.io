@@ -44,7 +44,7 @@ share: false
         <div class="content" id="springdata" style="display: none;">
             <span class="skill_detail">spring-boot(2.0)</span>
             <span class="skill_detail">spring-webflux(Spring 5.0)</span>
-            <span class="skill_detail">JPA</span>
+            <span class="skill_detail">spring MVC</span>
             <span class="skill_detail">aws S3 sdk</span>
         </div>
     </li>
@@ -73,11 +73,10 @@ share: false
         </div>
         <div class="content" id="awsdata" style="display: none;">
             <span class="skill_detail">EC2</span>
+            <span class="skill_detail">lambda</span>
             <span class="skill_detail">S3</span>
             <span class="skill_detail">RDS</span>
             <span class="skill_detail">DocumentDB</span>
-            <span class="skill_detail">IAM</span>
-            <span class="skill_detail">CodeCommit</span>
             <span class="skill_detail">Sumerian</span>
         </div>
     </li>
