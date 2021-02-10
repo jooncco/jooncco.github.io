@@ -23,7 +23,7 @@ share: false
 > | 2016. 03. | Computer Science B.S. @Yonsei, Seoul                               |
 > | 2017. 02. | The most geeky, passionate Intern @LG CNS                          |
 > | 2017. 12. | First prize: thesis project "EYEAR" @Yonsei, Seoul                 |
-> | 2019. 01. | Enterprise Application Development Associate @LG CNS               |
+> | 2019. 01. | Software Engineer @LG CNS                                          |
 
 ## Languages
 
