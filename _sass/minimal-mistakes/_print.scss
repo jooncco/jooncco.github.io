@@ -270,10 +270,11 @@
     
 .skill_detail {
   font-size: $type-size-6;
+  font-weight: 400;
   margin: 1px;
   padding: 2px 4px;
   border-radius: $border-radius;
-  background-color: darkslateblue;
+  background-color: rgba(72,61,139,0.4);
 }
 
 .git_link {
