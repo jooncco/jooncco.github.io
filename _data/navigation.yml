@@ -2,8 +2,8 @@
 main:
   - title: "Bio"
     url: /bio
-  - title: "Posts"
-    url: /posts
+  - title: "Wiki"
+    url: /wiki
   - title: "Algorithms"
     url: /algorithms
   - title: "Music"

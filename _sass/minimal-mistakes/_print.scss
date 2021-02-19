@@ -252,7 +252,7 @@
 }
 
 /*
-   Customs
+   jooncco_style
    ========================================================================== */
 
    
@@ -291,4 +291,12 @@
   padding: 1px 4px;
   display: inline-block;
   vertical-align: bottom;
+}
+
+.paragraph_header {
+  color: $primary-color;
+}
+
+.paragraph_content {
+  font-size: $type-size-6;
 }
