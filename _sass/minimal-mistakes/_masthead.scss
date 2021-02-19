@@ -85,6 +85,8 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-family: $consolas;
+  font-weight: 777;
 
   &--lg {
     padding-right: 2em;
