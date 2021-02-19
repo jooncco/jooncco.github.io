@@ -31,80 +31,110 @@ share: false
 💬 <cite> Korean, English </cite>
 
 ## Engineering Experience
-<ul>
-    <li>
-        <div>
-            <span style="display:inline-block; width:70%;">
-                <u>Spring</u> <span class="skill_term">12 months<b> (on going)</b></span>
-            </span>
-            <span style="display:inline-block; width:10%;">
-                <button class="btn collapsible" id="spring">details</button>
-            </span>
-        </div>
-        <div class="content" id="springdata" style="display: none;">
-            <span class="skill_detail">spring-boot(2.0)</span>
-            <span class="skill_detail">spring-webflux(Spring 5.0)</span>
-            <span class="skill_detail">spring MVC</span>
-            <span class="skill_detail">aws S3 sdk</span>
-        </div>
-    </li>
-    <li>
-        <div>
-            <span style="display:inline-block; width:70%;">
-                React Native <span class="skill_term">1 month</span>
-            </span>
-            <span style="display:inline-block; width:10%;">
-                <button class="btn collapsible" id="react-native">details</button>
-            </span>
-        </div>
-        <div class="content" id="react-nativedata" style="display: none;">
-            <span class="skill_detail">react-navigation 5.x</span>
-            <span class="skill_detail">Animated</span>
-        </div>
-    </li>
-    <li>
-        <div>
-            <span style="display:inline-block; width:70%;">
-                AWS <span class="skill_term">12 months</span>
-            </span>
-            <span style="display:inline-block; width:10%;">
-                <button class="btn collapsible" id="aws">details</button>
-            </span>
-        </div>
-        <div class="content" id="awsdata" style="display: none;">
-            <span class="skill_detail">EC2</span>
-            <span class="skill_detail">lambda</span>
-            <span class="skill_detail">S3</span>
-            <span class="skill_detail">RDS</span>
-            <span class="skill_detail">DocumentDB</span>
-            <span class="skill_detail">Sumerian</span>
-        </div>
-    </li>
-    <li>
-        <div>
-            PostgreSQL <span class="skill_term">12 months</span>
-        </div>
-    </li>
-    <li>
-        <div>
+<div style="padding: 10px;">
+    <div>
+        <span style="display:inline-block; width:70%;">
+            <img class="artifact_img" src="/assets/images/spring-framework.svg"/>
+            <u>Spring Framework</u> <span class="skill_term">12 months<b> (on going)</b></span>
+        </span>
+        <span style="display:inline-block; width:10%;">
+            <button class="btn collapsible" id="spring">details</button>
+        </span>
+    </div>
+    <div class="content" id="springdata" style="display: none; padding-left: 5%;">
+        <span class="skill_detail">spring-boot (2.x)</span>
+        <span class="skill_detail">webflux</span>
+        <span class="skill_detail">JPA</span>
+        <span class="skill_detail">AWS S3 sdk</span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display:inline-block; width:70%;">
+            <img class="artifact_img" src="/assets/images/aws.svg"/>
+            AWS <span class="skill_term">12 months</span>
+        </span>
+        <span style="display:inline-block; width:10%;">
+            <button class="btn collapsible" id="aws">details</button>
+        </span>
+    </div>
+    <div class="content" id="awsdata" style="display: none; padding-left: 5%;">
+        <span class="skill_detail">IAM</span>
+        <span class="skill_detail">EC2</span>
+        <span class="skill_detail">Lambda</span>
+        <span class="skill_detail">S3</span>
+        <span class="skill_detail">RDS</span>
+        <span class="skill_detail">DocumentDB</span>
+        <span class="skill_detail">Sumerian</span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display:inline-block; width:70%;">
+            <img class="artifact_img" src="/assets/images/react-native.svg"/>
+            React Native <span class="skill_term">1 month</span>
+        </span>
+        <span style="display:inline-block; width:10%;">
+            <button class="btn collapsible" id="react-native">details</button>
+        </span>
+    </div>
+    <div class="content" id="react-nativedata" style="display: none; padding-left: 5%;">
+        <span class="skill_detail">react-navigation (5.x)</span>
+        <span class="skill_detail">Animated</span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display:inline-block; width:70%;">
+            <img class="artifact_img" src="/assets/images/react.svg"/>
+            React <span class="skill_term">1 month<b> (on going)</b></span>
+        </span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display:inline-block; width:70%;">
+            <img class="artifact_img" src="/assets/images/angular.svg"/>
             Angular <span class="skill_term">1 month</span>
-        </div>
-    </li>
-</ul>
+        </span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display:inline-block; width:70%;">
+            <img class="artifact_img" src="/assets/images/postgresql.svg"/>
+            PostgreSQL <span class="skill_term">12 months</span>
+        </span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display:inline-block; width:70%;">
+            <img class="artifact_img" src="/assets/images/mysql.svg"/>
+            MySQL <span class="skill_term">1 month<b> (on going)</b></span>
+        </span>
+    </div>
+</div>
 
 ## Competitive Programming
 
 > ### _Codeforces_
 
 <canvas id='chartCanvas' height= '300'></canvas>
-* Current Rating: <span id='myRating' style='font-weight:bold;font-style:italic;'>- </span>,
+* Current Rating: <span id='myRating' style='font-weight:bold;font-style:italic;font-size: 33px;'>- </span>,
                   <span id='myRatingName' style='font-weight:bold;font-style:italic;'> - </span>
 * Profile Link: [🔗](http://codeforces.com/profile/jooncco)
 
 > ### _Baekjoon Online Judge_
 
-* Solved: 1256 problems
-* Tier: Platinum V
+* Solved: <b style="font-size: 33px;"> 1261 </b> problems
+* Tier: <b style="color: rgb(96, 194, 161);"> Platinum V </b>
 * Profile Link: [🔗](https://www.acmicpc.net/user/jooncco)
 
 ## Project / Study

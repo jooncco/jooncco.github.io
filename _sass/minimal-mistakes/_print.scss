@@ -266,6 +266,8 @@
   color: $primary-color;
   display: inline-block;
   vertical-align: bottom;
+  padding-bottom: 2px;
+  padding-left: 2px;
 }
     
 .skill_detail {
@@ -274,7 +276,12 @@
   margin: 1px;
   padding: 2px 4px;
   border-radius: $border-radius;
-  background-color: rgba(72,61,139,0.4);
+  background-color: mix(#000,$primary-color,77%);
+}
+
+.artifact_img {
+  width: 30px;
+  height: 30px;
 }
 
 .git_link {
