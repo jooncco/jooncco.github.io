@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "neon" # "default", "air", "aqua", "contrast", "dark"
 locale                   : "en-US"
 title                    : "JOONCCO.com"
 title_separator          : "|"
-subtitle                 : "Let the boy have fun, cuz why not?" # site tagline that appears below site title in masthead
+subtitle                 : "To be, rather than to be seen" # site tagline that appears below site title in masthead
 name                     : "JOONCCO"
 description              : "About software engineer jooncco."
 url                      : "https://jooncco.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
