@@ -151,19 +151,19 @@ share: false
 <cite>"Simple cache simulator" (2018)</cite> <span class="git_link">[git](https://github.com/jooncco/Cache_simul)</span>
 :    #c #simulation
 
-<cite>"Answering is-A question in Korean" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/NLP_is-A)</span>
+<cite>"Answering is-A query in Korean" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/NLP_is-A)</span>
 :    #NLP #natural-language-processing #word-embedding #fastText #CSI4108
 
-<cite>"Coindrop game online AI agent" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/Q-learning_coindrop)</span>
-:    #reinforcement-learning #Q-learning #AI #python #CSI4108
+<cite>"Coindrop game AI agent" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/Q-learning_coindrop)</span>
+:    #reinforcement-learning #Q-learning #AI #online-agent #python #CSI4108
 
-<cite>"Bitcoin price prediction using ML" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/Bitcoin_price/blob/master/.ipynb_checkpoints/source-checkpoint.ipynb)</span>
+<cite>"Bitcoin price prediction" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/Bitcoin_price/blob/master/.ipynb_checkpoints/source-checkpoint.ipynb)</span>
 :    #deep-learning #LSTM-RNN #regression-models #keras #CSI4117
 
 <cite>"Assembly programming" (2016)</cite>
 :    #MIPS #gem5 #simulator #ubuntu #CSI3102
 
-<cite>"Digital calculator with assembly code" (2016)</cite>
+<cite>"Simple calculator" (2016)</cite>
 :    #assembly-language #urvine32 #MASM #CSI2107
 
 <cite>"Hand grab detection module" (2015)</cite>
