@@ -145,13 +145,13 @@ share: false
 <cite>"User guide for Robot Service Platform" (2019)</cite>
 :    #Angular5 #typescript #tooltip #LGCNS
 
-<cite>"Daily workout community page design" (2018)</cite> <span class="git_link">[git](https://github.com/jooncco/VISOP_pages)</span>
+<cite>"Daily workout community" (2018)</cite> <span class="git_link">[git](https://github.com/jooncco/VISOP_pages)</span>
 :    #JSP #Servlet #Oracle #SQL #bootstrap4 #html5 #css3 #jQuery #chart.js #canvas.js
 
 <cite>"Simple cache simulator" (2018)</cite> <span class="git_link">[git](https://github.com/jooncco/Cache_simul)</span>
 :    #c #simulation
 
-<cite>"Answering is-A query in Korean" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/NLP_is-A)</span>
+<cite>"Answering is-A in Korean" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/NLP_is-A)</span>
 :    #NLP #natural-language-processing #word-embedding #fastText #CSI4108
 
 <cite>"Coindrop game AI agent" (2017)</cite> <span class="git_link">[git](https://github.com/jooncco/Q-learning_coindrop)</span>
