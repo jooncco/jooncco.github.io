@@ -33,13 +33,11 @@ share: false
 ## Engineering Experience
 <div style="padding: 10px;">
     <div>
-        <span style="display: inline-block; width: 500px;">
+        <span style="display: inline-block; width: 450px;">
             <img class="artifact_img" src="/assets/images/spring-framework.svg"/>
             Spring <span class="skill_term">12 months<b> (on going)</b></span>
         </span>
-        <span>
-            <button class="btn collapsible" id="spring">details</button>
-        </span>
+        <button class="btn collapsible" id="spring">details</button>
     </div>
     <div class="content" id="springdata" style="display: none; padding-left: 5%;">
         <span class="skill_detail">spring-boot (2.x)</span>
@@ -51,13 +49,11 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display: inline-block; width: 500px;">
+        <span style="display: inline-block; width: 450px;">
             <img class="artifact_img" src="/assets/images/aws.svg"/>
             AWS <span class="skill_term">12 months</span>
         </span>
-        <span>
-            <button class="btn collapsible" id="aws">details</button>
-        </span>
+        <button class="btn collapsible" id="aws">details</button>
     </div>
     <div class="content" id="awsdata" style="display: none; padding-left: 5%;">
         <span class="skill_detail">IAM</span>
@@ -72,13 +68,11 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display: inline-block; width: 500px;">
+        <span style="display: inline-block; width: 450px;">
             <img class="artifact_img" src="/assets/images/react-native.svg"/>
             React Native <span class="skill_term">1 month</span>
         </span>
-        <span>
-            <button class="btn collapsible" id="react-native">details</button>
-        </span>
+        <button class="btn collapsible" id="react-native">details</button>
     </div>
     <div class="content" id="react-nativedata" style="display: none; padding-left: 5%;">
         <span class="skill_detail">react-navigation (5.x)</span>
@@ -88,7 +82,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display: inline-block; width: 500px;">
+        <span style="display: inline-block; width: 450px;">
             <img class="artifact_img" src="/assets/images/react.svg"/>
             React <span class="skill_term">1 month<b> (on going)</b></span>
         </span>
@@ -97,7 +91,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display: inline-block; width: 500px;">
+        <span style="display: inline-block; width: 450px;">
             <img class="artifact_img" src="/assets/images/angular.svg"/>
             Angular <span class="skill_term">1 month</span>
         </span>
@@ -106,7 +100,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display: inline-block; width: 500px;">
+        <span style="display: inline-block; width: 450px;">
             <img class="artifact_img" src="/assets/images/postgresql.svg"/>
             PostgreSQL <span class="skill_term">12 months</span>
         </span>
@@ -115,7 +109,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display: inline-block; width: 500px;">
+        <span style="display: inline-block; width: 450px;">
             <img class="artifact_img" src="/assets/images/mysql.svg"/>
             MySQL <span class="skill_term">1 month<b> (on going)</b></span>
         </span>
