@@ -35,7 +35,7 @@ share: false
     <div>
         <span style="display:inline-block; width:70%;">
             <img class="artifact_img" src="/assets/images/spring-framework.svg"/>
-            <u>Spring Framework</u> <span class="skill_term">12 months<b> (on going)</b></span>
+            Spring <span class="skill_term">12 months<b> (on going)</b></span>
         </span>
         <span style="display:inline-block; width:10%;">
             <button class="btn collapsible" id="spring">details</button>
