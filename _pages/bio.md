@@ -33,11 +33,11 @@ share: false
 ## Engineering Experience
 <div style="padding: 10px;">
     <div>
-        <span style="display:inline-block; width:45%;">
+        <span style="display: inline-block; width: 400px;">
             <img class="artifact_img" src="/assets/images/spring-framework.svg"/>
             Spring <span class="skill_term">12 months<b> (on going)</b></span>
         </span>
-        <span style="display:inline-block; width:5%;">
+        <span>
             <button class="btn collapsible" id="spring">details</button>
         </span>
     </div>
@@ -51,11 +51,11 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display:inline-block; width:45%;">
+        <span style="display: inline-block; width: 400px;">
             <img class="artifact_img" src="/assets/images/aws.svg"/>
             AWS <span class="skill_term">12 months</span>
         </span>
-        <span style="display:inline-block; width:5%;">
+        <span>
             <button class="btn collapsible" id="aws">details</button>
         </span>
     </div>
@@ -72,11 +72,11 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display:inline-block; width:45%;">
+        <span style="display: inline-block; width: 400px;">
             <img class="artifact_img" src="/assets/images/react-native.svg"/>
             React Native <span class="skill_term">1 month</span>
         </span>
-        <span style="display:inline-block; width:5%;">
+        <span>
             <button class="btn collapsible" id="react-native">details</button>
         </span>
     </div>
@@ -88,7 +88,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display:inline-block; width:45%;">
+        <span style="display: inline-block; width: 400px;">
             <img class="artifact_img" src="/assets/images/react.svg"/>
             React <span class="skill_term">1 month<b> (on going)</b></span>
         </span>
@@ -97,7 +97,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display:inline-block; width:45%;">
+        <span style="display: inline-block; width: 400px;">
             <img class="artifact_img" src="/assets/images/angular.svg"/>
             Angular <span class="skill_term">1 month</span>
         </span>
@@ -106,7 +106,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display:inline-block; width:45%;">
+        <span style="display: inline-block; width: 400px;">
             <img class="artifact_img" src="/assets/images/postgresql.svg"/>
             PostgreSQL <span class="skill_term">12 months</span>
         </span>
@@ -115,7 +115,7 @@ share: false
 
 <div style="padding: 10px;">
     <div>
-        <span style="display:inline-block; width:45%;">
+        <span style="display: inline-block; width: 400px;">
             <img class="artifact_img" src="/assets/images/mysql.svg"/>
             MySQL <span class="skill_term">1 month<b> (on going)</b></span>
         </span>
