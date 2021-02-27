@@ -9,7 +9,7 @@ layouts_gallery:
   - url: 
     image_path:
     alt: 
-last_modified_at: 2021-02-20T01:59:00+09:00
+last_modified_at: 2021-02-27T22:41:00+09:00
 toc: true
 toc_sticky: true
 share: false
@@ -17,13 +17,13 @@ share: false
 
 {% include gallery id="layouts_gallery" %}
 
-> | 1992. 02. | Created                                                            |
-> | 2004.     | Took 3rd place in student president election (out of 4)            |
-> | 2014. 11. | SGT JEONG ETS @Camp Humphreys, US ARMY Hooah                       |
-> | 2016. 03. | Computer Science B.S. @Yonsei, Seoul                               |
-> | 2017. 02. | The most geeky, passionate Intern @LG CNS                          |
-> | 2017. 12. | First prize: thesis project "EYEAR" @Yonsei, Seoul                 |
-> | 2019. 01. | Software Engineer @LG CNS                                          |
+> | 1992. 02. | Created  |
+> | 2004.     | Took 3rd place in student president election (out of 4) |
+> | 2014. 11. | SGT JEONG ETS @Camp Humphreys, US ARMY Hooah |
+> | 2016. 03. | Computer Science B.S. @Yonsei, Seoul |
+> | 2017. 02. | The most geeky, passionate Intern @LG CNS |
+> | 2017. 12. | First prize: thesis project "EYEAR" @Yonsei, Seoul |
+> | 2019. 01. | Software Engineer @LG CNS |
 
 ## Languages
 
@@ -40,10 +40,26 @@ share: false
         <button class="btn collapsible" id="spring">details</button>
     </div>
     <div class="content" id="springdata" style="display: none; padding-left: 5%;">
-        <span class="skill_detail">spring-boot (2.x)</span>
-        <span class="skill_detail">webflux</span>
+        <span class="skill_detail">Spring Boot (2.x)</span>
+        <span class="skill_detail">Webflux</span>
+        <span class="skill_detail">WebClient</span>
+        <span class="skill_detail">Eureka</span>
+        <span class="skill_detail">Feign</span>
         <span class="skill_detail">JPA</span>
         <span class="skill_detail">AWS S3 sdk</span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display: inline-block; width: 80%;">
+            <img class="artifact_img" src="/assets/images/nodejs.svg"/>
+            Node.js  <span class="skill_term">1 month<b> (on going)</b></span>
+        </span>
+        <button class="btn collapsible" id="nodejs">details</button>
+    </div>
+    <div class="content" id="nodejsdata" style="display: none; padding-left: 5%;">
+        <span class="skill_detail">json-server</span>
     </div>
 </div>
 
@@ -75,19 +91,19 @@ share: false
         <button class="btn collapsible" id="react-native">details</button>
     </div>
     <div class="content" id="react-nativedata" style="display: none; padding-left: 5%;">
-        <span class="skill_detail">react-navigation (5.x)</span>
+        <span class="skill_detail">React-navigation (5.x)</span>
         <span class="skill_detail">Animated</span>
     </div>
 </div>
 
-<div style="padding: 10px;">
+<!-- <div style="padding: 10px;">
     <div>
         <span style="display: inline-block; width: 80%;">
             <img class="artifact_img" src="/assets/images/react.svg"/>
             React <span class="skill_term">1 month<b> (on going)</b></span>
         </span>
     </div>
-</div>
+</div> -->
 
 <div style="padding: 10px;">
     <div>
@@ -127,7 +143,7 @@ share: false
 
 > ### _Baekjoon Online Judge_
 
-* Solved: <b style="font-size: 33px;"> 1261 </b> problems
+* Solved: <b style="font-size: 33px;"> 1265 </b> problems
 * Tier: <b style="color: rgb(96, 194, 161);"> Platinum V </b>
 * Profile Link: [🔗](https://www.acmicpc.net/user/jooncco)
 
