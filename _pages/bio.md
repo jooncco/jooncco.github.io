@@ -46,6 +46,7 @@ share: false
         <span class="skill_detail">Eureka</span>
         <span class="skill_detail">Feign</span>
         <span class="skill_detail">JPA</span>
+        <span class="skill_detail">MyBatis</span>
         <span class="skill_detail">AWS S3 sdk</span>
     </div>
 </div>
