@@ -43,8 +43,8 @@ share: false
         <span class="skill_detail">Spring Boot (2.x)</span>
         <span class="skill_detail">Webflux</span>
         <span class="skill_detail">WebClient</span>
+        <span class="skill_detail">Open Feign</span>
         <span class="skill_detail">Eureka</span>
-        <span class="skill_detail">Feign</span>
         <span class="skill_detail">JPA</span>
         <span class="skill_detail">MyBatis</span>
         <span class="skill_detail">AWS S3 sdk</span>
