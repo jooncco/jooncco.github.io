@@ -1,7 +1,7 @@
 ---
 title: "[Algorithms] Combinatorics 계산 기법"
 header:
-  overlay_color: "#333"
+  overlay_image: /assets/images/algorithms-common-header.png
 categories:
   - Algorithms
 ---
