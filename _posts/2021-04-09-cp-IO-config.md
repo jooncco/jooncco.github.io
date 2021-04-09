@@ -6,7 +6,7 @@ categories:
   - Algorithms
 ---
 
-<cite><b>"test case 입출력이 많을 때 I/O 과정에서 병목이 발생하는걸 방지할수 있다."</b></cite>
+<cite><b>"test case 입출력이 많을 때 I/O 과정에서 병목이 발생하는걸 방지하자."</b></cite>
 <br/><br/><br/>
 
 알고리즘 고수들의 c++ 솔루션 도입부엔 항상 이런게 있다.
