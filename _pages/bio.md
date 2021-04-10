@@ -19,8 +19,8 @@ share: false
 
 > | 1992. 02. | Created  |
 > | 2004.     | Took 3rd place in student president election (out of 4) |
+> | 2011. 03. | Computer Science B.S. @Yonsei, Seoul |
 > | 2014. 11. | SGT JEONG ETS @Camp Humphreys, US ARMY Hooah |
-> | 2016. 03. | Computer Science B.S. @Yonsei, Seoul |
 > | 2017. 02. | The most geeky, passionate Intern @LG CNS |
 > | 2017. 12. | First prize: thesis project "EYEAR" @Yonsei, Seoul |
 > | 2019. 01. | Software Engineer @LG CNS |
