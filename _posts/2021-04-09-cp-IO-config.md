@@ -66,7 +66,7 @@ int main() {
 7. flush ("I like banana" 출력)
 
 순서로 수행된다.<br/>
-입력의 크기가 커질수록 flush 회수도 linear하게 증가할 것이다.<br/>
+입력의 크기가 커질수록 flush 회수도 linear하게 증가한다.<br/>
 <b>untie</b> 후에는 어떻게 변하는지 보자.
 1. cin >> t
 2. cin >> str
