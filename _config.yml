@@ -203,7 +203,7 @@ kramdown:
   enable_coderay: false
   syntax_highlighter_opts:
     block:
-      line_numbers: true
+      line_numbers: false
 
 # Sass/SCSS
 sass:
