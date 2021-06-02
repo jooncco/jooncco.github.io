@@ -6,5 +6,5 @@ main:
     url: /wiki
   - title: "Algorithms"
     url: /algorithms
-  - title: "Music"
-    url: /music
+  # - title: "Music"
+  #   url: /music
