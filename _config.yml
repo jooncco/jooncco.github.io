@@ -93,10 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jooncco (준꼬)"
-  avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "알고리즘과 로꼬에<br>
-                      진심인 AB형 개발자"
+  name             : "Jooncco (준꼬) 🇰🇷"
+  avatar           : "/assets/images/me.jpg"
+  bio              : "알고리즘과 로꼬에<br/>진심인 AB형 개발자<br/> 🇰🇷 🇩🇪 🇫🇷 🇨🇿 <br/><br/> 요즘 이태원클라쓰에 빠져있어요."
   location         : "Seoul, Republic of Korea"
   # email            : ""
   links:
@@ -112,9 +111,9 @@ author:
     # - label: "Stack Overflow"
     #   icon: "fab fa-stack-overflow"
     #   url: "https://stackoverflow.com/users/11834258/jooncco"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jooncco"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/jooncco"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   url: "https://gitlab.com/jooncco"
