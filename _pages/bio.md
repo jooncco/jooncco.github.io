@@ -25,12 +25,12 @@ share: false
 > | 2017. 12. | First prize: thesis project "EYEAR" @Yonsei, Seoul |
 > | 2019. 01. | Software Engineer @LG CNS |
 
-## Languages
+## Languages 🤹🏼‍♂️
 
-🎹 <cite> Java8, typescript, javascript, c++11, c, python, postgre SQL </cite><br>
+🎹 <cite> javascript, typescript, Java8, c++11, c, python, ANSI SQL </cite><br>
 💬 <cite> Korean, English </cite>
 
-## Engineering Experience
+## Brain-intense Experiences 🧠
 <div style="padding: 10px;">
     <div>
         <span style="display: inline-block; width: 80%;">
@@ -55,11 +55,12 @@ share: false
     <div>
         <span style="display: inline-block; width: 80%;">
             <img class="artifact_img" src="/assets/images/nodejs.svg"/>
-            Node.js  <span class="skill_term">1 month<b> (on going)</b></span>
+            Node.js  <span class="skill_term">2 month<b> (on going)</b></span>
         </span>
         <button class="btn collapsible" id="nodejs">details</button>
     </div>
     <div class="content" id="nodejsdata" style="display: none; padding-left: 5%;">
+        <span class="skill_detail">Serverless app with AWS lambda</span>
         <span class="skill_detail">json-server</span>
     </div>
 </div>
@@ -67,17 +68,38 @@ share: false
 <div style="padding: 10px;">
     <div>
         <span style="display: inline-block; width: 80%;">
+            <img class="artifact_img" src="/assets/images/react.svg"/>
+            React <span class="skill_term">2 month<b> (on going)</b></span>
+        </span>
+        <button class="btn collapsible" id="react">details</button>
+    </div>
+    <div class="content" id="reactdata" style="display: none; padding-left: 5%;">
+        <span class="skill_detail">styled-components</span>
+        <span class="skill_detail">react-router-dom</span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display: inline-block; width: 80%;">
             <img class="artifact_img" src="/assets/images/aws.svg"/>
-            AWS <span class="skill_term">12 months</span>
+            AWS <span class="skill_term">12 months<b> (on going)</b></span>
         </span>
         <button class="btn collapsible" id="aws">details</button>
     </div>
     <div class="content" id="awsdata" style="display: none; padding-left: 5%;">
+        <span class="skill_detail">CodeStar</span>
+        <span class="skill_detail">Cloud9</span>
+        <span class="skill_detail">CodeCommit</span>
+        <span class="skill_detail">CodeBuild</span>
+        <span class="skill_detail">CloudWatch</span>
+        <span class="skill_detail">CloudFormation</span>
         <span class="skill_detail">IAM</span>
         <span class="skill_detail">EC2</span>
         <span class="skill_detail">Lambda</span>
         <span class="skill_detail">S3</span>
         <span class="skill_detail">RDS</span>
+        <span class="skill_detail">DynamoDB</span>
         <span class="skill_detail">DocumentDB</span>
         <span class="skill_detail">Sumerian</span>
     </div>
@@ -86,8 +108,26 @@ share: false
 <div style="padding: 10px;">
     <div>
         <span style="display: inline-block; width: 80%;">
+            <img class="artifact_img" src="/assets/images/docker.svg"/>
+            Docker <span class="skill_term">1 week<b> (on going)</b></span>
+        </span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display: inline-block; width: 80%;">
+            <img class="artifact_img" src="/assets/images/mysql.svg"/>
+            MySQL <span class="skill_term">1 month<b> (on going)</b></span>
+        </span>
+    </div>
+</div>
+
+<div style="padding: 10px;">
+    <div>
+        <span style="display: inline-block; width: 80%;">
             <img class="artifact_img" src="/assets/images/react-native.svg"/>
-            React Native <span class="skill_term">1 month</span>
+            React Native <span class="skill_term">1 week</span>
         </span>
         <button class="btn collapsible" id="react-native">details</button>
     </div>
@@ -96,15 +136,6 @@ share: false
         <span class="skill_detail">Animated</span>
     </div>
 </div>
-
-<!-- <div style="padding: 10px;">
-    <div>
-        <span style="display: inline-block; width: 80%;">
-            <img class="artifact_img" src="/assets/images/react.svg"/>
-            React <span class="skill_term">1 month<b> (on going)</b></span>
-        </span>
-    </div>
-</div> -->
 
 <div style="padding: 10px;">
     <div>
@@ -124,45 +155,36 @@ share: false
     </div>
 </div>
 
-<div style="padding: 10px;">
-    <div>
-        <span style="display: inline-block; width: 80%;">
-            <img class="artifact_img" src="/assets/images/mysql.svg"/>
-            MySQL <span class="skill_term">1 month<b> (on going)</b></span>
-        </span>
-    </div>
-</div>
-
-## Competitive Programming
+## Competitive Programming 🏆
 
 > ### _Codeforces_
 
 <canvas id='chartCanvas' height= '300'></canvas>
 * Current Rating: <span id='myRating' style='font-weight:bold;font-style:italic;font-size: 33px;'>- </span>,
                   <span id='myRatingName' style='font-weight:bold;font-style:italic;'> - </span>
-* Profile Link: [🔗](http://codeforces.com/profile/jooncco)
+* [Checkout Jooncco on codeforces](http://codeforces.com/profile/jooncco)
 
 > ### _Baekjoon Online Judge_
 
 * Solved: <b style="font-size: 33px;"> 1265 </b> problems
 * Tier: <b style="color: rgb(96, 194, 161);"> Platinum V </b>
-* Profile Link: [🔗](https://www.acmicpc.net/user/jooncco)
+* [Checkout Jooncco on BOJ](https://www.acmicpc.net/user/jooncco)
 
-## Project / Study
+## Footsteps 👣
 
-<cite>"Smart order service OKIMOKI" (2020)</cite>
-:    #Spring5 #Spring-Boot2 #webflux #java8 #JPA #AWS #EC2 #CodeCommit #RDS #S3 #MSA #React #smart-order #LGCNS
+<cite>"Smart order service inside Kakao app" (2020)</cite>
+:    #Spring5 #Spring-Boot2 #React #webflux #java8 #JPA #AWS #EC2 #CodeCommit #RDS #S3 #MSA #smart-order #LGCNS
 
 <cite>"File I/O cloud migration" (2019)</cite>
 :    #AWS #EC2 #S3 #java #File-I/O #LGCNS
 
-<cite>"Event monitor dashboard" (2019)</cite>
+<cite>"Dashboard: robot monitoring / ordering system" (2019)</cite>
 :    #Angular5 #typescript #javascript #Spring-boot2 #java #JPA #postgre #LGCNS
 
-<cite>"User guide for Robot Service Platform" (2019)</cite>
+<cite>"Tooltip for Robot Service Platform" (2019)</cite>
 :    #Angular5 #typescript #tooltip #LGCNS
 
-<cite>"Daily workout community" (2018)</cite> <span class="git_link">[git](https://github.com/jooncco/VISOP_pages)</span>
+<cite>"FE Publishing: daily workout community" (2018)</cite> <span class="git_link">[git](https://github.com/jooncco/VISOP_pages)</span>
 :    #JSP #Servlet #Oracle #SQL #bootstrap4 #html5 #css3 #jQuery #chart.js #canvas.js
 
 <cite>"Simple cache simulator" (2018)</cite> <span class="git_link">[git](https://github.com/jooncco/Cache_simul)</span>

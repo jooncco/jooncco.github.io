@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jooncco (준꼬) 🇰🇷"
+  name             : "Jooncco (준꼬)"
   avatar           : "/assets/images/me.jpg"
-  bio              : " 🇰🇷 🇩🇪 🇫🇷 🇨🇿 <br/><br/><b>알고리즘</b>과 <b>로꼬</b>에<br/>진심인 AB형 개발자"
+  bio              : "<b>알고리즘</b>과 <b>로꼬</b>에<br/>진심인 AB형 개발자"
   location         : "Seoul, Republic of Korea"
   # email            : ""
   links:
