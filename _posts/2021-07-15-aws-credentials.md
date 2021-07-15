@@ -67,8 +67,8 @@ aws web에서 IAM 계정 Key정보 확인.
 
 <br/><br/><br/>
 
-다시 Terminal로 돌아와서 다음 명령어 수행를 수행하면,  
-Key 정보를 요구하는 user prompt가 차례로 뜬다.
+다시 Terminal로 돌아와서 다음 명령어를 수행하면,  
+Key 정보를 요구하는 user prompt가 차례로 뜬다.  
 ```bash
 aws configure
 ```
@@ -99,28 +99,28 @@ aws configure --profile {nameOfProfile}
 
 <br/><br/><br/>
 
-남은건 profile을 스위칭하기.  
+남은건 profile 스위칭.  
 ```bash
-# 환경변수로 default profile을 등록.
+# 환경변수로 profile을 등록.
 export AWS_DEFAULT_PROFILE=secondProfile
+```
 
-# Terminal 세션이 닫혀도 유지되기를 원한다면,
+Terminal의 세션이 닫혀도 유지되기를 원한다면 아래 코드를 수행
+
+```bash
+# zsh를 사용한다면
 echo "export AWS_DEFAULT_PROFILE=secondProfile" >> ~/.zshrc
-# echo "export AWS_DEFAULT_PROFILE=secondProfile >> ~/.bashrc"
+```
+```bash
+# bash를 사용한다면
+echo "export AWS_DEFAULT_PROFILE=secondProfile" >> ~/.bashrc
 ```
 <img src="/assets/images/aws-credentials-figure-7.png"/>
 
 <br/><br/>
 
-프로젝트에서 <span class="bolster">AWS_DEFAULT_PROFILE</span>라는 환경변수를 배포에 사용하고 있다면,  
-개발을 시작하기 전에 배포 스크립트를 실행할 터미널에서
-```bash
-export AWS_DEFAULT_PROFILE={nameOfProfile}
-```
-을 실행해두고 작업하는 것이 좋은 습관이라는 생각이 든다.
-
-Terminal이 뜨면서 자동으로 실행되는 .zshrc의 스크립트들은  
-터미널의 초기 상태를 만들어버리는 꼴이기 때문에 지양하는 것이 좋기 때문이다.  
+하지만, 위처럼 .zshrc에 환경변수를 항상 세팅하도록 하는건 별로 좋은 습관은 아닌 것 같다.  
+로컬에 나도 모르는 환경변수가 이것저것 생겨 자칫 유틸성 혹은 프레임워크의 키워드와 겹칠수도 있기 때문이다.
 
 <br/><br/><br/><br/><br/>
 
