@@ -101,7 +101,7 @@ aws configure --profile {nameOfProfile}
 
 남은건 profile 스위칭.  
 ```bash
-# 환경변수로 profile을 등록.
+# AWS_DEFAULT_PROFILE라는 이름의 환경변수에 "secondProfile"을 지정.
 export AWS_DEFAULT_PROFILE=secondProfile
 ```
 
@@ -120,7 +120,7 @@ echo "export AWS_DEFAULT_PROFILE=secondProfile" >> ~/.bashrc
 <br/><br/>
 
 하지만, 위처럼 .zshrc에 환경변수를 항상 세팅하도록 하는건 별로 좋은 습관은 아닌 것 같다.  
-로컬에 나도 모르는 환경변수가 이것저것 생겨 자칫 유틸성 혹은 프레임워크의 키워드와 겹칠수도 있기 때문이다.
+ㅇ로컬에 나도 모르는 환경변수가 이것저것 생겨 자칫 유틸성 혹은 프레임워크의 키워드와 겹칠수도 있기 때문이다.
 
 <br/><br/><br/><br/><br/>
 
