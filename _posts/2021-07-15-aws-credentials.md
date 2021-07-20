@@ -13,12 +13,11 @@ last_modified_at: 2021-07-15T17:58:00+09:00
 
 <br/>
 
-얼마전 팀장님이 사주신 2021년형 맥북프로(CTO✨)가 주는 만족도가 장난 아니다.  
-생산성이 어디까지 올라갈까🏌🏼  
+팀에서 진행중인 toy project에서 DynamoDB와 aws lambda를 쓸일이 생겨  
+로컬에 aws cli와 sam cli를 세팅하다가,  
 
-팀에서 진행중인 토이 프로젝트에서 DynamoDB와 aws lambda를 쓸일이 생겨 로컬에 aws cli와 sam cli를 세팅하다가,  
-
-문득 로컬의 aws credential을 깔끔하게 관리하는 방법이 알고 싶어져 포스팅을 하게 되었다.  
+문득 로컬의 aws credential을 profile별로 관리하고  
+손쉽게 스위칭 하는 방법이 알고 싶어져 포스팅을 하게 되었다.  
 
 <br/><br/>
 
