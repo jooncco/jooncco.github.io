@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Profile"
+    url: /profile
+  - title: "Posts"
+    url: /posts
+  - title: "Problem Solving"
+    url: /problem_solving
+  # - title: "Music"
+  #   url: /music
