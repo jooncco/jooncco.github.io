@@ -12,10 +12,10 @@ minimal_mistakes_skin    : "neon" # "default", "air", "aqua", "contrast", "dark"
 locale                   : "en-US"
 title                    : "JOONCCO.com"
 title_separator          : "|"
-subtitle                 : "차이는 실행력이야." # site tagline that appears below site title in masthead
+subtitle                 : "1일, 1 commit, 1 solve"
 name                     : "JOONCCO"
 description              : "About software engineer jooncco."
-url                      : "https://jooncco.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://jooncco.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jooncco/jooncco.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/fallback.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -89,7 +89,7 @@ analytics:
 author:
   name             : "준꼬 🇰🇷"
   avatar           : "/assets/images/me.jpg"
-  bio              : "꾸준한 관리형 개발자"
+  bio              : "차이는 실행력이야."
   location         : "Seoul, Republic of Korea"
   # email            : ""
   links:
