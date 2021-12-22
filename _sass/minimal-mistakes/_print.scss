@@ -341,34 +341,39 @@ div {
             padding: 8px; 
             width: 74%;
             border-radius: $border-radius;
-            background-color: mix(#000, $primary-color, 52%);
+            background-color: mix(#000, $primary-color, 67%);
             font-size: $type-size-7;
           }
-          .posts {
-            margin: 0;
-            padding: 0 8px;
-            width: 80%;
-            list-style-type: none;
-  
-            li {
-              margin: 4px 10px;
-              padding: 0 0 0 2%;
-  
-              span.text {
-                padding: 5px 2% 2px 1.5%;
-                border-radius: $border-radius;
-                background-color: mix(#000, $primary-color, 52%);
-                font-size: $type-size-6;
+        }
+        .contribution {
+          h5 {
+            margin: 2% 4% 0 4%;
+            font-size: $type-size-5;
+          }
+          .body {
+            ul {
+              margin: 0;
+              padding: 0 8px;
+              width: 80%;
+              list-style-type: none;
+
+              li {
+                margin: 4px 10px;
+                padding: 0 0 0 2%;
+    
+                span.text {
+                  padding: 5px 2% 2px 1.5%;
+                  border-radius: $border-radius;
+                  background-color: mix(#000, $primary-color, 67%);
+                  font-size: $type-size-6;
+                }
               }
             }
+  
           }
         }
       }
     }
-  }
-
-  &.footstep-description {
-
   }
 }
   
