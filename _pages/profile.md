@@ -9,7 +9,7 @@ layouts_gallery:
   - url: 
     image_path: 
     alt:
-last_modified_at: 2021-12-08T23:35:00+09:00
+last_modified_at: 2021-12-23T18:31:00+09:00
 toc: true
 toc_sticky: true
 share: false
@@ -61,7 +61,7 @@ share: false
                             </td>
                         </tr>
                         <tr>
-                            <td class="cell-head">Posision</td>
+                            <td class="cell-head">Position</td>
                             <td class="cell-data">Full-stack developer</td>
                         </tr>
                     </tbody>
@@ -110,7 +110,7 @@ share: false
                             </td>
                         </tr>
                         <tr>
-                            <td class="cell-head">Posision</td>
+                            <td class="cell-head">Position</td>
                             <td class="cell-data">Full-stack developer</td>
                         </tr>
                     </tbody>
@@ -157,8 +157,8 @@ share: false
                             </td>
                         </tr>
                         <tr>
-                            <td class="cell-head">Posision</td>
-                            <td class="cell-data">Full-stack developer</td>
+                            <td class="cell-head">Position</td>
+                            <td class="cell-data">Back-end developer</td>
                         </tr>
                     </tbody>
                 </table>
