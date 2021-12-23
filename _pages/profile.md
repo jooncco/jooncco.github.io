@@ -166,7 +166,7 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>고객</b>, 줄을 서지 않고 카카오톡 모바일앱 상에서 카톡 메세지를 통해 메뉴를 주문하고 싶다.
+                    As a <b>고객</b>, 줄을 서지 않고 카톡 메세지를 통해 메뉴를 주문하고 싶다.
                     그래서 <b>고객</b>은 코로나 감염에 노출되지 않고, 편리하게 메뉴를 주문할 수 있다.
                 </div>
             </div>
@@ -329,6 +329,12 @@ share: false
 
 ___
 
+제 블로그는 **MIT License**를 따르고 있습니다.  
+이 jekyll 기반의 블로그 템플릿이 마음에 드신다면, **fork/clone** 하셔서 활용하셔도 됩니다.  
+
+[https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)
+
+하지만 **Star🌟** 는 잊지 말아주세요!  
 감사합니다.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
