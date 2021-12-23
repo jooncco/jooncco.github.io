@@ -37,10 +37,10 @@ share: false
 
 <div>
     <div class="footstep-card">
-        <blockquote id="lgcns-4" class="footstep-title">
+        <blockquote id="lgcns-3" class="footstep-title">
             Terraform과 Github API를 이용한 Cloud 리소스 관리 도구
         </blockquote>
-        <div id="lgcns-4-details" class="details">
+        <div id="lgcns-3-details" class="details">
             <div class="period">
                 <table>
                     <tbody>
@@ -48,16 +48,16 @@ share: false
                             <td class="cell-head">Period</td>
                             <td class="cell-data">2021. 07. ~ current</td>
                             <td class="cell-artifacts" rowspan="3">
-                                <img class="artifact_img" src="/assets/images/spring-framework.svg" alt="spring framework" title="spring framework"/>
-                                <img class="artifact_img" src="/assets/images/react.svg" alt="react" title="react"/>
+                                <img class="artifact_img" src="/assets/images/spring-boot.png" alt="spring boot" title="spring boot"/>
                                 <img class="artifact_img" src="/assets/images/mybatis.svg" alt="mybatis" title="mybatis"/>
-                                <img class="artifact_img" src="/assets/images/mysql.svg" alt="mysql" title="mysql"/>
                                 <img class="artifact_img" src="/assets/images/flyway.png" alt="flyway" title="flyway"/>
+                                <img class="artifact_img" src="/assets/images/mysql.svg" alt="mysql" title="mysql"/>
+                                <img class="artifact_img" src="/assets/images/react.svg" alt="react" title="react"/>
                                 <img class="artifact_img" src="/assets/images/gradle.png" alt="gradle" title="gradle"/>
                                 <img class="artifact_img" src="/assets/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/assets/images/github.png" alt="github" title="github"/>
-                                <img class="artifact_img" src="/assets/images/terraform.png" alt="terraform" title="terraform"/>
                                 <img class="artifact_img" src="/assets/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/assets/images/terraform.png" alt="terraform" title="terraform"/>
+                                <img class="artifact_img" src="/assets/images/github.png" alt="github" title="github"/>
                             </td>
                         </tr>
                         <tr>
@@ -70,7 +70,7 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a 개발팀, 프로젝트 시작/철수시마다 반복되는 인프라/개발환경 관리 업무를 자동화하고 싶다. 그래서 나는 Business에 대한 Agility를 높일 수 있다.
+                    As a <b>사업개발팀</b>, 프로젝트 시작/철수시마다 반복되는 인프라/개발환경 관리 업무를 자동화하고 싶다. 그래서 <b>사업개발팀</b>은 Business에 대한 Agility를 높일 수 있다.
                 </div>
             </div>
             <div class="contribution">
@@ -86,22 +86,101 @@ share: false
             </div>
         </div>
     </div>
+    <div class="footstep-card">
+        <blockquote id="lgcns-2" class="footstep-title">
+            고객사 포인트 관리/정산 시스템
+        </blockquote>
+        <div id="lgcns-2-details" class="details">
+            <div class="period">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="cell-head">Period</td>
+                            <td class="cell-data">2021. 02. ~ 2021. 06</td>
+                            <td class="cell-artifacts" rowspan="3">
+                                <img class="artifact_img" src="/assets/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                                <img class="artifact_img" src="/assets/images/mybatis.svg" alt="mybatis" title="mybatis"/>
+                                <img class="artifact_img" src="/assets/images/flyway.png" alt="flyway" title="flyway"/>
+                                <img class="artifact_img" src="/assets/images/mysql.svg" alt="mysql" title="mysql"/>
+                                <img class="artifact_img" src="/assets/images/react.svg" alt="react" title="react"/>
+                                <img class="artifact_img" src="/assets/images/gradle.png" alt="gradle" title="gradle"/>
+                                <img class="artifact_img" src="/assets/images/docker.svg" alt="docker" title="docker"/>
+                                <img class="artifact_img" src="/assets/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/assets/images/klaytn.png" alt="Klaytn API Service" title="Klaytn API Service"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cell-head">Posision</td>
+                            <td class="cell-data">Full-stack developer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="description">
+                <h5>Description</h5>
+                <div class="body">
+                    As a <b>포인트 관리자</b>, 고객의 포인트 발급/정산/환불 등의 업무를 일부 자동화하고 하나의 시스템에서 통합 관리하고 싶다.
+                    그래서 <b>포인트 관리자</b>는 고객의 포인트 소비경험의 질을 향상시킬 수 있다.
+                </div>
+            </div>
+            <div class="contribution">
+                <h5>Contribution</h5>
+                <div class="body">
+                    <ul>
+                        <li><span class="text">...업데이트 예정...</span><!--<span>📜 </span>--></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footstep-card">
+        <blockquote id="lgcns-1" class="footstep-title">
+            카카오톡 챗봇을 통한 메뉴 주문 시스템
+        </blockquote>
+        <div id="lgcns-1-details" class="details">
+            <div class="period">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="cell-head">Period</td>
+                            <td class="cell-data">2020. 01. ~ 2020. 12</td>
+                            <td class="cell-artifacts" rowspan="3">
+                                <img class="artifact_img" src="/assets/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                                <img class="artifact_img" src="/assets/images/spring-webflux.png" alt="spring webflux" title="spring webflux"/>
+                                <img class="artifact_img" src="/assets/images/hibernate.png" alt="hibernate" title="hibernate"/>
+                                <img class="artifact_img" src="/assets/images/postgresql.svg" alt="postgresql" title="postgresql"/>
+                                <img class="artifact_img" src="/assets/images/react.svg" alt="react" title="react"/>
+                                <img class="artifact_img" src="/assets/images/gradle.png" alt="gradle" title="gradle"/>
+                                <img class="artifact_img" src="/assets/images/docker.svg" alt="docker" title="docker"/>
+                                <img class="artifact_img" src="/assets/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/assets/images/kakao.png" alt="kakao talk" title="kakao talk"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cell-head">Posision</td>
+                            <td class="cell-data">Full-stack developer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="description">
+                <h5>Description</h5>
+                <div class="body">
+                    As a <b>고객</b>, 줄을 서지 않고 카카오톡 모바일앱 상에서 카톡 메세지를 통해 메뉴를 주문하고 싶다.
+                    그래서 <b>고객</b>은 코로나 감염에 노출되지 않고, 편리하게 메뉴를 주문할 수 있다.
+                </div>
+            </div>
+            <div class="contribution">
+                <h5>Contribution</h5>
+                <div class="body">
+                    <ul>
+                        <li><span class="text">...업데이트 예정...</span><!--<span>📜 </span>--></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-...
-
-업데이트 예정
-
-...
-
-<!-- > "Cloud instance management system"
-: #Spring-Boot2 #Mybatis #java11 #Flyway #React(v16.9.4) #react-bootstrap(v^2.0.0-beta.5) #json-server #Terraform #LGCNS
-
-> "NFT-based point management system"
-: #Spring-Boot2 #React(v16.14.0) #java11 #Mybatis #Flyway #KAS(Klaytn API Service) #json-server #LGCNS
-
-> "Smart order service inside Kakao app"
-: #Spring5 #Spring-Boot2 #React #webflux #java8 #JPA #AWS #EC2 #CodeCommit #RDS #S3 #MSA #smart-order #LGCNS -->
 
 <br/>
 
