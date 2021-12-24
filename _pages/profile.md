@@ -79,8 +79,10 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <h5>Contribution</h5>
                 <div class="body">
                     <ul>
-                        <li><span class="text">공통 로딩바 개발</span><!--<span>📜 </span><span>📜 </span>--></li>
-                        <li><span class="text">로그인 / 로그아웃 / 회원가입 api</span><!--<span>📜 </span><span>📜 </span>--></li>
+                        <li><span class="text">공통 로딩바 개발</span><!--<span>📜 </span>--></li>
+                        <li><span class="text">리소스 ID 중복확인 api</span></li>
+                        <li><span class="text">사용자인증 설계 / 인증메일 발송 api, 인증코드 확인 api</span><!--<span>📜 </span>--></li>
+                        <li><span class="text">로그인 / 로그아웃 / 회원가입 api</span><!--<span>📜 </span>--></li>
                         <li><span class="text">spotless 자동화</span></li>
                         <li><span class="text">데이터 모델 초안 설계</span></li>
                     </ul>
@@ -137,7 +139,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     </div>
     <div class="footstep-card">
         <blockquote id="lgcns-1" class="footstep-title">
-            카카오톡 챗봇을 통한 메뉴 주문 시스템
+            카카오톡 챗봇을 이용한 메뉴 주문 서비스
         </blockquote>
         <div id="lgcns-1-details" class="details">
             <div class="period">
@@ -336,7 +338,7 @@ ___
 
 [https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)
 
-하지만 **Star🌟** 는 잊지 말아주세요!  
+하지만 **Star🌟** 는 꾹 눌러주세요!  
 감사합니다.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
