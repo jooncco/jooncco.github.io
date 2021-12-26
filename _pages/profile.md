@@ -284,7 +284,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
 </div>
 
 
-<div>
+<!-- <div>
     <div>
         <div class="collapsible" id="spring">
             <span>
@@ -394,7 +394,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
             <span class="skill_detail">Animated</span>
         </div>
     </div>
-</div>
+</div> -->
 
 <br/>
 
