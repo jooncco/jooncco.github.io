@@ -255,121 +255,141 @@
    custom styles by jooncco
    ========================================================================== */
 
-div {
-  &.collapsible {
-    padding: 7px;
-    border-radius: 10px;
-    cursor: pointer;
+div.footstep-card {
+  margin: 30px 5px;
+
+  .footstep-title {
+    padding: 1% 2.5%;
+    font-weight: bold;
+    border-radius: $border-radius;
   }
 
-  &.non-collapsible {
-    padding: 7px;
-    border-radius: 10px;
-  }
-
-  &.collapsible.hover {
-    padding: 7px;
-    border-radius: 10px;
+  .footstep-title.hover {
+    padding: 1% 2.5%;
+    font-weight: bold;
+    border-radius: $border-radius;
     cursor: pointer;
     background-color: rgba($primary-color, 0.1);
   }
 
-  &.footstep-card {
-    margin: 5px;
-
-    .footstep-title {
-      padding: 1% 2.5%;
-      font-weight: bold;
-      border-radius: $border-radius;
+  div {
+    &.details {
+      max-height: 0;
+      overflow: hidden;
     }
 
-    .footstep-title.hover {
-      padding: 1% 2.5%;
-      font-weight: bold;
-      border-radius: $border-radius;
-      cursor: pointer;
-      background-color: rgba($primary-color, 0.1);
-    }
+    &.details.collapsed {
+      max-height: 1800px;
+      -webkit-transition: max-height 2s;
+      -moz-transition: max-height 2s;
+      -ms-transition: max-height 2s;
+      -o-transition: max-height 2s;
+      transition: max-height 2s;
 
-    div {
-      &.details {
-        max-height: 0;
-        overflow: hidden;
+      .period {
+        padding: 0 2%;
+        width: 80%;
+  
+        table {
+          margin: 0 10px;
+          padding: 0.5% 2%;
+          border: solid;
+          border-width: 1px;
+          border-color: $text-color;
+  
+          td {
+            &.cell-head {
+              font-weight: bold;
+            }
+            &.cell-data {
+              width: 45%;
+            }
+            &.cell-artifacts {
+              padding: 10px;
+              width: 100%;
+            }
+          }
+        }
       }
 
-      &.details.collapsed {
-        max-height: 1800px;
-        -webkit-transition: max-height 3s; 
-        -moz-transition: max-height 3s; 
-        -ms-transition: max-height 3s; 
-        -o-transition: max-height 3s; 
-        transition: max-height 3s;
+      .description {
+        h5 {
+          margin: 2% 4% 0 4%;
+          font-size: $type-size-5;
+        }
+        .body {
+          margin: 1% 4%;
+          padding: 8px; 
+          width: 74%;
+          border-radius: $border-radius;
+          background-color: mix(#000, $primary-color, 67%);
+          font-size: $type-size-7;
+        }
+      }
+      .contribution {
+        h5 {
+          margin: 2% 4% 0 4%;
+          font-size: $type-size-5;
+        }
+        .body {
+          ul {
+            margin: 0;
+            padding: 0 8px;
+            width: 80%;
+            list-style-type: none;
 
-        .period {
-          padding: 0 2%;
-          width: 80%;
-    
-          table {
-            margin: 0 10px;
-            padding: 0.5% 2%;
-            border: solid;
-            border-width: 1px;
-            border-color: $text-color;
-    
-            td {
-              &.cell-head {
-                font-weight: bold;
-              }
-              &.cell-data {
-                width: 45%;
-              }
-              &.cell-artifacts {
-                padding: 10px;
-                width: 100%;
+            li {
+              margin: 4px 10px;
+              padding: 0 0 0 2%;
+  
+              span.text {
+                padding: 5px 2% 2px 1.5%;
+                border-radius: $border-radius;
+                background-color: mix(#000, $primary-color, 67%);
+                font-size: $type-size-6;
               }
             }
           }
+
         }
-  
-        .description {
-          h5 {
-            margin: 2% 4% 0 4%;
-            font-size: $type-size-5;
-          }
-          .body {
-            margin: 1% 4%;
-            padding: 8px; 
-            width: 74%;
+      }
+    }
+  }
+}
+
+div.skill-set {
+
+  .row {
+    margin: 8px 0;
+    display: flex;
+    border: solid;
+    border-width: 1px;
+    border-radius: $border-radius;
+    border-color: mix(#000, $text-color, 85%);
+
+    .category {
+      padding: 3%;
+      width: 32%;
+      font-weight: bold;
+      font-size: $type-size-4;
+    }
+
+    .content {
+      padding: 2% 1%;
+      width: 68%;
+
+      ul {
+        margin: 0;
+
+        li {
+
+          span {
+            font-size: $type-size-6;
+            font-weight: 400;
+            margin: 1px;
+            padding: 2px 4px;
             border-radius: $border-radius;
-            background-color: mix(#000, $primary-color, 67%);
-            font-size: $type-size-7;
-          }
-        }
-        .contribution {
-          h5 {
-            margin: 2% 4% 0 4%;
-            font-size: $type-size-5;
-          }
-          .body {
-            ul {
-              margin: 0;
-              padding: 0 8px;
-              width: 80%;
-              list-style-type: none;
-
-              li {
-                margin: 4px 10px;
-                padding: 0 0 0 2%;
-    
-                span.text {
-                  padding: 5px 2% 2px 1.5%;
-                  border-radius: $border-radius;
-                  background-color: mix(#000, $primary-color, 67%);
-                  font-size: $type-size-6;
-                }
-              }
-            }
-  
+            background-color: mix(#000, $primary-color, 52%);
           }
         }
       }

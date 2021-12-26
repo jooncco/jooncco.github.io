@@ -192,8 +192,100 @@ Connecting dots? No. I'm connecting **star**s 🌌
 
 스킬셋 Archive.
 
+<div class="skill-set">
+    <div class="row">
+        <div class="category">
+            Back-end
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    <span class="skill_detail">Spring Boot (2.3)</span>
+                    <span class="skill_detail">Spring Data JPA</span>
+                    <span class="skill_detail">Webflux</span>
+                    <span class="skill_detail">Spring AOP</span>
+                    <span class="skill_detail">Open Feign</span>
+                </li>
+                <li>
+                    two
+                </li>
+                <li>
+                    three
+                </li>
+                <li> 
+                    four
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="category">
+            DevOps
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    one
+                </li>
+                <li>
+                    two
+                </li>
+                <li>
+                    three
+                </li>
+                <li>
+                    four
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="category">
+            Front-end
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    one
+                </li>
+                <li>
+                    two
+                </li>
+                <li>
+                    three
+                </li>
+                <li>
+                    four
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="category">
+            Etc.
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    one
+                </li>
+                <li>
+                    two
+                </li>
+                <li>
+                    three
+                </li>
+                <li>
+                    four
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
 <div>
-    <div style="padding: 0 10px;">
+    <div>
         <div class="collapsible" id="spring">
             <span>
                 <img class="artifact_img" src="/assets/images/spring-framework.svg"/>
