@@ -1,14 +1,14 @@
 ---
 title: "[TensorFlow] TDC 자격증 취득후기"
 header:
-  overlay_image: /assets/images/tensorFlow-header.png
+  overlay_image: /public/images/tensorFlow-header.png
 categories:
   - TensorFlow
 ---
 
 > **TensorFlow Developer Certificate**
 
-<img src="/assets/images/tdc-certificate.png"/>
+<img src="/public/images/tdc-certificate.png"/>
 
 준비에 _**3일**_,  
 응시 후 이메일 결과발표에 _**5초**_,  
@@ -55,7 +55,7 @@ python 문법/자료구조에 익숙하지 않다면 **5일** 정도(무료기�
 #### 1. Lecture  
 **[TensorFlow in Practice | Coursera](https://www.coursera.org/professional-certificates/tensorflow-in-practice)**
 
-<img src="/assets/images/deeplearning-ai-lecture-instructor.png"/>  
+<img src="/public/images/deeplearning-ai-lecture-instructor.png"/>  
 
 #### 2. Git  
 **[https://github.com/lmoroney/dlaicourse](https://github.com/lmoroney/dlaicourse)**

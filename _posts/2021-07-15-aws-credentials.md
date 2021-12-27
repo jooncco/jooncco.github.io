@@ -1,7 +1,7 @@
 ---
 title: "[AWS] 로컬에 aws cli profile 설정하기"
 header:
-  overlay_image: /assets/images/aws-post-header.png
+  overlay_image: /public/images/aws-post-header.png
 categories:
   - AWS
 last_modified_at: 2021-07-15T17:58:00+09:00
@@ -46,12 +46,12 @@ aws cli 설치 확인.
 ```bash
 aws --version
 ```
-<img src="/assets/images/aws-credentials-figure-1.png"/>
+<img src="/public/images/aws-credentials-figure-1.png"/>
 
 <br/><br/><br/>
 
 aws web에서 IAM 계정 Key정보 확인.  
-<img src="/assets/images/aws-credentials-figure-2.png"/>
+<img src="/public/images/aws-credentials-figure-2.png"/>
 
 <br/><br/><br/>
 
@@ -60,14 +60,14 @@ Key 정보를 요구하는 user prompt가 차례로 뜬다.
 ```bash
 aws configure
 ```
-<img src="/assets/images/aws-credentials-figure-3.png"/>
+<img src="/public/images/aws-credentials-figure-3.png"/>
 
 <br/><br/><br/>
 
 설정 후에 <span class="bolster">~/.aws</span> 디렉토리를 확인해보면  
 credentials와 config 파일이 생성된것을 볼 수 있다!  
 
-<img src="/assets/images/aws-credentials-figure-4.png"/>
+<img src="/public/images/aws-credentials-figure-4.png"/>
 
 <br/><br/><br/>
 
@@ -76,14 +76,14 @@ credentials와 config 파일이 생성된것을 볼 수 있다!
 ```bash
 aws configure --profile ${nameOfProfile}
 ```
-<img src="/assets/images/aws-credentials-figure-5.png"/>
+<img src="/public/images/aws-credentials-figure-5.png"/>
 
 <br/><br/><br/>
 
 설정 후에 <span class="bolster">~/.aws</span> credentials 파일을 다시 확인해보면  
 두 번째 프로파일이 생성된것을 볼 수 있다!  
 
-<img src="/assets/images/aws-credentials-figure-6.png"/>
+<img src="/public/images/aws-credentials-figure-6.png"/>
 
 <br/><br/><br/>
 
@@ -104,7 +104,7 @@ echo "export AWS_DEFAULT_PROFILE=secondProfile" >> ~/.zshrc
 # bash
 echo "export AWS_DEFAULT_PROFILE=secondProfile" >> ~/.bashrc
 ```
-<img src="/assets/images/aws-credentials-figure-7.png"/>
+<img src="/public/images/aws-credentials-figure-7.png"/>
 
 <br/><br/><br/><br/><br/>
 

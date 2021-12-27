@@ -3,7 +3,7 @@ title: "Music"
 layout: single
 permalink: /music
 header:
-  overlay_image: /assets/images/music-title.jpg
+  overlay_image: /public/images/music-title.jpg
 ---
 
 <br/>

@@ -3,8 +3,8 @@ title: "정준하 ( jooncco )"
 excerpt: "About developer jooncco."
 permalink: /profile
 layouts_gallery:
-  - url: /assets/images/profile-pic-1.jpg
-    image_path: /assets/images/profile-pic-1.jpg
+  - url: /public/images/profile-pic-1.jpg
+    image_path: /public/images/profile-pic-1.jpg
     alt: "profile #1"
   - url: 
     image_path: 
@@ -50,16 +50,16 @@ Connecting dots? No. I'm connecting **star**s 🌌
                             <td class="cell-head">Period</td>
                             <td class="cell-data">2021. 07. ~ current</td>
                             <td class="cell-artifacts" rowspan="3">
-                                <img class="artifact_img" src="/assets/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/assets/images/mybatis.svg" alt="mybatis" title="mybatis"/>
-                                <img class="artifact_img" src="/assets/images/flyway.png" alt="flyway" title="flyway"/>
-                                <img class="artifact_img" src="/assets/images/mysql.svg" alt="mysql" title="mysql"/>
-                                <img class="artifact_img" src="/assets/images/react.svg" alt="react" title="react"/>
-                                <img class="artifact_img" src="/assets/images/gradle.png" alt="gradle" title="gradle"/>
-                                <img class="artifact_img" src="/assets/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/assets/images/aws.png" alt="aws" title="aws"/>
-                                <img class="artifact_img" src="/assets/images/terraform.png" alt="terraform" title="terraform"/>
-                                <img class="artifact_img" src="/assets/images/github.png" alt="github" title="github"/>
+                                <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                                <img class="artifact_img" src="/public/images/mybatis.svg" alt="mybatis" title="mybatis"/>
+                                <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
+                                <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
+                                <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
+                                <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
+                                <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
+                                <img class="artifact_img" src="/public/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/public/images/terraform.png" alt="terraform" title="terraform"/>
+                                <img class="artifact_img" src="/public/images/github.png" alt="github" title="github"/>
                             </td>
                         </tr>
                         <tr>
@@ -102,15 +102,15 @@ Connecting dots? No. I'm connecting **star**s 🌌
                             <td class="cell-head">Period</td>
                             <td class="cell-data">2021. 02. ~ 2021. 06</td>
                             <td class="cell-artifacts" rowspan="3">
-                                <img class="artifact_img" src="/assets/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/assets/images/mybatis.svg" alt="mybatis" title="mybatis"/>
-                                <img class="artifact_img" src="/assets/images/flyway.png" alt="flyway" title="flyway"/>
-                                <img class="artifact_img" src="/assets/images/mysql.svg" alt="mysql" title="mysql"/>
-                                <img class="artifact_img" src="/assets/images/react.svg" alt="react" title="react"/>
-                                <img class="artifact_img" src="/assets/images/gradle.png" alt="gradle" title="gradle"/>
-                                <img class="artifact_img" src="/assets/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/assets/images/aws.png" alt="aws" title="aws"/>
-                                <img class="artifact_img" src="/assets/images/klaytn.png" alt="Klaytn API Service" title="Klaytn API Service"/>
+                                <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                                <img class="artifact_img" src="/public/images/mybatis.svg" alt="mybatis" title="mybatis"/>
+                                <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
+                                <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
+                                <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
+                                <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
+                                <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
+                                <img class="artifact_img" src="/public/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/public/images/klaytn.png" alt="Klaytn API Service" title="Klaytn API Service"/>
                             </td>
                         </tr>
                         <tr>
@@ -149,15 +149,15 @@ Connecting dots? No. I'm connecting **star**s 🌌
                             <td class="cell-head">Period</td>
                             <td class="cell-data">2020. 01. ~ 2020. 12</td>
                             <td class="cell-artifacts" rowspan="3">
-                                <img class="artifact_img" src="/assets/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/assets/images/spring-webflux.png" alt="spring webflux" title="spring webflux"/>
-                                <img class="artifact_img" src="/assets/images/hibernate.png" alt="hibernate" title="hibernate"/>
-                                <img class="artifact_img" src="/assets/images/postgresql.svg" alt="postgresql" title="postgresql"/>
-                                <img class="artifact_img" src="/assets/images/react.svg" alt="react" title="react"/>
-                                <img class="artifact_img" src="/assets/images/gradle.png" alt="gradle" title="gradle"/>
-                                <img class="artifact_img" src="/assets/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/assets/images/aws.png" alt="aws" title="aws"/>
-                                <img class="artifact_img" src="/assets/images/kakao.png" alt="kakao talk" title="kakao talk"/>
+                                <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                                <img class="artifact_img" src="/public/images/spring-webflux.png" alt="spring webflux" title="spring webflux"/>
+                                <img class="artifact_img" src="/public/images/hibernate.png" alt="hibernate" title="hibernate"/>
+                                <img class="artifact_img" src="/public/images/postgresql.svg" alt="postgresql" title="postgresql"/>
+                                <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
+                                <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
+                                <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
+                                <img class="artifact_img" src="/public/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/public/images/kakao.png" alt="kakao talk" title="kakao talk"/>
                             </td>
                         </tr>
                         <tr>
@@ -288,7 +288,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div>
         <div class="collapsible" id="spring">
             <span>
-                <img class="artifact_img" src="/assets/images/spring-framework.svg"/>
+                <img class="artifact_img" src="/public/images/spring-framework.svg"/>
                 Spring 🔥
             </span>
         </div>
@@ -308,7 +308,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div style="padding: 0 10px;">
         <div class="collapsible" id="aws">
             <span>
-                <img class="artifact_img" src="/assets/images/aws.svg"/>
+                <img class="artifact_img" src="/public/images/aws.svg"/>
                 AWS 🔥
             </span>
         </div>
@@ -331,7 +331,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div style="padding: 0 10px;">
         <div class="collapsible" id="nodejs">
             <span>
-                <img class="artifact_img" src="/assets/images/nodejs.svg"/>
+                <img class="artifact_img" src="/public/images/nodejs.svg"/>
                 Node.js
             </span>
         </div>
@@ -343,7 +343,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div style="padding: 0 10px;">
         <div class="non-collapsible" id="docker">
             <span>
-                <img class="artifact_img" src="/assets/images/docker.svg"/>
+                <img class="artifact_img" src="/public/images/docker.svg"/>
                 Docker 🔥
             </span>
         </div>
@@ -351,7 +351,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div style="padding: 0 10px;">
         <div class="non-collapsible" id="mySql">
             <span>
-                <img class="artifact_img" src="/assets/images/mysql.svg"/>
+                <img class="artifact_img" src="/public/images/mysql.svg"/>
                 MySQL 🔥
             </span>
         </div>
@@ -359,7 +359,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div style="padding: 0 10px;">
         <div class="non-collapsible" id="postgreSql">
             <span>
-                <img class="artifact_img" src="/assets/images/postgresql.svg"/>
+                <img class="artifact_img" src="/public/images/postgresql.svg"/>
                 PostgreSQL
             </span>
         </div>
@@ -367,7 +367,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div style="padding: 0 10px;">
         <div class="collapsible" id="react">
             <span>
-                <img class="artifact_img" src="/assets/images/react.svg"/>
+                <img class="artifact_img" src="/public/images/react.svg"/>
                 React 🔥
             </span>
         </div>
@@ -385,7 +385,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     <div style="padding: 0 10px;">
         <div class="collapsible" id="reactNative">
             <span>
-                <img class="artifact_img" src="/assets/images/react-native.svg"/>
+                <img class="artifact_img" src="/public/images/react-native.svg"/>
                 React Native
             </span>
         </div>
@@ -434,7 +434,7 @@ ___
 감사합니다.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
-<script type='text/javascript' src='/assets/js/custom/codeforcesRatingChange.js'></script>
-<script type='text/javascript' src='/assets/js/custom/handsOnTools.js'></script>
-<script type='text/javascript' src='/assets/js/custom/footsteps.js'></script>
+<script type='text/javascript' src='/public/js/custom/codeforcesRatingChange.js'></script>
+<script type='text/javascript' src='/public/js/custom/handsOnTools.js'></script>
+<script type='text/javascript' src='/public/js/custom/footsteps.js'></script>
 

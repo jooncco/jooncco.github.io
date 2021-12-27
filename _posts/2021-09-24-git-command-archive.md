@@ -1,7 +1,7 @@
 ---
 title: "[Git] 명령어 Cheat Sheet (cumulative)"
 header:
-  overlay_image: /assets/images/git.jpeg
+  overlay_image: /public/images/git.jpeg
 categories:
   - Git
 ---
@@ -56,7 +56,7 @@ $ git branch -d {nameOfLocalBranch}
 ```
 로컬 브랜치 지워줘.  
 ex]
-<img src="/assets/images/git-delete-branch-example.png"/>
+<img src="/public/images/git-delete-branch-example.png"/>
 
 <br/>
 
@@ -68,14 +68,14 @@ $ git checkout {nameOfTargetBranch}
 ```
 이 브랜치로 이동해줘.  
 ex]
-<img src="/assets/images/git-checkout-example.png"/>
+<img src="/public/images/git-checkout-example.png"/>
 
 ```bash
 $ git checkout -b {nameOfNewBranch}
 ```
 이 브랜치 생성하고, 거기로 이동해줘.  
 ex]
-<img src="/assets/images/git-checkout-example-2.png"/>
+<img src="/public/images/git-checkout-example-2.png"/>
 
 ```bash
 $ git checkout .
@@ -92,7 +92,7 @@ $ git status
 ```
 내가 지금까지 뭘 작업했더라?  
 ex]
-<img src="/assets/images/git-status-example.png"/>
+<img src="/public/images/git-status-example.png"/>
 
 <br/>
 
@@ -104,14 +104,14 @@ $ git add {filePath}
 ```
 filePath로 지정한 파일을 git index에 추가해줘. 커밋할지도 몰라.  
 ex]
-<img src="/assets/images/git-add-example.png"/>
+<img src="/public/images/git-add-example.png"/>
 
 ```bash
 $ git add .
 ```
 지금까지 내가 만진 파일들, 다 git index에 추가해줘. 커밋할지도 몰라.  
 ex]
-<img src="/assets/images/git-add-example-2.png"/>
+<img src="/public/images/git-add-example-2.png"/>
 
 <br/>
 
@@ -123,21 +123,21 @@ $ git push
 ```
 이 브랜치랑 연결된 origin 브랜치에, 커밋한 변경사항들 반영해줘.  
 ex]
-<img src="/assets/images/git-push-example.png"/>
+<img src="/public/images/git-push-example.png"/>
 
 ```bash
 $ git push --set-upstream origin {nameOfNewOriginBranch}
 ```
 로컬의 이 브랜치를 origin에도 생성해줘. 거기에 push 할거야  
 ex]
-<img src="/assets/images/git-set-upstream-example.png"/>
+<img src="/public/images/git-set-upstream-example.png"/>
 
 ```bash
 $ git push --delete origin {nameOfOriginBranch}
 ```
 원격 브랜치 지워줘.  
 ex]
-<img src="/assets/images/git-delete-origin-branch-example.png"/>
+<img src="/public/images/git-delete-origin-branch-example.png"/>
 
 <br/>
 
@@ -149,7 +149,7 @@ $ git commit -m "{commitMessage}"
 ```
 git index에 추가된 내용들 커밋하고, 이 메세지로 기록해줘.  
 ex]
-<img src="/assets/images/git-commit-example.png"/>
+<img src="/public/images/git-commit-example.png"/>
 
 ```bash
 $ git commit --amend

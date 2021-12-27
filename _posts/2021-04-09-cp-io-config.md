@@ -1,7 +1,7 @@
 ---
 title: "[Algorithms] c++ 표준 입출력 설정"
 header:
-  overlay_image: /assets/images/problem-solving-common-header.png
+  overlay_image: /public/images/problem-solving-common-header.png
 categories:
   - Algorithms
 ---
