@@ -1,7 +1,7 @@
 ---
 title: "[AWS] 로컬에 aws cli profile 설정하기"
 header:
-  overlay_image: /assets/images/default-header.png
+  overlay_image: /assets/images/aws-post-header.png
 categories:
   - AWS
 last_modified_at: 2021-07-15T17:58:00+09:00
