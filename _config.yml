@@ -148,11 +148,11 @@ exclude:
   - vendor
   - .asset-cache
   - .bundle
-  - .jekyll-assets-cache
+  - .jekyll-public-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
+  - public/js/plugins
+  - public/js/_main.js
+  - public/js/vendor
   - Capfile
   - CHANGELOG
   - config
