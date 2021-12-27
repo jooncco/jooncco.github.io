@@ -199,21 +199,31 @@ Connecting dots? No. I'm connecting **star**s 🌌
         </div>
         <div class="content">
             <ul>
-                <li>
-                    <span class="skill_detail">Spring Boot (2.3)</span>
-                    <span class="skill_detail">Spring Data JPA</span>
-                    <span class="skill_detail">Webflux</span>
-                    <span class="skill_detail">Spring AOP</span>
-                    <span class="skill_detail">Open Feign</span>
-                </li>
-                <li>
-                    two
-                </li>
-                <li>
-                    three
-                </li>
                 <li> 
-                    four
+                    <span>Java 8</span>
+                    <span>ANSI SQL</span>
+                </li>
+                <li>
+                    <span>Spring Boot</span>
+                    <span>Spring AOP</span>
+                    <span>Spring Cloud Open Feign</span>
+                    <span>Spring WebClient</span>
+                    <span>Spring Webflux</span>
+                    <span>Spring Cloud Netflix</span>
+                </li>
+                <li>
+                    <span>JavaMailSender</span>
+                    <span>Amazon S3 java sdk</span>
+                </li>
+                <li>
+                    <span>MyBatis</span>
+                    <span>JPA</span>
+                </li>
+                <li>
+                    <span>json-server</span>
+                </li>
+                <li>
+                    <span>Gradle</span>
                 </li>
             </ul>
         </div>
@@ -225,16 +235,26 @@ Connecting dots? No. I'm connecting **star**s 🌌
         <div class="content">
             <ul>
                 <li>
-                    one
+                    AWS:
+                    <span>EC2</span>
+                    <span>RDS</span>
+                    <span>Lambda</span>
+                    <span>CodeStar</span>
+                    <span>Cloud9</span>
+                    <span>CodeCommit</span>
+                    <span>CodeBuild</span>
+                    <span>CodeDeploy</span>
+                    <span>CloudWatch</span>
+                    <span>CloudFormation</span>
+                    <span>IAM</span>
+                    <span>S3</span>
                 </li>
                 <li>
-                    two
+                    <span>Flyway</span>
                 </li>
                 <li>
-                    three
-                </li>
-                <li>
-                    four
+                    <span>MySQL</span>
+                    <span>PostgreSQL</span>
                 </li>
             </ul>
         </div>
@@ -267,16 +287,21 @@ Connecting dots? No. I'm connecting **star**s 🌌
         <div class="content">
             <ul>
                 <li>
-                    one
+                    <span>Git</span>
                 </li>
                 <li>
-                    two
+                    <span>IntelliJ</span>
+                    <span>VS Code</span>
+                    <span>Eclipse</span>
                 </li>
                 <li>
-                    three
+                    <span>Jira</span>
+                    <span>Confluence</span>
+                    <span>Lucid chart</span>
                 </li>
                 <li>
-                    four
+                    <span>Slack</span>
+                    <span>Discord</span>
                 </li>
             </ul>
         </div>

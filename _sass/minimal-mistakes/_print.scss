@@ -380,16 +380,17 @@ div.skill-set {
 
       ul {
         margin: 0;
+        font-size: 18px;
 
         li {
+          padding: 4px;
 
           span {
-            font-size: $type-size-6;
             font-weight: 400;
             margin: 1px;
-            padding: 2px 4px;
+            padding: 1px 4px;
             border-radius: $border-radius;
-            background-color: mix(#000, $primary-color, 52%);
+            background-color: mix(#000, $primary-color, 60%);
           }
         }
       }
