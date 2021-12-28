@@ -272,7 +272,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                     <span>Javascript (ES Next)</span>
                 </li>
                 <li>
-                    <span>React-Router</span>
+                    <span>React Router</span>
                     <span>React-Bootstrap</span>
                     <span>styled-components</span>
                     <span>Context</span>
