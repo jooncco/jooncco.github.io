@@ -80,8 +80,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <div class="body">
                     <ul>
                         <li><span class="text">공통 로딩바 개발</span><!--<span>📜 </span>--></li>
-                        <li><span class="text">리소스 ID 중복확인 api</span></li>
-                        <li><span class="text">사용자인증 설계 / 인증메일 발송 api, 인증코드 확인 api</span><!--<span>📜 </span>--></li>
+                        <li><span class="text">사용자인증 설계, api 개발</span><!--<span>📜 </span>--></li>
                         <li><span class="text">로그인 / 로그아웃 / 회원가입 api</span><!--<span>📜 </span>--></li>
                         <li><span class="text">spotless 자동화</span></li>
                         <li><span class="text">데이터 모델 초안 설계</span></li>
@@ -151,7 +150,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                             <td class="cell-artifacts" rowspan="3">
                                 <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
                                 <img class="artifact_img" src="/public/images/spring-webflux.png" alt="spring webflux" title="spring webflux"/>
-                                <img class="artifact_img" src="/public/images/hibernate.png" alt="hibernate" title="hibernate"/>
+                                <img class="artifact_img" src="/public/images/spring-data.png" alt="spring data jpa" title="spring data jpa"/>
                                 <img class="artifact_img" src="/public/images/postgresql.svg" alt="postgresql" title="postgresql"/>
                                 <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
                                 <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
