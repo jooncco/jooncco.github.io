@@ -272,14 +272,14 @@ Connecting dots? No. I'm connecting **star**s 🌌
                     <span>JavaScript (ES Next)</span>
                 </li>
                 <li>
-                    <span>React Router</span>
                     <span>React-Bootstrap</span>
-                    <span>styled-components</span>
+                    <span>React Router</span>
                     <span>Context</span>
                 </li>
                 <li>
-                    <span>axios</span>
                     <span>Material-UI</span>
+                    <span>styled-components</span>
+                    <span>axios</span>
                     <span>Formik</span>
                     <span>yup</span>
                     <span>i18next</span>
