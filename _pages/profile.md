@@ -204,6 +204,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 </li>
                 <li>
                     <span>Spring Boot</span>
+                    <span>Spring MVC</span>
                     <span>Spring AOP</span>
                     <span>Spring Cloud Open Feign</span>
                     <span>Spring WebClient</span>
@@ -234,7 +235,6 @@ Connecting dots? No. I'm connecting **star**s 🌌
         <div class="content">
             <ul>
                 <li>
-                    AWS:
                     <span>EC2</span>
                     <span>RDS</span>
                     <span>Lambda</span>
@@ -250,10 +250,11 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 </li>
                 <li>
                     <span>Flyway</span>
-                </li>
-                <li>
                     <span>MySQL</span>
                     <span>PostgreSQL</span>
+                </li>
+                <li>
+                    <span>Docker</span>
                 </li>
             </ul>
         </div>
@@ -265,16 +266,23 @@ Connecting dots? No. I'm connecting **star**s 🌌
         <div class="content">
             <ul>
                 <li>
-                    one
+                    <span>HTML 5</span>
+                    <span>CSS 3 (SCSS)</span>
+                    <span>Typescript</span>
+                    <span>Javascript (ES Next)</span>
                 </li>
                 <li>
-                    two
+                    <span>React-Router</span>
+                    <span>React-Bootstrap</span>
+                    <span>styled-components</span>
+                    <span>Context</span>
                 </li>
                 <li>
-                    three
-                </li>
-                <li>
-                    four
+                    <span>axios</span>
+                    <span>Material-UI</span>
+                    <span>Formik</span>
+                    <span>yup</span>
+                    <span>i18next</span>
                 </li>
             </ul>
         </div>
@@ -306,119 +314,6 @@ Connecting dots? No. I'm connecting **star**s 🌌
         </div>
     </div>
 </div>
-
-
-<!-- <div>
-    <div>
-        <div class="collapsible" id="spring">
-            <span>
-                <img class="artifact_img" src="/public/images/spring-framework.svg"/>
-                Spring 🔥
-            </span>
-        </div>
-        <div class="content" id="springTags" style="display: none; padding-left: 5%;">
-            <span class="skill_detail">JavaMailSender</span>
-            <span class="skill_detail">Spring AOP</span>
-            <span class="skill_detail">Open Feign</span>
-            <span class="skill_detail">Flyway</span>
-            <span class="skill_detail">MyBatis</span>
-            <span class="skill_detail">Spring Data JPA</span>
-            <span class="skill_detail">Spring Boot (2.3)</span>
-            <span class="skill_detail">Webflux</span>
-            <span class="skill_detail">WebClient</span>
-            <span class="skill_detail">Eureka</span>
-        </div>
-    </div>
-    <div style="padding: 0 10px;">
-        <div class="collapsible" id="aws">
-            <span>
-                <img class="artifact_img" src="/public/images/aws.svg"/>
-                AWS 🔥
-            </span>
-        </div>
-        <div class="content" id="awsTags" style="display: none; padding-left: 5%;">
-            <span class="skill_detail">EC2</span>
-            <span class="skill_detail">RDS</span>
-            <span class="skill_detail">Lambda</span>
-            <span class="skill_detail">CodeStar</span>
-            <span class="skill_detail">Cloud9</span>
-            <span class="skill_detail">CodeCommit</span>
-            <span class="skill_detail">CodeBuild</span>
-            <span class="skill_detail">CloudWatch</span>
-            <span class="skill_detail">CloudFormation</span>
-            <span class="skill_detail">IAM</span>
-            <span class="skill_detail">S3</span>
-            <span class="skill_detail">S3 java sdk</span>
-            <span class="skill_detail">Sumerian</span>
-        </div>
-    </div>
-    <div style="padding: 0 10px;">
-        <div class="collapsible" id="nodejs">
-            <span>
-                <img class="artifact_img" src="/public/images/nodejs.svg"/>
-                Node.js
-            </span>
-        </div>
-        <div class="content" id="nodejsTags" style="display: none; padding-left: 5%;">
-            <span class="skill_detail">Serverless(AWS Lambda)</span>
-            <span class="skill_detail">json-server</span>
-        </div>
-    </div>
-    <div style="padding: 0 10px;">
-        <div class="non-collapsible" id="docker">
-            <span>
-                <img class="artifact_img" src="/public/images/docker.svg"/>
-                Docker 🔥
-            </span>
-        </div>
-    </div>
-    <div style="padding: 0 10px;">
-        <div class="non-collapsible" id="mySql">
-            <span>
-                <img class="artifact_img" src="/public/images/mysql.svg"/>
-                MySQL 🔥
-            </span>
-        </div>
-    </div>
-    <div style="padding: 0 10px;">
-        <div class="non-collapsible" id="postgreSql">
-            <span>
-                <img class="artifact_img" src="/public/images/postgresql.svg"/>
-                PostgreSQL
-            </span>
-        </div>
-    </div>
-    <div style="padding: 0 10px;">
-        <div class="collapsible" id="react">
-            <span>
-                <img class="artifact_img" src="/public/images/react.svg"/>
-                React 🔥
-            </span>
-        </div>
-        <div class="content" id="reactTags" style="display: none; padding-left: 5%;">
-            <span class="skill_detail">React-Router</span>
-            <span class="skill_detail">React-Bootstrap</span>
-            <span class="skill_detail">Material-UI</span>
-            <span class="skill_detail">styled-components</span>
-            <span class="skill_detail">yup</span>
-            <span class="skill_detail">axios</span>
-            <span class="skill_detail">Formik</span>
-            <span class="skill_detail">i18next</span>
-        </div>
-    </div>
-    <div style="padding: 0 10px;">
-        <div class="collapsible" id="reactNative">
-            <span>
-                <img class="artifact_img" src="/public/images/react-native.svg"/>
-                React Native
-            </span>
-        </div>
-        <div class="content" id="reactNativeTags" style="display: none; padding-left: 5%;">
-            <span class="skill_detail">React Navigation (5.x)</span>
-            <span class="skill_detail">Animated</span>
-        </div>
-    </div>
-</div> -->
 
 <br/>
 
