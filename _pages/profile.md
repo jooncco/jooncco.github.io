@@ -268,8 +268,8 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <li>
                     <span>HTML 5</span>
                     <span>CSS 3 (SCSS)</span>
-                    <span>Typescript</span>
-                    <span>Javascript (ES Next)</span>
+                    <span>TypeScript</span>
+                    <span>JavaScript (ES Next)</span>
                 </li>
                 <li>
                     <span>React Router</span>
