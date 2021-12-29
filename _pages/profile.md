@@ -205,8 +205,9 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <li>
                     <span>Spring Boot</span>
                     <span>Spring MVC</span>
-                    <span>Spring AOP</span>
+                    <span>Spring Data JPA</span>
                     <span>Spring Cloud Open Feign</span>
+                    <span>Spring AOP</span>
                     <span>Spring WebClient</span>
                     <span>Spring Webflux</span>
                     <span>Spring Cloud Netflix</span>
@@ -256,6 +257,9 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <li>
                     <span>Docker</span>
                 </li>
+                <li>
+                    <span>Git</span>
+                </li>
             </ul>
         </div>
     </div>
@@ -275,13 +279,13 @@ Connecting dots? No. I'm connecting **star**s 🌌
                     <span>React-Bootstrap</span>
                     <span>React Router</span>
                     <span>Context</span>
-                </li>
-                <li>
                     <span>Material-UI</span>
                     <span>styled-components</span>
-                    <span>axios</span>
                     <span>Formik</span>
                     <span>yup</span>
+                </li>
+                <li>
+                    <span>axios</span>
                     <span>i18next</span>
                 </li>
             </ul>
@@ -293,9 +297,6 @@ Connecting dots? No. I'm connecting **star**s 🌌
         </div>
         <div class="content">
             <ul>
-                <li>
-                    <span>Git</span>
-                </li>
                 <li>
                     <span>IntelliJ</span>
                     <span>VS Code</span>
@@ -309,6 +310,10 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <li>
                     <span>Slack</span>
                     <span>Discord</span>
+                </li>
+                <li>
+                    <span>GitHub</span>
+                    <span>GitLab</span>
                 </li>
             </ul>
         </div>
