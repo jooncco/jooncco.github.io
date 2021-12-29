@@ -122,7 +122,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>포인트 관리자</b>, 고객의 포인트 발급/정산/환불 등의 업무를 일부 자동화하고 하나의 시스템에서 통합 관리하고 싶다.
+                    As a <b>포인트 관리자</b>, 고객 포인트의 발급/환불/정산 등의 업무를 자동화하고 제휴사 포인트들을 하나의 시스템에서 통합 관리하고 싶다.
                     그래서 <b>포인트 관리자</b>는 고객의 포인트 소비경험의 질을 향상시킬 수 있다.
                 </div>
             </div>
@@ -130,7 +130,9 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <h5>Contribution</h5>
                 <div class="body">
                     <ul>
-                        <li><span class="text">...업데이트 예정...</span><!--<span>📜 </span>--></li>
+                        <li><span class="text">포인트 발급, 지불, 환급 api</span></li>
+                        <li><span class="text">Admin - 포인트 이력 조회</span></li>
+                        <li><span class="text">Admin - 로그아웃</span></li>
                     </ul>
                 </div>
             </div>
