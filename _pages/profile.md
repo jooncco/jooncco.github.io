@@ -80,8 +80,8 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <div class="body">
                     <ul>
                         <li><span class="text">공통 로딩바 개발</span><!--<span>📜 </span>--></li>
-                        <li><span class="text">사용자인증 설계, api 개발</span><!--<span>📜 </span>--></li>
-                        <li><span class="text">로그인 / 로그아웃 / 회원가입 api</span><!--<span>📜 </span>--></li>
+                        <li><span class="text">사용자인증 설계, API 개발</span><!--<span>📜 </span>--></li>
+                        <li><span class="text">로그인 / 로그아웃 / 회원가입 API</span><!--<span>📜 </span>--></li>
                         <li><span class="text">spotless 자동화</span></li>
                         <li><span class="text">데이터 모델 초안 설계</span></li>
                     </ul>
@@ -130,7 +130,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <h5>Contribution</h5>
                 <div class="body">
                     <ul>
-                        <li><span class="text">포인트 발급, 지불, 환급 api</span></li>
+                        <li><span class="text">포인트 발급, 지불, 환급 API</span></li>
                         <li><span class="text">Admin - 포인트 이력</span></li>
                         <li><span class="text">Admin - 로그아웃</span></li>
                     </ul>
