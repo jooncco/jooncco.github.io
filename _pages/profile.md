@@ -131,7 +131,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                 <div class="body">
                     <ul>
                         <li><span class="text">포인트 발급, 지불, 환급 api</span></li>
-                        <li><span class="text">Admin - 포인트 이력 조회</span></li>
+                        <li><span class="text">Admin - 포인트 이력</span></li>
                         <li><span class="text">Admin - 로그아웃</span></li>
                     </ul>
                 </div>
