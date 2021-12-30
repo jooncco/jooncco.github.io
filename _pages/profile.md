@@ -91,7 +91,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
     </div>
     <div class="footstep-card">
         <blockquote id="lgcns-2" class="footstep-title">
-            고객사 포인트 관리/정산 시스템
+            제휴사 포인트 관리/정산 시스템
         </blockquote>
         <div id="lgcns-2-details" class="details">
             <div class="period">
