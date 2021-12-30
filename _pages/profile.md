@@ -226,9 +226,6 @@ Connecting dots? No. I'm connecting **star**s 🌌
                     <span>JPA</span>
                 </li>
                 <li>
-                    <span>json-server</span>
-                </li>
-                <li>
                     <span>Gradle</span>
                 </li>
             </ul>
@@ -260,10 +257,10 @@ Connecting dots? No. I'm connecting **star**s 🌌
                     <span>PostgreSQL</span>
                 </li>
                 <li>
-                    <span>Docker</span>
+                    <span>json-server</span>
                 </li>
                 <li>
-                    <span>Git</span>
+                    <span>Docker</span>
                 </li>
             </ul>
         </div>
