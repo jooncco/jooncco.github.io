@@ -1,10 +1,9 @@
 # jooncco.github.io
-`jooncco.com` code base
-
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/jooncco/jooncco.github.io/main/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
 [![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
 
+`jooncco.com` code base  
 Jekyll 기반의 테마 [**Minimal Mistakes**](https://rubygems.org/gems/minimal-mistakes-jekyll)을 활용해 만든 블로그 템플릿 입니다.
 
 ## Features
@@ -48,9 +47,9 @@ gem install bundler
 ```bash
 git clone https://github.com/jooncco/jooncco.github.io.git
 ```
-6. `jooncco.github.io`에서 .git 삭제 후 모든 파일 복사
+6. `jooncco.github.io`에서 .git과 _posts 폴더 삭제 후 모든 파일 복사
 ```bash
-~jooncco.github.io$ rm .git
+~jooncco.github.io$ rm -rf .git _posts
 ```
 ```bash
 ~jooncco.github.io$ cp -r ./* <pathToYourRepo>
