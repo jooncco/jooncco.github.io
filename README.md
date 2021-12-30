@@ -54,11 +54,15 @@ git clone https://github.com/jooncco/jooncco.github.io.git
 ```bash
 ~jooncco.github.io$ cp -r ./* <pathToYourRepo>
 ```
-7. Bundler 이용한 run
+7. 의존성 설치
+```bash
+~<yourRepoName>$ bundle
+```
+8. Bundler 이용한 run
 ```bash
 bundle exec jekyll serve
 ```
-8. 브라우저로 localhost:4000 접속
+9. 브라우저로 localhost:4000 접속
 
 ## Credits
 
