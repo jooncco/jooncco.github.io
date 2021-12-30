@@ -286,3 +286,4 @@ defaults:
       comments: true
       related: true
       mathjax: true
+theme: jekyll-theme-slate
