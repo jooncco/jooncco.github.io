@@ -1,9 +1,9 @@
 ---
-title: "[Node.js] json-server"
+title: "[Mocking] json-server"
 header:
   overlay_color: "#333"
 categories:
-  - Node.js
+  - Mocking
 ---
 
 Comming soon
