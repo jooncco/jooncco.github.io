@@ -322,7 +322,7 @@ div.footstep-card {
           padding: 8px; 
           width: 74%;
           border-radius: $border-radius;
-          background-color: mix(#000, $primary-color, 67%);
+          background-color: $span-background-color;
           font-size: $type-size-7;
         }
       }
@@ -332,6 +332,7 @@ div.footstep-card {
           font-size: $type-size-5;
         }
         .body {
+
           ul {
             margin: 0;
             padding: 0 8px;
@@ -345,12 +346,11 @@ div.footstep-card {
               span {
                 padding: 5px 2% 2px 1.5%;
                 border-radius: $border-radius;
-                background-color: mix(#000, $primary-color, 67%);
+                background-color: $span-background-color;
                 font-size: $type-size-6;
               }
             }
           }
-
         }
       }
     }
@@ -390,7 +390,7 @@ div.skill-set {
             margin: 1px;
             padding: 1px 4px;
             border-radius: $border-radius;
-            background-color: mix(#000, $primary-color, 60%);
+            background-color: $span-background-color;
           }
         }
       }
@@ -398,47 +398,9 @@ div.skill-set {
   }
 }
   
-.skill_term {
-  font-size: 15px;
-  color: $primary-color;
-  display: inline-block;
-  vertical-align: bottom;
-  padding-bottom: 2px;
-  padding-left: 2px;
-}
-    
-.skill_detail {
-  font-size: $type-size-6;
-  font-weight: 400;
-  margin: 1px;
-  padding: 2px 4px;
-  border-radius: $border-radius;
-  background-color: mix(#000, $primary-color, 52%);
-}
-
 .artifact_img {
   width: 30px;
   height: 30px;
-}
-
-.git_link {
-  font-size: $type-size-6;
-  margin: 1px;
-  padding: 1px 4px;
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.problem_link {
-  font-size: $type-size-6;
-  margin: 1px;
-  padding: 1px 4px;
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.paragraph_little_chat {
-  font-size: $type-size-7;
 }
 
 .bolster {
