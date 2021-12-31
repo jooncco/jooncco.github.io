@@ -333,13 +333,13 @@ share: false
 <canvas id='codeforcesRatingChangeChart' height= '300'></canvas>
 * Current Rating: <span id='myRating' style='font-weight:bold;font-size: 33px;'></span> (
                   <span id='myRatingName' style='font-weight:bold;font-style:italic;'>-</span> )
-* Checkout <b>[jooncco](http://codeforces.com/profile/jooncco)</b> on codeforces
+* Checkout [**jooncco**](http://codeforces.com/profile/jooncco) on codeforces
 
 > ### _Baekjoon Online Judge_
 
 * Solved: <b style="font-size: 33px;"> 1268 </b> problems so far
 * Tier: <b style="color: rgb(96, 194, 161);"> Platinum V </b>
-* Checkout <b>[jooncco](https://www.acmicpc.net/user/jooncco)</b> on BOJ
+* Checkout [**jooncco**](https://www.acmicpc.net/user/jooncco) on BOJ
 
 <br/>
 
