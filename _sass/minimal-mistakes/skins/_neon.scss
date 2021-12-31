@@ -7,6 +7,7 @@ $background-color: #141010 !default;
 $text-color: #ddd5ea !default;
 $primary-color: #0066dd !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
+$span-background-color: mix(#000, $primary-color, 67%);
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
