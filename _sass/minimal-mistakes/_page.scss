@@ -359,9 +359,6 @@ body {
     margin-top: 2em;
   }
 
-  .back-to-top {
-    color: #fff;
-  }
 }
 
 .taxonomy__title {
@@ -405,6 +402,7 @@ body {
   clear: both;
   color: $muted-text-color;
   font-size: 0.6em;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;
