@@ -51,7 +51,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                             <td class="cell-data">2021. 07. ~ current</td>
                             <td class="cell-artifacts" rowspan="3">
                                 <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/public/images/mybatis.svg" alt="mybatis" title="mybatis"/>
+                                <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
                                 <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
                                 <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
                                 <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
@@ -102,7 +102,7 @@ Connecting dots? No. I'm connecting **star**s 🌌
                             <td class="cell-data">2021. 02. ~ 2021. 06</td>
                             <td class="cell-artifacts" rowspan="3">
                                 <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/public/images/mybatis.svg" alt="mybatis" title="mybatis"/>
+                                <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
                                 <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
                                 <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
                                 <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
