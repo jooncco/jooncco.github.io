@@ -30,8 +30,6 @@ share: false
 
 ## Career 🧑🏻‍💻
 
-Connecting dots? No. I'm connecting **star**s 🌌
-
 | Software Engineer | LG CNS | 2019. 01. ~ now |
 | Computer Science B.S. | Yonsei Univ. Seoul | 2016. 03. ~ 2019. 02. |
 
@@ -193,8 +191,6 @@ Connecting dots? No. I'm connecting **star**s 🌌
 <br/>
 
 ## Skills 🛠
-
-스킬셋 Archive.
 
 <div class="skill-set">
     <div class="row">
