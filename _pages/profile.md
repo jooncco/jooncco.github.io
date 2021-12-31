@@ -55,7 +55,7 @@ share: false
                                 <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
                                 <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
                                 <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/public/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
                                 <img class="artifact_img" src="/public/images/terraform.png" alt="terraform" title="terraform"/>
                                 <img class="artifact_img" src="/public/images/github.png" alt="github" title="github"/>
                             </td>
@@ -106,7 +106,7 @@ share: false
                                 <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
                                 <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
                                 <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/public/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
                                 <img class="artifact_img" src="/public/images/klaytn.png" alt="Klaytn API Service" title="Klaytn API Service"/>
                             </td>
                         </tr>
@@ -155,7 +155,7 @@ share: false
                                 <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
                                 <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
                                 <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/public/images/aws.png" alt="aws" title="aws"/>
+                                <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
                                 <img class="artifact_img" src="/public/images/kakao.png" alt="kakao talk" title="kakao talk"/>
                             </td>
                         </tr>
