@@ -46,7 +46,7 @@ share: false
                     <tbody>
                         <tr>
                             <td class="cell-head">Period</td>
-                            <td class="cell-data">2021. 07. ~ current</td>
+                            <td class="cell-data">2021. 07. ~ now</td>
                             <td class="cell-artifacts" rowspan="3">
                                 <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
                                 <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
