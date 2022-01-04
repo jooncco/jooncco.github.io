@@ -36,8 +36,8 @@ share: false
 ### LG CNS
 
 <div>
-    <div class="footstep-card">
-        <blockquote id="lgcns-3" class="footstep-title">
+    <div class="career-card">
+        <blockquote id="lgcns-3" class="career-title">
             Terraform과 Github API를 이용한 Cloud 리소스 관리 도구
         </blockquote>
         <div id="lgcns-3-details" class="details">
@@ -87,8 +87,8 @@ share: false
             </div>
         </div>
     </div>
-    <div class="footstep-card">
-        <blockquote id="lgcns-2" class="footstep-title">
+    <div class="career-card">
+        <blockquote id="lgcns-2" class="career-title">
             제휴사 포인트 관리/정산 시스템
         </blockquote>
         <div id="lgcns-2-details" class="details">
@@ -136,8 +136,8 @@ share: false
             </div>
         </div>
     </div>
-    <div class="footstep-card">
-        <blockquote id="lgcns-1" class="footstep-title">
+    <div class="career-card">
+        <blockquote id="lgcns-1" class="career-title">
             카카오톡 챗봇을 이용한 메뉴 주문 서비스
         </blockquote>
         <div id="lgcns-1-details" class="details">
@@ -361,5 +361,5 @@ ___
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
 <script type='text/javascript' src='/public/js/custom/codeforcesRatingChange.js'></script>
 <script type='text/javascript' src='/public/js/custom/handsOnTools.js'></script>
-<script type='text/javascript' src='/public/js/custom/footsteps.js'></script>
+<script type='text/javascript' src='/public/js/custom/career.js'></script>
 
