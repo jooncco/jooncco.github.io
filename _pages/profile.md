@@ -26,7 +26,7 @@ share: false
 | 4. **자동화**와 **효과적인 의사소통 방법**에 대한 고민을 하곤 합니다. |
 | 5. **Algorithm contest**에 종종 참가해 그 과정에서 오는 긴장감, 성취를 즐깁니다. |
 
-<br/>
+<br />
 
 ## Career 🧑🏻‍💻
 
@@ -188,9 +188,9 @@ share: false
     </div>
 </div>
 
-<br/>
+<br />
 
-## Skills 🛠
+## Dev Skills 🛠
 
 <div class="skill-set">
     <div class="row">
@@ -321,7 +321,7 @@ share: false
     </div>
 </div>
 
-<br/>
+<br />
 
 <!-- ## Open Source 🌐 -->
 
@@ -344,7 +344,7 @@ share: false
 * Tier: <b style="color: rgb(96, 194, 161);"> Platinum V </b>
 * Checkout [**jooncco**](https://www.acmicpc.net/user/jooncco) on BOJ
 
-<br/>
+<br />
 
 <!-- ## Certificates -->
 
