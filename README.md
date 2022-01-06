@@ -66,7 +66,7 @@ bundle exec jekyll serve
 
 ## Credits
 
-This template branched from [**Minimal Mistakes**](https://mmistakes.github.io/minimal-mistakes/)(Jekyll based blog theme).  
+This template heavily uses assets from [**Minimal Mistakes**](https://mmistakes.github.io/minimal-mistakes/)(Jekyll based blog theme).  
 (Commit hash: 9ab55b6c5487a770ac18410423e47a6f976dc098)
 
 **Michael Rose**
