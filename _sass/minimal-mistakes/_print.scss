@@ -260,31 +260,39 @@ div.career-card {
 
   .career-title {
     padding: 1% 2.5%;
-    font-weight: bold;
+    width: 100%;
     border-radius: $border-radius;
+    color: $text-color;
+    font-weight: bold;
+    cursor: pointer;
   }
 
-  .career-title.hover {
-    padding: 1% 2.5%;
-    font-weight: bold;
-    border-radius: $border-radius;
+  .career-title:after {
+    content: '\02795';
+    font-size: $type-size-5;
+    color: $text-color;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .career-title:hover, .active {
     cursor: pointer;
     background-color: rgba($primary-color, 0.1);
   }
 
+  .active:after {
+    content: '\2796'; /* Unicode character for "minus" sign (-) */
+  }
+
   div {
-    &.details {
+    &.panel {
       max-height: 0;
       overflow: hidden;
-    }
-
-    &.details.collapsed {
-      max-height: 1800px;
-      -webkit-transition: max-height 2s;
-      -moz-transition: max-height 2s;
-      -ms-transition: max-height 2s;
-      -o-transition: max-height 2s;
-      transition: max-height 2s;
+      -webkit-transition: max-height 0.5s;
+      -moz-transition: max-height 0.5s;
+      -ms-transition: max-height 0.5s;
+      -o-transition: max-height 0.5s;
+      transition: max-height 0.5s;
 
       .period {
         padding: 0 2%;
