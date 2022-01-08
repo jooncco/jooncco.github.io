@@ -305,16 +305,20 @@ div.career-card {
           border-width: 1px;
           border-color: $text-color;
   
-          td {
-            &.cell-head {
-              font-weight: bold;
-            }
-            &.cell-data {
-              width: 45%;
-            }
-            &.cell-artifacts {
-              padding: 10px;
-              width: 100%;
+          tr {
+            height: auto;
+            td {
+              height: 100%;
+              &.cell-head {
+                font-weight: bold;
+              }
+              &.cell-data {
+                width: 45%;
+              }
+              &.cell-artifacts {
+                padding: 10px;
+                width: 100%;
+              }
             }
           }
         }
