@@ -305,18 +305,22 @@ div.career-card {
           border-width: 1px;
           border-color: $text-color;
   
-          tr {
-            height: 60px;
-            td {
-              &.cell-head {
-                font-weight: bold;
-              }
-              &.cell-data {
-                width: 45%;
-              }
-              &.cell-artifacts {
-                padding: 10px;
-                width: 100%;
+          tbody {
+            height: 0px;
+            tr {
+              td {
+                &.cell-head {
+                  height: 50%;
+                  font-weight: bold;
+                }
+                &.cell-data {
+                  height: 50%;
+                  width: 45%;
+                }
+                &.cell-artifacts {
+                  padding: 10px;
+                  width: 100%;
+                }
               }
             }
           }
