@@ -70,7 +70,7 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>사업개발팀</b>, 프로젝트 시작/철수시마다 반복되는 인프라/개발환경 관리 업무를 자동화하고 싶다. 그래서 <b>사업개발팀</b>은 Business에 대한 Agility를 높일 수 있다.
+                    As a <b>클라우드 사업팀</b>, 프로젝트 시작/철수시마다 반복되는 인프라 관리 업무를 규격화/자동화하고 cloud 벤더와 독립적으로 한 시스템에서 이들을 통합 관리하고 싶다. 그래서 <b>클라우드 사업팀</b>은 Business에 대한 **Agility**를 높일 수 있다.
                 </div>
             </div>
             <div class="contribution">
@@ -120,8 +120,8 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>포인트 관리자</b>, 고객 포인트의 발급/환불/정산 등의 업무를 자동화하고 제휴사 포인트들을 하나의 시스템에서 통합 관리하고 싶다.
-                    그래서 <b>포인트 관리자</b>는 고객의 포인트 소비경험의 질을 향상시킬 수 있다.
+                    As a <b>포인트 서비스 제공자</b>, 고객 포인트의 발급/환불/정산 등의 업무를 자동화하고 제휴사 포인트들을 하나의 시스템에서 통합 관리하고 싶다.
+                    그래서 <b>포인트 서비스 제공자</b>는 고객 포인트 소비경험의 질을 향상시킬 수 있다.
                 </div>
             </div>
             <div class="contribution">
@@ -169,8 +169,8 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>고객</b>, 줄을 서지 않고 카톡 메세지를 통해 메뉴를 주문하고 싶다.
-                    그래서 <b>고객</b>은 코로나 감염에 노출되지 않고, 편리하게 메뉴를 주문할 수 있다.
+                    As a <b>고객</b>, 카카오톡 메세지를 통해 카페 및 식당 메뉴를 주문하고 싶다.
+                    그래서 <b>고객</b>은 줄을 서는 불편함을 겪지 않고, 감염병에 대한 노출도 줄일 수 있다.
                 </div>
             </div>
             <div class="contribution">
