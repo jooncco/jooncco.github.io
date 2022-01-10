@@ -70,7 +70,7 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>클라우드 사업팀</b>, 프로젝트 시작/철수시마다 반복되는 인프라 관리 업무를 규격화/자동화하고 cloud 벤더와 독립적으로 한 시스템에서 이들을 통합 관리하고 싶다. 그래서 <b>클라우드 사업팀</b>은 Business에 대한 **Agility**를 높일 수 있다.
+                    As a <b>클라우드 사업팀</b>, 프로젝트 시작/철수시마다 반복되는 인프라 관리 업무를 규격화/자동화하고 cloud 벤더와 독립적으로 한 시스템에서 이들을 통합 관리하고 싶다. 그래서 <b>클라우드 사업팀</b>은 business에 대한 **agility**를 높일 수 있다.
                 </div>
             </div>
             <div class="contribution">
