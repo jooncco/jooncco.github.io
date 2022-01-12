@@ -2,13 +2,13 @@
 title: "정준하 ( jooncco )"
 excerpt: "About developer jooncco."
 permalink: /profile
-layouts_gallery:
-  - url: /public/images/profile-pic-1.jpg
-    image_path: /public/images/profile-pic-1.jpg
-    alt: "profile #1"
-  - url: 
-    image_path: 
-    alt:
+# layouts_gallery:
+#   - url: /public/images/profile-pic-1.jpg
+#     image_path: /public/images/profile-pic-1.jpg
+#     alt: "profile #1"
+#   - url: 
+#     image_path: 
+#     alt:
 last_modified_at: 2021-12-31T01:53:00+09:00
 toc: true
 toc_sticky: true
