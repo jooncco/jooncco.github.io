@@ -356,7 +356,7 @@ ___
 
 [https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)
 
-하지만 **Star🌟** 는 꾹 눌러주세요!  
+하지만 **Star🌟** 는 잊지 말아주세요!  
 감사합니다.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
