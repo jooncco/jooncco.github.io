@@ -255,6 +255,10 @@
    custom styles by jooncco
    ========================================================================== */
 
+blockquote {
+  background-color: rgba($primary-color, 0.04);
+}
+
 div.career-card {
   margin: 30px 5px;
 
@@ -262,6 +266,7 @@ div.career-card {
     padding: 1% 2.5%;
     width: 95%;
     border-radius: $border-radius;
+    background-color: rgba($primary-color, 0.04);
     color: $text-color;
     font-weight: bold;
     cursor: pointer;
@@ -277,7 +282,7 @@ div.career-card {
 
   .career-title:hover, .active {
     cursor: pointer;
-    background-color: rgba($primary-color, 0.1);
+    background-color: rgba($primary-color, 0.15);
   }
 
   .active:after {
