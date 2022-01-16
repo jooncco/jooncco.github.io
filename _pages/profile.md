@@ -351,7 +351,7 @@ share: false
 
 ___
 
-제 블로그는 [![LICENSE](https://img.shields.io/github/license/jooncco/jooncco.github.io?color=blue&style=plastic)](https://raw.githubusercontent.com/jooncco/jooncco.github.io/prod/LICENSE) 를 따르고 있습니다.  
+제 블로그는 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?color=blue&style=plastic)](https://raw.githubusercontent.com/jooncco/jooncco.github.io/prod/LICENSE) 를 따르고 있습니다.  
 이 jekyll 기반의 블로그 템플릿이 마음에 드신다면, **fork/clone** 하셔서 활용하셔도 됩니다.  
 
 [https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)
