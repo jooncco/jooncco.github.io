@@ -135,7 +135,7 @@ ex]
 ```bash
 $ git push --delete origin {nameOfOriginBranch}
 ```
-원격 브랜치 지워줘.  
+원격의 브랜치 지워줘.  
 ex]
 <img src="/public/images/git-delete-origin-branch-example.png"/>
 
@@ -158,7 +158,6 @@ commit 메시지 수정하고싶어.
 
 <br/>
 
-
 ## 🐣 git stash
 
 ```bash
@@ -176,3 +175,16 @@ $ git stash clear
 ```
 stash 스택을 비워줘.
 
+<br/>
+
+## 🐣 git restore
+
+```bash
+$ git restore {fileName} {fileName2} ...
+```
+staging 되지않은 로컬의 변경사항 원복해줘.
+
+```bash
+$ git restore --staged {fileName} {fileName2} ...
+```
+staging 된 변경사항 unstage 해줘.
