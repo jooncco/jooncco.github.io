@@ -12,7 +12,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 locale                   : "en-US"
 title                    : "JOONCCO.com"
 title_separator          : "|"
-subtitle                 : "All inspiration comes from HOT SHOWER."
+subtitle                 : "however it looks, this blog meant to do something helpful to the world."
 name                     : "JOONCCO"
 description              : "About software engineer jooncco."
 url                      : "https://jooncco.com"
