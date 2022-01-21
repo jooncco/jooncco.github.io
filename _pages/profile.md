@@ -1,30 +1,48 @@
 ---
-title: "정준하 ( jooncco )"
+title: "정준하 (jooncco)"
 excerpt: "About developer jooncco."
 permalink: /profile
-# layouts_gallery:
-#   - url: /public/images/profile-pic-1.jpg
-#     image_path: /public/images/profile-pic-1.jpg
-#     alt: "profile #1"
-#   - url: 
-#     image_path: 
-#     alt:
 last_modified_at: 2021-12-31T01:53:00+09:00
 toc: true
 toc_sticky: true
 share: false
 ---
 
-안녕하세요. 3년차 **백엔드 개발자** 준꼬입니다  
-요즘 **1일 1커밋 1솔브** 운동을 하고있어요 🐶
+안녕하세요. 3년차 백엔드 개발자 **준꼬**입니다.  
+우리가 지금 하는 일은, **좀 더 편한 세상을 만드는 일**입니다.  
+그 과정이 고통스러워서는 안된다고 생각해요.
 
-> 준꼬?
+<br />
 
-| 1. **가독성**이 좋고 **확장에 열려있는** 코드/설계를 중요하게 생각합니다. |
-| 2. **문제상황 분석** ➡️ **BP 학습** ➡️ **해결** 까지의 과정을 즐깁니다. |
-| 3. 그리고 그 내용을 파드원에게 **공유**합니다. |
-| 4. **자동화**와 **효과적인 의사소통 방법**에 대한 고민을 하곤 합니다. |
-| 5. **Algorithm contest**에 종종 참가해 그 과정에서 오는 긴장감, 성취를 즐깁니다. |
+> 저는 이런 개발자입니다.
+
+| 1. 모국어 2개(C++, Java)와 여타 언어도 제법 구사하는 **polyglot**을 지향합니다. |
+| 2. **변수명**을 (정말로) 중요하게 생각합니다. 매일 하는 고민인데도 항상 어렵네요. |
+| 3. **읽기 쉽고**, 뭐 **추가할 때 편한** 코드가 좋은 코드라고 생각해요. |
+| 4. **리팩터링**이 필요한 부분은 적극적으로 합니다. 고친 코드는 검증을 더 철저하게 하는 편이에요. |
+| 5. 코드 컨벤션 적용과 같이 반복되는 작업은 **자동화** 해버리는 걸 좋아해요. |
+| 6. 가끔 효과적인 **의사소통 방법**에 대한 고민을 하곤 합니다. |
+| 7. **시스템 요구사항**을 기계적으로 코드로 옮기기보다, 비즈니스에 대한 이해를 바탕으로 향후 생길만한 요건을 **예측**하고 **역제안**하는 매력있는 엔지니어이고 싶습니다. |
+
+<br />
+
+> 생활규칙.
+
+- Commits: **twice** a day
+- Algorithms: **1 AC** a day
+- Workout: **4 times** a week
+
+<br />
+
+> 2022년 목표.
+
+- AWS certified developer associate 🏅
+- AWS certified solutions architect associate 🏅
+- Successfully launching [codehub](https://github.com/jooncco/codehub) 💯
+- Codeforces Expert 🦋
+- Read 12 books. Books are not for ornament 📔
+- Gain weight up to 177 pounds 🏋️
+- Mountain climbing every 3 months ⛰
 
 <br />
 
