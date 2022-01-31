@@ -2,4 +2,6 @@
    Default skin
    ========================================================================== */
 
-// Intentionally left blank
+/* Colors */
+$primary-color: #0066dd !default;
+$span-background-color: mix(#fff, $primary-color, 67%);
