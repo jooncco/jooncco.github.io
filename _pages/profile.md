@@ -46,7 +46,7 @@ share: false
 
 <br />
 
-## Career 🧑🏻‍💻
+## Career 👨‍💻
 
 | Software Engineer | LG CNS | 2019. 01. ~ now |
 | Computer Science B.S. | Yonsei Univ. Seoul | 2016. 03. ~ 2019. 02. |
@@ -56,48 +56,46 @@ share: false
 <div>
     <div class="career-card">
         <blockquote id="lgcns-3" class="career-title">
-            Terraform과 Github API를 이용한 Cloud 인프라 관리 도구
+            Terraform과 Github API를 이용한 DevOps 환경 구성도구
         </blockquote>
         <div class="panel">
             <div class="period">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="cell-head">Period</td>
-                            <td class="cell-data">2021. 07. ~ now</td>
-                            <td class="cell-artifacts" rowspan="3">
-                                <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
-                                <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
-                                <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
-                                <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
-                                <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
-                                <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
-                                <img class="artifact_img" src="/public/images/terraform.png" alt="terraform" title="terraform"/>
-                                <img class="artifact_img" src="/public/images/github.png" alt="github" title="github"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="cell-head">Position</td>
-                            <td class="cell-data">Full-stack developer</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="column head">
+                    <div class="cell">Period</div>
+                    <div class="cell">Position</div>
+                </div>
+                <div class="column data">
+                    <div class="cell">2021. 07. ~ now</div>
+                    <div class="cell">Full-stack developer</div>
+                </div>
+                <div class="column artifacts">
+                    <div class="cell-rowspan-2">
+                        <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
+                        <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
+                        <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
+                        <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
+                        <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
+                        <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
+                        <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
+                        <img class="artifact_img" src="/public/images/terraform.png" alt="terraform" title="terraform"/>
+                        <img class="artifact_img" src="/public/images/github.png" alt="github" title="github"/>
+                    </div>
+                </div>
             </div>
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>클라우드 사업팀</b>, 프로젝트 시작/철수시마다 반복되는 인프라 관리 업무를 규격화/자동화하고 cloud 벤더와 독립적으로 한 시스템에서 이들을 통합 관리하고 싶다. 그래서 <b>클라우드 사업팀</b>은 business에 대한 **agility**를 높일 수 있다.
+                    As a <b>클라우드 사업팀</b>, 프로젝트마다 반복되는 개발/운영환경 구성을 규격화, 자동화하고 그 거버넌스를 가지고 싶다. 그래서 <b>클라우드 사업팀</b>은 business에 대한 <b>agility</b>를 높일 수 있다.
                 </div>
             </div>
             <div class="contribution">
                 <h5>Contribution</h5>
                 <div class="body">
                     <ul>
-                        <li><span>공통 로딩바 개발</span><!--<span>📜 </span>--></li>
-                        <li><span>사용자인증 설계, API 개발</span><!--<span>📜 </span>--></li>
-                        <li><span>로그인 / 로그아웃 / 회원가입 API</span><!--<span>📜 </span>--></li>
+                        <li><span>공통 로딩바 개발</span></li>
+                        <li><span>사용자인증 설계, API 개발</span></li>
+                        <li><span>로그인 / 로그아웃 / 회원가입 API</span></li>
                         <li><span>spotless 자동화</span></li>
                         <li><span>데이터 모델 초안 설계</span></li>
                     </ul>
@@ -111,29 +109,27 @@ share: false
         </blockquote>
         <div class="panel">
             <div class="period">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="cell-head">Period</td>
-                            <td class="cell-data">2021. 02. ~ 2021. 06</td>
-                            <td class="cell-artifacts" rowspan="3">
-                                <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
-                                <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
-                                <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
-                                <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
-                                <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
-                                <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
-                                <img class="artifact_img" src="/public/images/klaytn.png" alt="Klaytn API Service" title="Klaytn API Service"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="cell-head">Position</td>
-                            <td class="cell-data">Full-stack developer</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="column head">
+                    <div class="cell">Period</div>
+                    <div class="cell">Position</div>
+                </div>
+                <div class="column data">
+                    <div class="cell">2021. 02. ~ 2021. 06</div>
+                    <div class="cell">Full-stack developer</div>
+                </div>
+                <div class="column artifacts">
+                    <div class="cell-rowspan-2">
+                        <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
+                        <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
+                        <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
+                        <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
+                        <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
+                        <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
+                        <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
+                        <img class="artifact_img" src="/public/images/klaytn.png" alt="Klaytn API Service" title="Klaytn API Service"/>
+                    </div>
+                </div>
             </div>
             <div class="description">
                 <h5>Description</h5>
@@ -160,29 +156,27 @@ share: false
         </blockquote>
         <div class="panel">
             <div class="period">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="cell-head">Period</td>
-                            <td class="cell-data">2020. 01. ~ 2020. 12</td>
-                            <td class="cell-artifacts" rowspan="3">
-                                <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                                <img class="artifact_img" src="/public/images/spring-webflux.png" alt="spring webflux" title="spring webflux"/>
-                                <img class="artifact_img" src="/public/images/spring-data.png" alt="spring data jpa" title="spring data jpa"/>
-                                <img class="artifact_img" src="/public/images/postgresql.svg" alt="postgresql" title="postgresql"/>
-                                <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
-                                <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
-                                <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                                <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
-                                <img class="artifact_img" src="/public/images/kakao.png" alt="kakao talk" title="kakao talk"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="cell-head">Position</td>
-                            <td class="cell-data">Back-end developer</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="column head">
+                    <div class="cell">Period</div>
+                    <div class="cell">Position</div>
+                </div>
+                <div class="column data">
+                    <div class="cell">2020. 01. ~ 2020. 12</div>
+                    <div class="cell">Back-end developer</div>
+                </div>
+                <div class="column artifacts">
+                    <div class="cell-rowspan-2">
+                        <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/spring-webflux.png" alt="spring webflux" title="spring webflux"/>
+                        <img class="artifact_img" src="/public/images/spring-data.png" alt="spring data jpa" title="spring data jpa"/>
+                        <img class="artifact_img" src="/public/images/postgresql.svg" alt="postgresql" title="postgresql"/>
+                        <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
+                        <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
+                        <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
+                        <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
+                        <img class="artifact_img" src="/public/images/kakao.png" alt="kakao talk" title="kakao talk"/>
+                    </div>
+                </div>
             </div>
             <div class="description">
                 <h5>Description</h5>
