@@ -6,7 +6,7 @@ categories:
   - Git
 ---
 
-> 까먹을 때마다 와서 보고, 숙지하자.
+> Git 잘쓰는 동료가 좋아요.
 
 ## 🐣 git clone
 

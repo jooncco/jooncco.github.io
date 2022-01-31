@@ -9,7 +9,7 @@ $text-color: #000 !default;
 $muted-text-color: $dark-gray !default;
 $primary-color: #fc3a52 !default;
 $border-color: mix(#000, $background-color, 20%) !default;
-$span-background-color: mix(#000, $primary-color, 67%);
+$span-background-color: mix(#fff, $primary-color, 67%);
 $code-background-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color-dark: mix(#000, $background-color, 10%) !default;
 $form-background-color: mix(#fff, $background-color, 15%) !default;
