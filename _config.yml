@@ -10,10 +10,10 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JOONCCO.com"
+title                    : "&lt;jooncco /&gt;"
 title_separator          : "|"
-subtitle                 : "Pedal to the metal"
-name                     : "JOONCCO"
+# subtitle                 : "준하 + 로꼬"
+name                     : "jooncco"
 description              : "About software engineer jooncco."
 url                      : "https://jooncco.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
