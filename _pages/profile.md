@@ -21,16 +21,17 @@ share: false
 | 3. **읽기 쉽고**, 뭐 **추가할 때 편한** 코드가 좋은 코드라고 생각해요. |
 | 4. **리팩터링**이 필요한 부분은 적극적으로 합니다. 고친 코드는 검증을 더 철저하게 하는 편이에요. |
 | 5. 코드 컨벤션 적용과 같이 반복되는 작업은 **자동화** 해버리는 걸 좋아해요. |
-| 6. 가끔 효과적인 **의사소통 방법**에 대한 고민을 하곤 합니다. |
+| 6. 내용을 어떻게 전달해야 효과적일지 **의사소통 방법**에 대한 고민을 종종 합니다. |
 | 7. **시스템 요구사항**을 기계적으로 코드로 옮기기보다, 비즈니스에 대한 이해를 바탕으로 향후 생길만한 요건을 **예측**하고 **역제안**하는 매력있는 엔지니어이고 싶습니다. |
 
 <br />
 
-> 생활규칙.
+> 루틴.
 
+- Workout: **4 times** a week
 - Commits: **twice** a day
 - Algorithms: **1 AC** a day
-- Workout: **4 times** a week
+- Contests: **Leetcode Weekly** on every Sunday 11:30 (UTC+9)
 
 <br />
 
@@ -325,7 +326,7 @@ share: false
 
 <!-- ## Open Source 🌐 -->
 
-<!-- ## Seminars 🗣 -->
+<!-- ## Talk 🗣 -->
 
 ## Competitive Programming 🏆
 
@@ -350,7 +351,7 @@ share: false
 
 ___
 
-제 블로그는 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?color=blue&style=plastic)](https://raw.githubusercontent.com/jooncco/jooncco.github.io/prod/LICENSE) 를 따르고 있습니다.  
+제 블로그는 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?color=blue&style=plastic)](https://github.com/jooncco/jooncco.github.io/blob/dev/LICENSE) 를 따르는 **오픈소스**입니다.  
 이 jekyll 기반의 블로그 템플릿이 마음에 드신다면, **fork/clone** 하셔서 활용하셔도 됩니다.  
 
 [https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)
