@@ -28,8 +28,8 @@ share: false
 
 > 루틴.
 
+- Reading: **7 O'clock** every morning
 - Workout: **4 times** a week
-- Commits: **twice** a day
 - Algorithms: **1 AC** a day
 - Contests: **Leetcode Weekly** on every Sunday 11:30 (UTC+9)
 
