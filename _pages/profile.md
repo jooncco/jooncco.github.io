@@ -2,7 +2,7 @@
 title: "정준하 (jooncco)"
 excerpt: "About developer jooncco."
 permalink: /profile
-last_modified_at: 2021-12-31T01:53:00+09:00
+last_modified_at: 2022-02-21T11:44:00+09:00
 toc: true
 toc_sticky: true
 share: false
@@ -28,7 +28,7 @@ share: false
 
 > 루틴.
 
-- Reading: **7 O'clock** every morning
+- Reading: **7 O'clock** every morning (☕️ included)
 - Workout: **4 times** a week
 - Algorithms: **1 AC** a day
 - Contests: **Leetcode Weekly** on every Sunday 11:30 (UTC+9)
@@ -66,7 +66,7 @@ share: false
                     <div class="cell">Position</div>
                 </div>
                 <div class="column data">
-                    <div class="cell">2021. 07. ~ now</div>
+                    <div class="cell">2021. 07. ~ 2022.02.</div>
                     <div class="cell">Full-stack developer</div>
                 </div>
                 <div class="column artifacts">
@@ -351,13 +351,8 @@ share: false
 
 ___
 
-제 블로그는 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?color=blue&style=plastic)](https://github.com/jooncco/jooncco.github.io/blob/dev/LICENSE) 를 따르는 **오픈소스**입니다.  
-이 jekyll 기반의 블로그 템플릿이 마음에 드신다면, **fork/clone** 하셔서 활용하셔도 됩니다.  
-
+제 블로그의 소스코드는 여기에서 확인하실 수 있습니다.  
 [https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)
-
-하지만 **Star🌟** 는 잊지 말아주세요!  
-감사합니다.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
 <script type='text/javascript' src='/public/js/custom/codeforcesRatingChange.js'></script>
