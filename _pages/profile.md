@@ -344,25 +344,17 @@ share: false
         </div>
         <div class="description">
             <div class="row-handle">
-                <div class="codeforces-rating-badge">
-                    SPECIALIST
-                </div>
-                <div class="handle">
-                    jooncco
-                </div>
+                <span class="codeforces-rating-badge">SPECIALIST</span>
+                <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <div class="current-rating">
-                    1486
-                </div>
-                <div class="percentage">2.6%</div>
-                <div class="seperator"> / max. </div>
-                <div class="codeforces-rating-badge">
-                    SPECIALIST
-                </div>
-                <div class="max-rating">
-                    1486
-                </div>
+                <span class="current-rating">1486</span>
+                <span class="percentage">2.58%</span>
+            </div>
+            <div class="row-max-rating">
+                <span class="label">max. </span>
+                <span class="codeforces-rating-badge">SPECIALIST</span>
+                <span class="max-rating">1486</span>
             </div>
         </div>
     </div>
@@ -371,29 +363,21 @@ share: false
             <img class="cp-logo-img" src="/public/images/boj-icon.png" title="boj"/>
         </div>
         <div class="title">
-            Baekjoon OJ
+            Baekjoon
         </div>
         <div class="description">
             <div class="row-handle">
-                <div class="boj-rating-badge">
-                    Platinum V
-                </div>
-                <div class="handle">
-                    jooncco
-                </div>
+                <span class="boj-rating-badge">Platinum V</span>
+                <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <div class="current-rating">
-                    1670
-                </div>
-                <div class="percentage">5.06%</div>
-                <div class="seperator"> / max. </div>
-                <div class="boj-rating-badge">
-                    Platinum V
-                </div>
-                <div class="max-rating">
-                    1670
-                </div>
+                <span class="current-rating">1670</span>
+                <span class="percentage">0.78%</span>
+            </div>
+            <div class="row-max-rating">
+                <span class="label">max. </span>
+                <span class="boj-rating-badge">Platinum V</span>
+                <span class="max-rating">1670</span>
             </div>
         </div>
     </div>
@@ -406,19 +390,15 @@ share: false
         </div>
         <div class="description">
             <div class="row-handle">
-                <div class="handle">
-                    jooncco
-                </div>
+                <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <div class="current-rating">
-                    1700
-                </div>
-                <div class="percentage">5.3%</div>
-                <div class="seperator"> / max. </div>
-                <div class="max-rating">
-                    1700
-                </div>
+                <span class="current-rating">1700</span>
+                <span class="percentage">5.26%</span>
+            </div>
+            <div class="row-max-rating">
+                <span class="label">max. </span>
+                <span class="max-rating">1700</span>
             </div>
         </div>
     </div>

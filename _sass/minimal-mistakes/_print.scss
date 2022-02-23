@@ -442,10 +442,10 @@ div#dev-skills {
 div#competitive-programming {
 
   .row {
-    height: 55px;
-    width: 80%;
+    height: 90px;
+    width: 520px;
     margin: 8px 4px;
-    padding: 0 3px;
+    padding: 10px 3px;
     display: flex;
     border-radius: $border-radius;
 
@@ -461,9 +461,9 @@ div#competitive-programming {
     }
 
     .title {
+      width: 140px;
       line-height: 50px;
-      padding: 0 20px;
-      width: 160px;
+      padding: 0 10px 0 20px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: $type-size-5;
     }
@@ -479,8 +479,6 @@ div#competitive-programming {
       font-weight: 400;
 
       .row-handle {
-        display: flex;
-
         div.handle {
           padding: 1px 6px;
           font-size: 14px;
@@ -488,15 +486,12 @@ div#competitive-programming {
       }
 
       .row-stats {
-        display: flex;
-
         div {
           padding: 0 3px;
         }
 
-        .percentage, .seperator {
+        .percentage {
           color: #999;
-          font-weight: normal;
         }
       }
 
@@ -505,7 +500,7 @@ div#competitive-programming {
         border: solid;
         border-width: 1px;
         border-color: #23a9b0;
-        font-size: 11px;
+        font-size: 9px;
         font-weight: 900;
         color: #23a9b0
       }
@@ -515,7 +510,7 @@ div#competitive-programming {
         border: solid;
         border-width: 1px;
         border-color: #00c78b;
-        font-size: 11px;
+        font-size: 9px;
         font-weight: 900;
         color: #00c78b;
       }
