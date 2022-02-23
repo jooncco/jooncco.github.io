@@ -40,7 +40,7 @@ share: false
 
 - AWS certified developer associate 🏅
 - AWS certified solutions architect associate 🏅
-- Successfully launching [codehub](https://github.com/users/jooncco/projects/1) 💯
+- Successful launch of [Kourseplate](https://github.com/kourseplate/about) 💯
 - Codeforces Expert 🦋
 - Read 12 books. Books are not for ornament 📔
 - Gain weight up to 177 pounds 🏋️
