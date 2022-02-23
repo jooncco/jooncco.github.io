@@ -252,130 +252,133 @@
 }
 
 /*
-   custom styles by jooncco
+   Custom elements
    ========================================================================== */
 
 blockquote {
   background-color: rgba($primary-color, 0.04);
 }
 
-div.career-card {
-  margin: 30px 5px;
+div#project {
 
-  .career-title {
-    padding: 1% 2.5%;
-    width: 95%;
-    border-radius: $border-radius;
-    background-color: rgba($primary-color, 0.04);
-    color: $text-color;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  .career-title:after {
-    content: '\02795';
-    font-size: $type-size-5;
-    color: $text-color;
-    float: right;
-    padding-left: 5px;
-  }
-
-  .career-title:hover, .active {
-    cursor: pointer;
-    background-color: rgba($primary-color, 0.15);
-  }
-
-  .active:after {
-    content: '\2796'; /* Unicode character for "minus" sign (-) */
-  }
-
-  div {
-    &.panel {
-      max-height: 0;
-      overflow: hidden;
-      -webkit-transition: max-height 0.5s;
-      -moz-transition: max-height 0.5s;
-      -ms-transition: max-height 0.5s;
-      -o-transition: max-height 0.5s;
-      transition: max-height 0.5s;
-
-      .period {
-        margin: 0 3%;
-        padding: 0 2%;
-        display: flex;
-        width: 86%;
-        flex-wrap: wrap;
-        border: solid;
-        border-width: 3px;
-        border-color: #ccc;
-
-        .column {
-          margin: 10px 0;
-          display: flex;
-          flex-direction: column;
-          flex: 1;
-          font-size: $type-size-8;
-        }
-        
-        .column.head {
-          font-weight: 900;
-          font-size: $type-size-7;
-        }
-        
-        .column.artifacts {
-          padding: 1.5%;
-          flex: 2;
-        }
-        
-        .cell {
-          display: flex;
-          flex: 0 0 50%;
-          -webkit-flex: 0 0 50%;
-          align-items: center;
-        }
-        
-        .cell-rowspan-2 {
-          flex: 0 0 100%;
-          -webkit-flex: 0 0 100%;
-        }
-      }
+  .project-card {
+    margin: 30px 5px;
   
-      .description {
-        h5 {
-          margin: 2% 4% 0 4%;
-          font-size: $type-size-5;
-        }
-        .body {
-          margin: 1% 4%;
-          padding: 8px; 
-          width: 74%;
-          border-radius: $border-radius;
-          background-color: $span-background-color;
-          font-size: $type-size-7;
-        }
-      }
-      .contributions {
-        h5 {
-          margin: 2% 4% 0 4%;
-          font-size: $type-size-5;
-        }
-        .body {
-
-          ul {
-            margin: 0;
-            padding: 0 8px;
-            width: 80%;
-            list-style-type: none;
-
-            li {
-              margin: 4px 10px;
-              padding: 0 0 0 2%;
+    .project-title {
+      padding: 1% 2.5%;
+      width: 95%;
+      border-radius: $border-radius;
+      background-color: rgba($primary-color, 0.04);
+      color: $text-color;
+      font-weight: bold;
+      cursor: pointer;
+    }
   
-              span {
-                padding: 5px 2% 2px 1.5%;
-                border-radius: $border-radius;
-                background-color: $span-background-color;
-                font-size: $type-size-6;
+    .project-title:after {
+      content: '\02795';
+      font-size: $type-size-5;
+      color: $text-color;
+      float: right;
+      padding-left: 5px;
+    }
+  
+    .project-title:hover, .active {
+      cursor: pointer;
+      background-color: rgba($primary-color, 0.15);
+    }
+  
+    .active:after {
+      content: '\2796'; /* Unicode character for "minus" sign (-) */
+    }
+  
+    div {
+      &.panel {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.5s;
+        -moz-transition: max-height 0.5s;
+        -ms-transition: max-height 0.5s;
+        -o-transition: max-height 0.5s;
+        transition: max-height 0.5s;
+  
+        .panel-header {
+          margin: 0 3%;
+          padding: 0 2%;
+          display: flex;
+          width: 86%;
+          flex-wrap: wrap;
+          border: solid;
+          border-width: 3px;
+          border-color: #ccc;
+  
+          .column {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            font-size: $type-size-8;
+          }
+          
+          .column.head {
+            font-weight: 900;
+            font-size: $type-size-7;
+          }
+          
+          .column.artifacts {
+            padding: 1.5%;
+            flex: 2;
+          }
+          
+          .cell {
+            display: flex;
+            flex: 0 0 33.3%;
+            -webkit-flex: 0 0 33.3%;
+            align-items: center;
+          }
+          
+          .cell-rowspan-2 {
+            flex: 0 0 100%;
+            -webkit-flex: 0 0 100%;
+          }
+        }
+    
+        .description {
+          h5 {
+            margin: 2% 4% 0 4%;
+            font-size: $type-size-5;
+          }
+          .body {
+            margin: 1% 4%;
+            padding: 8px; 
+            width: 74%;
+            border-radius: $border-radius;
+            background-color: $span-background-color;
+            font-size: $type-size-7;
+          }
+        }
+        .contributions {
+          h5 {
+            margin: 2% 4% 0 4%;
+            font-size: $type-size-5;
+          }
+          .body {
+  
+            ul {
+              margin: 0;
+              padding: 0 8px;
+              width: 80%;
+              list-style-type: none;
+  
+              li {
+                margin: 4px 10px;
+                padding: 0 0 0 2%;
+    
+                span {
+                  padding: 5px 2% 2px 1.5%;
+                  border-radius: $border-radius;
+                  background-color: $span-background-color;
+                  font-size: $type-size-6;
+                }
               }
             }
           }
@@ -383,9 +386,9 @@ div.career-card {
       }
     }
   }
-}
+} // end of div#project
 
-div.skill-set {
+div#dev-skills {
 
   .row {
     margin: 8px 0;
@@ -434,4 +437,113 @@ div.skill-set {
 .bolster {
   font-family: CaskaydiaCoveNerdFont;
   color: $primary-color;
-}
+} // end of div#dev-skills
+
+div#competitive-programming {
+
+  .row {
+    height: 55px;
+    width: 80%;
+    margin: 8px 4px;
+    padding: 0 3px;
+    display: flex;
+    border-radius: $border-radius;
+
+    .logo {
+      padding: 2.5px 0;
+      width: 45px;
+      height: 45px;
+
+      img {
+        border-radius: 15px;
+        background-color: white;
+      }
+    }
+
+    .title {
+      line-height: 50px;
+      padding: 0 20px;
+      width: 160px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: $type-size-5;
+    }
+
+    .description {
+      display: block;
+      padding: 5px 10px;
+      margin: 0 20px;
+      line-height: 20px;
+      width: 280px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: $type-size-7;
+      font-weight: 400;
+
+      .row-handle {
+        display: flex;
+
+        div.handle {
+          padding: 1px 6px;
+          font-size: 14px;
+        }
+      }
+
+      .row-stats {
+        display: flex;
+
+        div {
+          padding: 0 3px;
+        }
+
+        .percentage, .seperator {
+          color: #999;
+          font-weight: normal;
+        }
+      }
+
+      .codeforces-rating-badge {
+        padding: 1px 5px;
+        border: solid;
+        border-width: 1px;
+        border-color: #23a9b0;
+        font-size: 11px;
+        font-weight: 900;
+        color: #23a9b0
+      }
+
+      .boj-rating-badge {
+        padding: 1px 5px;
+        border: solid;
+        border-width: 1px;
+        border-color: #00c78b;
+        font-size: 11px;
+        font-weight: 900;
+        color: #00c78b;
+      }
+
+      .atcoder-rating-badge {
+        padding: 1px 5px;
+        border: solid;
+        border-width: 1px;
+        border-color: #00c78b;
+        font-size: 11px;
+        font-weight: 900;
+        color: #00c78b;
+      }
+
+      .topcoder-rating-badge {
+        padding: 1px 5px;
+        border: solid;
+        border-width: 1px;
+        border-color: #00c78b;
+        font-size: 11px;
+        font-weight: 900;
+        color: #00c78b;
+      }
+    }
+  }
+
+  .row:hover {
+    cursor: pointer;
+    background-color: rgba($base02, 0.5);
+  }
+} // end of div#competitive-programming

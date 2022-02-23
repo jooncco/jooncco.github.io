@@ -2,7 +2,7 @@
 title: "정준하 (jooncco)"
 excerpt: "About developer jooncco."
 permalink: /profile
-last_modified_at: 2022-02-21T11:44:00+09:00
+last_modified_at: 2022-02-23T11:44:00+09:00
 toc: true
 toc_sticky: true
 share: false
@@ -13,6 +13,8 @@ share: false
 그 과정이 고통스러워서는 안된다고 생각해요.
 
 <br />
+
+## Intro.
 
 > 저는 이런 개발자입니다.
 
@@ -29,8 +31,7 @@ share: false
 > 루틴.
 
 - Reading: **7 O'clock** every morning (☕️ included)
-- Workout: **4 times** a week
-- Algorithms: **1 AC** a day
+- Workout: **3 times** a week
 - Contests: **Leetcode Weekly** on every Sunday 11:30 (UTC+9)
 
 <br />
@@ -47,40 +48,37 @@ share: false
 
 <br />
 
-## Career 👨‍💻
+## Project 👨‍💻
 
-| Software Engineer | LG CNS | 2019. 01. ~ now |
-| Computer Science B.S. | Yonsei Univ. Seoul | 2016. 03. ~ 2019. 02. |
-
-### LG CNS
-
-<div>
-    <div class="career-card">
-        <blockquote id="lgcns-3" class="career-title">
+<div id="project">
+    <div class="project-card">
+        <blockquote id="lgcns-3" class="project-title">
             Terraform과 Github API를 이용한 프로비저닝 자동화도구
         </blockquote>
         <div class="panel">
-            <div class="period">
+            <div class="panel-header">
                 <div class="column head">
+                    <div class="cell">Organization</div>
                     <div class="cell">Period</div>
                     <div class="cell">Position</div>
                 </div>
                 <div class="column data">
+                    <div class="cell">LG CNS</div>
                     <div class="cell">2021. 07. ~ 2022.02.</div>
-                    <div class="cell">Full-stack developer</div>
+                    <div class="cell">Full-stack</div>
                 </div>
                 <div class="column artifacts">
                     <div class="cell-rowspan-2">
-                        <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                        <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
-                        <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
-                        <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
-                        <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
-                        <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
-                        <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                        <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
-                        <img class="artifact_img" src="/public/images/terraform.png" alt="terraform" title="terraform"/>
-                        <img class="artifact_img" src="/public/images/github.png" alt="github" title="github"/>
+                        <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/mybatis.png" title="mybatis"/>
+                        <img class="artifact_img" src="/public/images/flyway.png" title="flyway"/>
+                        <img class="artifact_img" src="/public/images/mysql.svg" title="mysql"/>
+                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
+                        <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
+                        <img class="artifact_img" src="/public/images/docker.svg" title="docker"/>
+                        <img class="artifact_img" src="/public/images/aws.jpeg" title="aws"/>
+                        <img class="artifact_img" src="/public/images/terraform.png" title="terraform"/>
+                        <img class="artifact_img" src="/public/images/github.png" title="github"/>
                     </div>
                 </div>
             </div>
@@ -104,31 +102,33 @@ share: false
             </div>
         </div>
     </div>
-    <div class="career-card">
-        <blockquote id="lgcns-2" class="career-title">
+    <div class="project-card">
+        <blockquote id="lgcns-2" class="project-title">
             제휴사 포인트 관리/정산 시스템
         </blockquote>
         <div class="panel">
-            <div class="period">
+            <div class="panel-header">
                 <div class="column head">
+                    <div class="cell">Organization</div>
                     <div class="cell">Period</div>
                     <div class="cell">Position</div>
                 </div>
                 <div class="column data">
+                    <div class="cell">LG CNS</div>
                     <div class="cell">2021. 02. ~ 2021. 06</div>
-                    <div class="cell">Full-stack developer</div>
+                    <div class="cell">Full-stack</div>
                 </div>
                 <div class="column artifacts">
                     <div class="cell-rowspan-2">
-                        <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                        <img class="artifact_img" src="/public/images/mybatis.png" alt="mybatis" title="mybatis"/>
-                        <img class="artifact_img" src="/public/images/flyway.png" alt="flyway" title="flyway"/>
-                        <img class="artifact_img" src="/public/images/mysql.svg" alt="mysql" title="mysql"/>
-                        <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
-                        <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
-                        <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                        <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
-                        <img class="artifact_img" src="/public/images/klaytn.png" alt="Klaytn API Service" title="Klaytn API Service"/>
+                        <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/mybatis.png" title="mybatis"/>
+                        <img class="artifact_img" src="/public/images/flyway.png" title="flyway"/>
+                        <img class="artifact_img" src="/public/images/mysql.svg" title="mysql"/>
+                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
+                        <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
+                        <img class="artifact_img" src="/public/images/docker.svg" title="docker"/>
+                        <img class="artifact_img" src="/public/images/aws.jpeg" title="aws"/>
+                        <img class="artifact_img" src="/public/images/klaytn.png" title="Klaytn API Service"/>
                     </div>
                 </div>
             </div>
@@ -150,31 +150,33 @@ share: false
             </div>
         </div>
     </div>
-    <div class="career-card">
-        <blockquote id="lgcns-1" class="career-title">
+    <div class="project-card">
+        <blockquote id="lgcns-1" class="project-title">
             카카오톡 챗봇을 이용한 메뉴 주문 서비스
         </blockquote>
         <div class="panel">
-            <div class="period">
+            <div class="panel-header">
                 <div class="column head">
+                    <div class="cell">Organization</div>
                     <div class="cell">Period</div>
                     <div class="cell">Position</div>
                 </div>
                 <div class="column data">
+                    <div class="cell">LG CNS</div>
                     <div class="cell">2020. 01. ~ 2020. 12</div>
-                    <div class="cell">Back-end developer</div>
+                    <div class="cell">Back-end</div>
                 </div>
                 <div class="column artifacts">
                     <div class="cell-rowspan-2">
-                        <img class="artifact_img" src="/public/images/spring-boot.png" alt="spring boot" title="spring boot"/>
-                        <img class="artifact_img" src="/public/images/spring-webflux.png" alt="spring webflux" title="spring webflux"/>
-                        <img class="artifact_img" src="/public/images/spring-data.png" alt="spring data jpa" title="spring data jpa"/>
-                        <img class="artifact_img" src="/public/images/postgresql.svg" alt="postgresql" title="postgresql"/>
-                        <img class="artifact_img" src="/public/images/react.svg" alt="react" title="react"/>
-                        <img class="artifact_img" src="/public/images/gradle.png" alt="gradle" title="gradle"/>
-                        <img class="artifact_img" src="/public/images/docker.svg" alt="docker" title="docker"/>
-                        <img class="artifact_img" src="/public/images/aws.jpeg" alt="aws" title="aws"/>
-                        <img class="artifact_img" src="/public/images/kakao.png" alt="kakao talk" title="kakao talk"/>
+                        <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/spring-webflux.png" title="spring webflux"/>
+                        <img class="artifact_img" src="/public/images/spring-data.png" title="spring data jpa"/>
+                        <img class="artifact_img" src="/public/images/postgresql.svg" title="postgresql"/>
+                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
+                        <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
+                        <img class="artifact_img" src="/public/images/docker.svg" title="docker"/>
+                        <img class="artifact_img" src="/public/images/aws.jpeg" title="aws"/>
+                        <img class="artifact_img" src="/public/images/kakao.png" title="kakao talk"/>
                     </div>
                 </div>
             </div>
@@ -199,11 +201,13 @@ share: false
     </div>
 </div>
 
+<!-- ## Toys -->
+
 <br />
 
 ## Dev Skills 🛠
 
-<div class="skill-set">
+<div id="dev-skills">
     <div class="row">
         <div class="category">
             Back-end
@@ -324,38 +328,179 @@ share: false
 
 <br />
 
-<!-- ## Open Source 🌐 -->
-
-<!-- ## Talk 🗣 -->
+<!-- ## Achievements -->
 
 ## Competitive Programming 🏆
 
-운동선수에게 **피지컬**이 중요하듯, 내게 **알고리즘**이 도움이 된다는 믿음  
+운동선수에게 **피지컬**이 중요하듯 내게 **알고리즘**이 도움이 된다는 믿음  
 
-> ### _Codeforces_
-
-<canvas id='codeforcesRatingChangeChart' height= '300'></canvas>
-* Current Rating: <span id='myRating' style='font-weight:bold;font-size: 33px;'></span> (
-                  <span id='myRatingName' style='font-weight:bold;font-style:italic;'>-</span> )
-* Checkout [**jooncco**](http://codeforces.com/profile/jooncco) on codeforces
-
-> ### _Baekjoon Online Judge_
-
-* Solved: <b style="font-size: 33px;"> 1268 </b> problems so far
-* Tier: <b style="color: rgb(96, 194, 161);"> Platinum V </b>
-* Checkout [**jooncco**](https://www.acmicpc.net/user/jooncco) on BOJ
+<div id="competitive-programming">
+    <div class="row" id="codeforces">
+        <div class="logo">
+            <img class="cp-logo-img" src="/public/images/codeforces-logo.png" title="codeforces"/>
+        </div>
+        <div class="title">
+            Codeforces
+        </div>
+        <div class="description">
+            <div class="row-handle">
+                <div class="codeforces-rating-badge">
+                    SPECIALIST
+                </div>
+                <div class="handle">
+                    jooncco
+                </div>
+            </div>
+            <div class="row-stats">
+                <div class="current-rating">
+                    1486
+                </div>
+                <div class="percentage">2.6%</div>
+                <div class="seperator"> / max. </div>
+                <div class="codeforces-rating-badge">
+                    SPECIALIST
+                </div>
+                <div class="max-rating">
+                    1486
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="boj">
+        <div class="logo">
+            <img class="cp-logo-img" src="/public/images/boj-icon.png" title="boj"/>
+        </div>
+        <div class="title">
+            Baekjoon OJ
+        </div>
+        <div class="description">
+            <div class="row-handle">
+                <div class="boj-rating-badge">
+                    Platinum V
+                </div>
+                <div class="handle">
+                    jooncco
+                </div>
+            </div>
+            <div class="row-stats">
+                <div class="current-rating">
+                    1670
+                </div>
+                <div class="percentage">5.06%</div>
+                <div class="seperator"> / max. </div>
+                <div class="boj-rating-badge">
+                    Platinum V
+                </div>
+                <div class="max-rating">
+                    1670
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="leetcode">
+        <div class="logo">
+            <img class="cp-logo-img" src="/public/images/leetcode-icon.png" title="leetcode"/>
+        </div>
+        <div class="title">
+            Leetcode
+        </div>
+        <div class="description">
+            <div class="row-handle">
+                <div class="handle">
+                    jooncco
+                </div>
+            </div>
+            <div class="row-stats">
+                <div class="current-rating">
+                    1700
+                </div>
+                <div class="percentage">5.3%</div>
+                <div class="seperator"> / max. </div>
+                <div class="max-rating">
+                    1700
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="row">
+        <div class="logo">
+            <img class="cp-logo-img" src="/public/images/atcoder.png" title="atcoder"/>
+        </div>
+        <div class="title">
+            AtCoder
+        </div>
+        <div class="description">
+            <div class="row-handle">
+                <div class="atcoder-rating-badge">
+                    RATING TITLE
+                </div>
+                <div class="handle">
+                    jooncco
+                </div>
+            </div>
+            <div class="row-stats">
+                <div class="current-rating">
+                    1700
+                </div>
+                <div class="percentage">5.3%</div>
+                <div class="seperator"> / max. </div>
+                <div class="atcoder-rating-badge">
+                    RATING TITLE
+                </div>
+                <div class="max-rating">
+                    1700
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="logo">
+            <img class="cp-logo-img" src="/public/images/topcoder.png" title="topcoder"/>
+        </div>
+        <div class="title">
+            TopCoder
+        </div>
+        <div class="description">
+            <div class="row-handle">
+                <div class="topcoder-rating-badge">
+                    RATING TITLE
+                </div>
+                <div class="handle">
+                    jooncco
+                </div>
+            </div>
+            <div class="row-stats">
+                <div class="current-rating">
+                    1700
+                </div>
+                <div class="percentage">5.3%</div>
+                <div class="seperator"> / max. </div>
+                <div class="topcoder-rating-badge">
+                    RATING TITLE
+                </div>
+                <div class="max-rating">
+                    1700
+                </div>
+            </div>
+        </div>
+    </div> -->
+</div>
 
 <br />
 
-<!-- ## Certificates -->
+## Education 🎓
 
-___
+| Computer Science B.S. | Yonsei Univ. Seoul | 2011. 03. ~ 2019. 02. |
+
+<br />
+
+## Outro.
+
+[https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)  
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?color=blue&style=plastic)](https://github.com/jooncco/jooncco.github.io/blob/dev/LICENSE)
 
 제 블로그의 소스코드는 여기에서 확인하실 수 있습니다.  
-[https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)
+마음에 드신다면 **Star**🌟 해주세요 :)  
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
-<script type='text/javascript' src='/public/js/custom/codeforcesRatingChange.js'></script>
-<script type='text/javascript' src='/public/js/custom/handsOnTools.js'></script>
-<script type='text/javascript' src='/public/js/custom/career.js'></script>
-
+<script type='text/javascript' src='/public/js/custom/project.js'></script>
+<script type='text/javascript' src='/public/js/custom/cp.js'></script>
