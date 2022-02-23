@@ -114,12 +114,6 @@ author:
     # - label: "Stack Overflow"
     #   icon: "fab fa-stack-overflow"
     #   url: "https://stackoverflow.com/users/11834258/jooncco"
-    - label: "Codeforces"
-      icon: "fas fa-code"
-      url: "https://codeforces.com/profile/jooncco"
-    # - label: "Baekjoon"
-    #   icon: "fas fa-code"
-    #   url: "https://www.acmicpc.net/user/jooncco"
 
 # Site Footer
 footer:
