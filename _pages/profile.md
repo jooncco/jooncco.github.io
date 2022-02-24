@@ -374,11 +374,6 @@ share: false
                 <span class="current-rating">1670</span>
                 <span class="percentage">0.78%</span>
             </div>
-            <div class="row-max-rating">
-                <span class="label">max. </span>
-                <span class="boj-rating-badge">Platinum V</span>
-                <span class="max-rating">1670</span>
-            </div>
         </div>
     </div>
     <div class="row" id="leetcode">
