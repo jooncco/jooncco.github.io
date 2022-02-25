@@ -63,7 +63,7 @@ share: false
                     <div class="cell">Position</div>
                 </div>
                 <div class="column data">
-                    <div class="cell">LG CNS</div>
+                    <div class="cell">LG CNS, LG U+</div>
                     <div class="cell">2021. 07. ~ 2022.02.</div>
                     <div class="cell">Full-stack</div>
                 </div>
@@ -114,7 +114,7 @@ share: false
                     <div class="cell">Position</div>
                 </div>
                 <div class="column data">
-                    <div class="cell">LG CNS</div>
+                    <div class="cell">LG CNS, 한화생명</div>
                     <div class="cell">2021. 02. ~ 2021. 06</div>
                     <div class="cell">Full-stack</div>
                 </div>
