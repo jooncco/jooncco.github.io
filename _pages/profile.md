@@ -9,7 +9,7 @@ share: false
 ---
 
 안녕하세요. 3년차 백엔드 개발자 **준꼬**입니다.  
-우리가 지금 하는 일은, **좀 더 편한 세상을 만드는 일**입니다.  
+우리는 **좀 더 편한 세상을 만드는 일**을 하는데,  
 그 과정이 고통스러워서는 안된다고 생각해요.
 
 <br />
@@ -25,26 +25,6 @@ share: false
 | 5. 코드 컨벤션 적용과 같이 반복되는 작업은 **자동화** 해버리는 걸 좋아해요. |
 | 6. 내용을 어떻게 전달해야 효과적일지 **의사소통 방법**에 대한 고민을 종종 합니다. |
 | 7. **시스템 요구사항**을 기계적으로 코드로 옮기기보다, 비즈니스에 대한 이해를 바탕으로 향후 생길만한 요건을 **예측**하고 **역제안**하는 매력있는 엔지니어이고 싶습니다. |
-
-<br />
-
-> 루틴.
-
-- Reading: **7 O'clock** every morning (☕️ included)
-- Workout: **3 times** a week
-- Contests: **Leetcode Weekly** on every Sunday 11:30 (UTC+9)
-
-<br />
-
-> 2022년 목표.
-
-- AWS certified developer associate 🏅
-- AWS certified solutions architect associate 🏅
-- Successful launch of [Kourseplate](https://github.com/kourseplate/about) 💯
-- Codeforces Expert 🦋
-- Read 12 books. Books are not for ornament 📔
-- Gain weight up to 177 pounds 🏋️
-- Mountain climbing every 3 months ⛰
 
 <br />
 
@@ -205,9 +185,9 @@ share: false
 
 <br />
 
-## Dev Skills 🛠
+## Skills 🛠
 
-<div id="dev-skills">
+<div id="skills">
     <div class="row">
         <div class="category">
             Back-end
@@ -471,11 +451,9 @@ share: false
 
 ## Outro.
 
+제 블로그의 소스코드는 여기에서 확인하실 수 있습니다.  
 [https://github.com/jooncco/jooncco.github.io](https://github.com/jooncco/jooncco.github.io)  
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?color=blue&style=plastic)](https://github.com/jooncco/jooncco.github.io/blob/dev/LICENSE)
-
-제 블로그의 소스코드는 여기에서 확인하실 수 있습니다.  
-마음에 드신다면 **Star**🌟 해주세요 :)  
 
 <script type='text/javascript' src='/public/js/custom/project.js'></script>
 <script type='text/javascript' src='/public/js/custom/cp.js'></script>
