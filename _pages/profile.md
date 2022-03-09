@@ -368,12 +368,12 @@ share: false
                 <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <span class="current-rating">1700</span>
-                <span class="percentage">5.26%</span>
+                <span class="current-rating">1735</span>
+                <span class="percentage">9.51%</span>
             </div>
             <div class="row-max-rating">
                 <span class="label">max. </span>
-                <span class="max-rating">1700</span>
+                <span class="max-rating">1735</span>
             </div>
         </div>
     </div>
