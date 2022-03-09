@@ -442,10 +442,10 @@ div#skills {
 div#competitive-programming {
 
   .row {
-    height: 90px;
+    height: 80px;
     width: 520px;
     margin: 8px 4px;
-    padding: 10px 3px;
+    padding: 6px;
     display: flex;
     border-radius: $border-radius;
 
@@ -470,7 +470,7 @@ div#competitive-programming {
 
     .description {
       display: block;
-      padding: 5px 10px;
+      padding: 0 10px;
       margin: 0 20px;
       line-height: 20px;
       width: 280px;
