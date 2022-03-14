@@ -2,7 +2,7 @@
 title: "정준하 (jooncco)"
 excerpt: "About developer jooncco."
 permalink: /profile
-last_modified_at: 2022-02-23T11:44:00+09:00
+last_modified_at: 2022-03-14T20:49:00+09:00
 toc: true
 toc_sticky: true
 share: false
@@ -44,7 +44,7 @@ share: false
                 </div>
                 <div class="column data">
                     <div class="cell">LG CNS, LG U+</div>
-                    <div class="cell">2021. 07. ~ 2022.02.</div>
+                    <div class="cell">2021.07 ~ 2022.02</div>
                     <div class="cell">Full-stack</div>
                 </div>
                 <div class="column artifacts">
@@ -95,7 +95,7 @@ share: false
                 </div>
                 <div class="column data">
                     <div class="cell">LG CNS, 한화생명</div>
-                    <div class="cell">2021. 02. ~ 2021. 06</div>
+                    <div class="cell">2021.02 ~ 2021.06</div>
                     <div class="cell">Full-stack</div>
                 </div>
                 <div class="column artifacts">
@@ -143,7 +143,7 @@ share: false
                 </div>
                 <div class="column data">
                     <div class="cell">LG CNS</div>
-                    <div class="cell">2020. 01. ~ 2020. 12</div>
+                    <div class="cell">2020.01 ~ 2020.12</div>
                     <div class="cell">Back-end</div>
                 </div>
                 <div class="column artifacts">
