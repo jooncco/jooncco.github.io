@@ -19,8 +19,9 @@ $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 $consolas: Consolas;
-$caskaydia-cove: CaskaydiaCove;
 $roboto: "Roboto Slab";
+$caskaydia-cove: CaskaydiaCove;
+$raleway: Raleway;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -33,8 +34,8 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $roboto !default;
-$header-font-family: $roboto !default;
+$global-font-family: $raleway !default;
+$header-font-family: $raleway !default;
 $caption-font-family: $roboto !default;
 
 /* type scale */
