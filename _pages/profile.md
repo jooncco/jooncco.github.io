@@ -33,7 +33,7 @@ share: false
 <div id="project">
     <div class="project-card">
         <blockquote id="lgcns-3" class="project-title">
-            Terraform과 Github API를 이용한 프로비저닝 자동화도구
+            개발팀 인프라&환경 원클릭 관리 시스템
         </blockquote>
         <div class="panel">
             <div class="panel-header">
@@ -84,7 +84,7 @@ share: false
     </div>
     <div class="project-card">
         <blockquote id="lgcns-2" class="project-title">
-            제휴사 포인트 관리/정산 시스템
+            제휴사 포인트 통합 관리 시스템
         </blockquote>
         <div class="panel">
             <div class="panel-header">
@@ -132,7 +132,7 @@ share: false
     </div>
     <div class="project-card">
         <blockquote id="lgcns-1" class="project-title">
-            카카오톡을 이용한 메뉴 주문 서비스
+            카톡봇 메뉴 주문 서비스 "Okimoki"
         </blockquote>
         <div class="panel">
             <div class="panel-header">
@@ -163,7 +163,7 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>고객</b>, 카카오톡 챗봇과 메시지를 통해 카페 및 식당 메뉴를 주문하고 싶다.
+                    As a <b>고객</b>, 카카오톡 챗봇을 통해서 카페 및 식당 메뉴를 주문하고 싶다.
                     그래서 <b>고객</b>은 줄을 서는 불편함을 겪지 않고, 감염병에 대한 노출도 줄일 수 있다.
                 </div>
             </div>
@@ -373,7 +373,7 @@ share: false
             </div>
             <div class="row-max-rating">
                 <span class="label">max. </span>
-                <span class="max-rating">1735</span>
+                <span class="max-rating">1774</span>
             </div>
         </div>
     </div>
