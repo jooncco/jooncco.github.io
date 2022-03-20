@@ -199,25 +199,52 @@ share: false
                     <span>ANSI SQL</span>
                 </li>
                 <li>
-                    <span>Spring Boot</span>
-                    <span>Spring Webflux</span>
                     <span>Spring AOP</span>
+                    <span>Spring Boot</span>
                     <span>Spring Cloud Open Feign</span>
+                    <span>Spring Social</span>
                     <span>Spring WebClient</span>
+                    <span>Spring Webflux</span>
                 </li>
                 <li>
-                    <span>JavaMailSender</span>
                     <span>Amazon S3 java sdk</span>
+                    <span>JavaMailSender</span>
                 </li>
                 <li>
                     <span>MyBatis</span>
                     <span>Spring Data JPA</span>
                 </li>
                 <li>
+                    <span>Maven</span>
                     <span>Gradle</span>
                 </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="category">
+            Front-end
+        </div>
+        <div class="content">
+            <ul>
                 <li>
-                    <span>AWS Lambda</span>
+                    <span>CSS 3 (SCSS)</span>
+                    <span>HTML 5</span>
+                    <span>JavaScript (ES6)</span>
+                    <span>TypeScript</span>
+                </li>
+                <li>
+                    <span>Context API</span>
+                    <span>Formik</span>
+                    <span>Material-UI</span>
+                    <span>React-Bootstrap</span>
+                    <span>React Router</span>
+                    <span>styled-components</span>
+                    <span>yup</span>
+                </li>
+                <li>
+                    <span>axios</span>
+                    <span>i18next</span>
                 </li>
             </ul>
         </div>
@@ -230,46 +257,16 @@ share: false
             <ul>
                 <li>
                     <span>EC2</span>
+                    <span>Heroku</span>
                 </li>
                 <li>
+                    <span>Amazon RDS</span>
                     <span>Flyway</span>
                     <span>MySQL</span>
                     <span>PostgreSQL</span>
-                    <span>Amazon RDS</span>
-                </li>
-                <li>
-                    <span>json-server</span>
                 </li>
                 <li>
                     <span>Docker</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="category">
-            Front-end
-        </div>
-        <div class="content">
-            <ul>
-                <li>
-                    <span>HTML 5</span>
-                    <span>CSS 3 (SCSS)</span>
-                    <span>TypeScript</span>
-                    <span>JavaScript (ES6)</span>
-                </li>
-                <li>
-                    <span>React-Bootstrap</span>
-                    <span>React Router</span>
-                    <span>Context API</span>
-                    <span>Material-UI</span>
-                    <span>styled-components</span>
-                    <span>Formik</span>
-                    <span>yup</span>
-                </li>
-                <li>
-                    <span>axios</span>
-                    <span>i18next</span>
                 </li>
             </ul>
         </div>
@@ -284,18 +281,18 @@ share: false
                     <span>C++17 STL</span>
                 </li>
                 <li>
+                    <span>Eclipse</span>
                     <span>IntelliJ</span>
                     <span>VS Code</span>
-                    <span>Eclipse</span>
                 </li>
                 <li>
-                    <span>Jira</span>
                     <span>Confluence</span>
+                    <span>Jira</span>
                     <span>Lucid chart</span>
                 </li>
                 <li>
-                    <span>Slack</span>
                     <span>Discord</span>
+                    <span>Slack</span>
                 </li>
                 <li>
                     <span>GitHub</span>
