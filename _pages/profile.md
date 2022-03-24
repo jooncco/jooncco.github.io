@@ -367,8 +367,8 @@ and foods are just food.
                 <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <span class="current-rating">1774</span>
-                <span class="percentage">7.83%</span>
+                <span class="current-rating">1776</span>
+                <span class="percentage">7.74%</span>
             </div>
             <div class="row-max-rating">
                 <span class="label">max. </span>
