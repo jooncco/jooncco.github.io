@@ -312,7 +312,9 @@ share: false
 
 ## Competitive Programming 🏆
 
-운동선수에게 **피지컬**이 중요하듯 내게 **알고리즘**이 도움이 된다는 믿음  
+We all are **athletes**,  
+**problem solving** is a **weight training**,  
+and foods are just food.
 
 <div id="competitive-programming">
     <div class="row" id="codeforces">
@@ -368,8 +370,8 @@ share: false
                 <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <span class="current-rating">1774</span>
-                <span class="percentage">7.83%</span>
+                <span class="current-rating">1776</span>
+                <span class="percentage">7.74%</span>
             </div>
             <div class="row-max-rating">
                 <span class="label">max. </span>
