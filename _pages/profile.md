@@ -312,10 +312,6 @@ share: false
 
 ## Competitive Programming 🏆
 
-We all are **athletes**,  
-**problem solving** is a **weight training**,  
-and foods are just food.
-
 <div id="competitive-programming">
     <div class="row" id="codeforces">
         <div class="logo">
@@ -370,12 +366,12 @@ and foods are just food.
                 <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <span class="current-rating">1776</span>
-                <span class="percentage">7.74%</span>
+                <span class="current-rating">1803</span>
+                <span class="percentage">6.75%</span>
             </div>
             <div class="row-max-rating">
                 <span class="label">max. </span>
-                <span class="max-rating">1774</span>
+                <span class="max-rating">1803</span>
             </div>
         </div>
     </div>
