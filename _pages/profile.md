@@ -8,7 +8,7 @@ toc_sticky: true
 share: false
 ---
 
-안녕하세요. 3년차 풀스택 개발자 **준꼬**입니다.  
+안녕하세요. 3년차 백엔드 개발자 **준꼬**입니다.  
 우리는 **좀 더 편한 세상을 만드는 일**을 하는데,  
 그 과정이 고통스러워서는 안된다고 생각해요.
 
@@ -21,7 +21,7 @@ share: false
 | 1. 모국어는 **Java**, 외국어는 **JavaScript**입니다. (제2외국어는 python?) |
 | 2. **Spring Boot**, **React**를 이용한 서비스 개발을 주로 해왔어요. |
 | 3. **변수명**을 (정말로) 중요하게 생각합니다. 매일 하는 고민인데도 항상 어렵네요. |
-| 4. **읽기 쉽고**, **예상되는 동작**을 **정확하게** 하는 코드가 좋은 코드라고 생각해요. |
+| 4. **읽기 쉽고**, 예상되는 동작을 **정확하게** 하는 코드가 좋은 코드라고 생각해요. |
 | 5. **리팩터링**이 필요한 부분은 적극적으로 합니다. 고친 부분은 **테스트코드**를 추가해서 검증을 더 철저하게 하는 편이에요. |
 | 6. 쓸데없이 반복된다고 생각되는 작업은 **자동화**를 고려해요. |
 | 7. 내용을 어떻게 전달해야 효과적일지 **의사소통 방법**에 대한 고민을 종종 합니다. |
@@ -34,7 +34,7 @@ share: false
 <div id="project">
     <div class="project-card">
         <blockquote id="lgcns-3" class="project-title">
-            개발팀 인프라 & 개발환경 원클릭 관리 시스템
+            인프라 & 개발환경 원클릭 관리 시스템
         </blockquote>
         <div class="panel">
             <div class="panel-header">
@@ -66,15 +66,15 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>U+ 클라우드 사업팀</b>, 퍼블릭 클라우드의 인프라 프로비저닝 서비스를 규격화, 자동화하여 편리하고 Vendor 독립적인 방식으로 사용하고 싶다. 그래서 <b>U+ 클라우드 사업팀</b>은 기술부채를 해결하고 business에 대한 agility를 높일 수 있다.
+                    As a <b>U+ 클라우드 사업팀</b>, 퍼블릭 클라우드의 인프라 프로비저닝 서비스를 규격화, 자동화하여 Vendor 독립적인 방식으로 사용하며 모니터링하고 싶다. 그래서 <b>U+ 클라우드 사업팀</b>은 기술부채를 빠르게 해결하고 business에 대한 agility를 높일 수 있다.
                 </div>
             </div>
             <div class="contributions">
                 <h5>Contributions</h5>
                 <div class="body">
                     <ul>
-                        <li><span><b>REST API</b> 개발[Spring Boot]: 회원가입, 로그인, 회원인증, Git CRUD 등</span></li>
-                        <li><span><b>화면</b>개발[React.ts]: 서비스 생성화면, 환경 생성화면, 로딩바 공통 컴포넌트</span></li>
+                        <li><span><b>REST API</b> 개발: 회원가입, 로그인, 회원인증, Git CRUD 등</span></li>
+                        <li><span><b>화면</b>개발: 서비스 생성화면, 환경 생성화면, 공통 컴포넌트</span></li>
                         <li><span>사용자인증 설계, 개발</span></li>
                         <li><span>DB Schema 초안 설계</span></li>
                         <li><span>spotless 적용 자동화</span></li>
@@ -124,8 +124,8 @@ share: false
                 <h5>Contributions</h5>
                 <div class="body">
                     <ul>
-                        <li><span><b>REST API</b> 개발[Spring Boot]: 포인트 발급, 지불, 환급 등</span></li>
-                        <li><span><b>화면</b>개발[React.ts]: 포인트 이력(Admin), 헤더, 네비게이션 바 공통 컴포넌트</span></li>
+                        <li><span><b>REST API</b> 개발: 포인트 발급, 지불, 환급 등</span></li>
+                        <li><span><b>화면</b>개발: 포인트 이력(Admin), 헤더, 공통 컴포넌트</span></li>
                     </ul>
                 </div>
             </div>
@@ -172,7 +172,7 @@ share: false
                 <h5>Contributions</h5>
                 <div class="body">
                     <ul>
-                        <li><span><b>REST API</b> 개발[Spring Boot]: 매장, 계정, 리소스, 관리자 백엔드 서비스</span></li>
+                        <li><span><b>REST API</b> 개발: 매장, 계정, 리소스, 관리자 백엔드 서비스</span></li>
                         <li><span>사용자 인증 설계, 개발</span></li>
                         <li><span>메뉴, 옵션, 장바구니 DB Schema 설계</span></li>
                     </ul>
@@ -200,16 +200,16 @@ share: false
                     <span>ANSI SQL</span>
                 </li>
                 <li>
-                    <span>Spring AOP</span>
                     <span>Spring Boot</span>
-                    <span>Spring Cloud Open Feign</span>
                     <span>Spring Social</span>
+                    <span>Spring AOP</span>
+                    <span>Spring Cloud Open Feign</span>
                     <span>Spring WebClient</span>
                     <span>Spring Webflux</span>
                 </li>
                 <li>
-                    <span>Querydsl</span>
                     <span>Spring Data JPA</span>
+                    <span>Querydsl-JPA</span>
                     <span>MyBatis</span>
                 </li>
                 <li>
