@@ -292,6 +292,7 @@ div#project {
   
     div {
       &.panel {
+        padding: 0 2%;
         max-height: 0;
         overflow: hidden;
         -webkit-transition: max-height 0.5s;
@@ -301,17 +302,16 @@ div#project {
         transition: max-height 0.5s;
   
         .panel-header {
-          margin: 0 3%;
-          padding: 0 2%;
+          padding: 5px;
           display: flex;
-          width: 86%;
+          width: 96%;
           flex-wrap: wrap;
           border: solid;
           border-width: 3px;
           border-color: #ccc;
   
           .column {
-            margin: 10px 0;
+            padding: 0 3px;
             display: flex;
             flex-direction: column;
             flex: 1;
@@ -319,7 +319,11 @@ div#project {
           }
           
           .column.head {
-            font-weight: 900;
+            font-weight: 950;
+            font-size: $type-size-7;
+          }
+
+          .column.data {
             font-size: $type-size-7;
           }
           
@@ -343,12 +347,12 @@ div#project {
     
         .description {
           h5 {
-            margin: 2% 4% 0 4%;
+            margin: 1% 2%;
             font-size: $type-size-5;
           }
           .body {
-            margin: 1% 4%;
-            padding: 8px; 
+            margin: 1% 2%;
+            padding: 8px;
             width: 74%;
             border-radius: $border-radius;
             background-color: $span-background-color;
@@ -357,21 +361,20 @@ div#project {
         }
         .contributions {
           h5 {
-            margin: 2% 4% 0 4%;
+            margin: 1% 2%;
             font-size: $type-size-5;
           }
           .body {
-  
+            margin: 1% 2%;
             ul {
               margin: 0;
-              padding: 0 8px;
+              padding: 0;
               width: 80%;
               list-style-type: none;
   
               li {
-                margin: 4px 10px;
-                padding: 0 0 0 2%;
-    
+                margin: 3px 0;
+                padding: 0;
                 span {
                   padding: 5px 2% 2px 1.5%;
                   border-radius: $border-radius;
@@ -441,12 +444,10 @@ div#skills {
 div#competitive-programming {
 
   .row {
-    height: 80px;
-    width: 520px;
-    margin: 8px 4px;
-    padding: 6px;
+    padding: 14px 10px;
     display: flex;
     border-radius: $border-radius;
+    vertical-align: auto;
 
     .logo {
       padding: 2.5px 0;
@@ -460,8 +461,8 @@ div#competitive-programming {
     }
 
     .title {
+      line-height: 45px;
       width: 140px;
-      line-height: 50px;
       padding: 0 10px 0 20px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: $type-size-5;
@@ -469,8 +470,7 @@ div#competitive-programming {
 
     .description {
       display: block;
-      padding: 0 10px;
-      margin: 0 20px;
+      padding: 0 30px;
       line-height: 20px;
       width: 280px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

@@ -2,7 +2,7 @@
 title: "정준하 (jooncco)"
 excerpt: "About developer jooncco."
 permalink: /profile
-last_modified_at: 2022-03-14T20:49:00+09:00
+last_modified_at: 2022-06-19T20:49:00+09:00
 toc: true
 toc_sticky: true
 share: false
@@ -18,13 +18,14 @@ share: false
 
 > 저는 이런 개발자입니다.
 
-| 1. 모국어 2개(Java, C++)와 여타 언어도 제법 구사하는 **polyglot** capability를 지향합니다. |
-| 2. **변수명**을 (정말로) 중요하게 생각합니다. 매일 하는 고민인데도 항상 어렵네요. |
-| 3. **읽기 쉽고**, 뭐 **추가할 때 편한** 코드가 좋은 코드라고 생각해요. |
-| 4. **리팩터링**이 필요한 부분은 적극적으로 합니다. 고친 코드는 검증을 더 철저하게 하는 편이에요. |
-| 5. 코드 컨벤션 적용과 같이 반복되는 작업은 **자동화** 해버리는 걸 좋아해요. |
-| 6. 내용을 어떻게 전달해야 효과적일지 **의사소통 방법**에 대한 고민을 종종 합니다. |
-| 7. **시스템 요구사항**을 기계적으로 코드로 옮기기보다, 비즈니스에 대한 이해를 바탕으로 향후 생길만한 요건을 **예측**하고 **역제안**하는 매력있는 엔지니어이고 싶습니다. |
+| 1. **Java**를 제일 좋아하고, 많이 써왔어요. |
+| 2. **Spring Boot**, **React**를 이용한 서비스 개발을 주로 경험했습니다. |
+| 3. **변수명**을 (정말로) 중요하게 생각합니다. 매일 하는 고민인데도 항상 어렵네요. |
+| 4. **읽기 쉽고**, 예상되는 동작을 **정확하게** 하는 코드가 좋은 코드라고 생각해요. |
+| 5. **리팩터링**이 필요한 부분은 적극적으로 합니다. 고친 부분은 **테스트코드**를 추가해서 검증을 더 철저하게 하는 편이에요. |
+| 6. 쓸데없이 반복된다고 생각되는 작업은 **자동화**를 고려해요. |
+| 7. 내용을 어떻게 전달해야 효과적일지 **의사소통 방법**에 대한 고민을 종종 합니다. |
+| 8. **코드몽키**가 될거면 차라리 개발자를 안하는게 낫다고 생각해요. 우리는 비즈니스의 본질을 이해하고, 향후 생길만한 이슈를 **예측**하고 **대응**할 수 있는 **엔지니어**입니다. |
 
 <br />
 
@@ -32,8 +33,65 @@ share: false
 
 <div id="project">
     <div class="project-card">
+        <blockquote id="lgcns-4" class="project-title">
+            NFT 거래소
+        </blockquote>
+        <div class="panel">
+            <div class="panel-header">
+                <div class="column head">
+                    <div class="cell">Organization</div>
+                    <div class="cell">Period</div>
+                    <div class="cell">Position</div>
+                </div>
+                <div class="column data">
+                    <div class="cell">LG CNS, 빗썸</div>
+                    <div class="cell">2022.03 ~ </div>
+                    <div class="cell">Full-stack</div>
+                </div>
+                <div class="column artifacts">
+                    <div class="cell-rowspan-2">
+                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
+                        <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/spring-data.png" title="spring data jpa"/>
+                        <img class="artifact_img" src="/public/images/querydsl.png" title="querydsl"/>
+                        <img class="artifact_img" src="/public/images/hibernate.png" title="hibernate"/>
+                        <img class="artifact_img" src="/public/images/flyway.png" title="flyway"/>
+                        <img class="artifact_img" src="/public/images/mysql.svg" title="mysql"/>
+                        <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
+                        <img class="artifact_img" src="/public/images/docker.svg" title="docker"/>
+                        <img class="artifact_img" src="/public/images/aws.jpeg" title="aws"/>
+                        <img class="artifact_img" src="/public/images/twitter.png" title="twitter api"/>
+                        <img class="artifact_img" src="/public/images/discord.png" title="discord api"/>
+                        <img class="artifact_img" src="/public/images/instagram.png" title="instagram api"/>
+                        <img class="artifact_img" src="/public/images/telegram.png" title="telegram api"/>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h5>Description</h5>
+                <div class="body">
+                    As a <b>Creator</b>, 나의 예술 작품들을 NFT로 Minting 하고, Launchpad 및 Whitelist 미션을 통해 프로모션/판매 하고싶다. 그래서 <b>Creator</b>는 본인의 예술작품을 통해 수익을 창출하고, community도 활성화 할 수 있다.
+                </div>
+                <div class="body">
+                    As a <b>Consumer</b>, NFT 구매에 필요한 미션들을 수행하고, 거래 활동에 참여할 수 있다. 그래서 <b>Consumer</b>는 거래 활동을 통해 수익을 창출하고, 구매한 NFT를 통해 web 3.0 기반의 community에서 활동 할 수 있다.
+                </div>
+            </div>
+            <div class="contributions">
+                <h5>Contributions</h5>
+                <div class="body">
+                    <ul>
+                        <li><span><b>[BE]</b> NFT 검수요청 목록조회, Reserved NFT 목록조회, Launchpad 승인내역 조회 rest api</span></li>
+                        <li><span><b>[FE+BE]</b> Twitter, Discord, Instagram, Telegram 계정 연결(OAuth), 미션 수행여부 확인</span></li>
+                        <li><span><b>[FE+BE]</b> Metamask 설치여부 조회, 연결상태/지갑주소 조회, 지갑 연결기능</span></li>
+                        <li><span><b>[FE+BE]</b> Launchpad 신청/임시저장 내역 조회, Launchpad 상세설정</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-card">
         <blockquote id="lgcns-3" class="project-title">
-            개발팀 인프라&환경 원클릭 관리 시스템
+            Cloud 인프라 & 개발환경 원클릭 관리 시스템
         </blockquote>
         <div class="panel">
             <div class="panel-header">
@@ -49,34 +107,36 @@ share: false
                 </div>
                 <div class="column artifacts">
                     <div class="cell-rowspan-2">
+                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
                         <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
+                        <img class="artifact_img" src="/public/images/thymeleaf.png" title="thymeleaf"/>
                         <img class="artifact_img" src="/public/images/mybatis.png" title="mybatis"/>
                         <img class="artifact_img" src="/public/images/flyway.png" title="flyway"/>
                         <img class="artifact_img" src="/public/images/mysql.svg" title="mysql"/>
-                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
                         <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
                         <img class="artifact_img" src="/public/images/docker.svg" title="docker"/>
                         <img class="artifact_img" src="/public/images/aws.jpeg" title="aws"/>
-                        <img class="artifact_img" src="/public/images/terraform.png" title="terraform"/>
-                        <img class="artifact_img" src="/public/images/github.png" title="github"/>
+                        <img class="artifact_img" src="/public/images/terraform.png" title="terraform api"/>
+                        <img class="artifact_img" src="/public/images/github.png" title="github api"/>
                     </div>
                 </div>
             </div>
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>클라우드 사업팀</b>, 클라우드 Vendor가 제공하는 인프라 프로비저닝 서비스를 규격화, 자동화하여 Vendor 독립적으로 사용하고 싶다. 그래서 <b>클라우드 사업팀</b>은 business에 대한 agility를 높일 수 있다.
+                    As a <b>LG U+ 클라우드 사업팀</b>, 퍼블릭 클라우드의 인프라 프로비저닝 서비스를 규격화, 자동화하여 Vendor 독립적인 방식으로 사용하며 모니터링하고 싶다. 그래서 <b>LG U+ 클라우드 사업팀</b>은 기술부채를 빠르게 해결하고 business에 대한 agility를 높일 수 있다.
                 </div>
             </div>
             <div class="contributions">
                 <h5>Contributions</h5>
                 <div class="body">
                     <ul>
-                        <li><span>REST API 개발: login, sign up, user auth, create repository 등</span></li>
-                        <li><span>화면개발: 서비스/환경 생성화면, 공통 로딩바</span></li>
-                        <li><span>사용자인증 설계, 개발</span></li>
-                        <li><span>데이터 모델 설계</span></li>
-                        <li><span>spotless 자동화</span></li>
+                        <li><span><b>[FE+BE]</b> 사용자인증 설계, 개발</span></li>
+                        <li><span><b>[BE]</b> 회원가입, 로그인, 회원인증, Git 리소스 CRUD api 연동 rest api</span></li>
+                        <li><span><b>[BE]</b> 인증/알림메일 템플릿(thymeleaf), 메일 발송기능 개발(amazon sns)</span></li>
+                        <li><span><b>[FE]</b> 서비스 생성화면, 환경 생성화면, 공통 컴포넌트</span></li>
+                        <li><span><b>[DB]</b> Table Schema 초안 설계</span></li>
+                        <li><span><b>[Misc.]</b> spotless 적용 자동화(git commit hook)</span></li>
                     </ul>
                 </div>
             </div>
@@ -100,11 +160,11 @@ share: false
                 </div>
                 <div class="column artifacts">
                     <div class="cell-rowspan-2">
+                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
                         <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
                         <img class="artifact_img" src="/public/images/mybatis.png" title="mybatis"/>
                         <img class="artifact_img" src="/public/images/flyway.png" title="flyway"/>
                         <img class="artifact_img" src="/public/images/mysql.svg" title="mysql"/>
-                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
                         <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
                         <img class="artifact_img" src="/public/images/docker.svg" title="docker"/>
                         <img class="artifact_img" src="/public/images/aws.jpeg" title="aws"/>
@@ -115,16 +175,16 @@ share: false
             <div class="description">
                 <h5>Description</h5>
                 <div class="body">
-                    As a <b>포인트 서비스 제공자</b>, 고객 포인트의 발급/환불/정산 등의 업무를 자동화하고 제휴사 포인트들을 하나의 시스템에서 통합 관리하고 싶다.
-                    그래서 <b>포인트 서비스 제공자</b>는 고객 포인트 소비경험의 질을 향상시킬 수 있다.
+                    As a <b>한화생명</b>, 고객 포인트를 <b>Klaytn 지갑</b>으로 관리하며 발급, 환불, 정산 등의 업무를 처리하고 싶다.
+                    그래서 <b>한화생명</b>은 서비스 안정성을 확보하고, 고객 포인트 소비경험의 질을 향상시킬 수 있다.
                 </div>
             </div>
             <div class="contributions">
                 <h5>Contributions</h5>
                 <div class="body">
                     <ul>
-                        <li><span>REST API 개발: 포인트 발급, 지불, 환급 등</span></li>
-                        <li><span>화면개발: 포인트 이력(Admin), 헤더, 네비게이션 바</span></li>
+                        <li><span><b>[BE]</b> 포인트 발급, 지불, 환급 등 rest api</span></li>
+                        <li><span><b>[FE]</b> 포인트 이력(Admin), 공통 컴포넌트(Header, Left Nav bar ...)</span></li>
                     </ul>
                 </div>
             </div>
@@ -148,11 +208,12 @@ share: false
                 </div>
                 <div class="column artifacts">
                     <div class="cell-rowspan-2">
+                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
                         <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
                         <img class="artifact_img" src="/public/images/spring-webflux.png" title="spring webflux"/>
                         <img class="artifact_img" src="/public/images/spring-data.png" title="spring data jpa"/>
+                        <img class="artifact_img" src="/public/images/hibernate.png" title="hibernate"/>
                         <img class="artifact_img" src="/public/images/postgresql.svg" title="postgresql"/>
-                        <img class="artifact_img" src="/public/images/react.svg" title="react"/>
                         <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
                         <img class="artifact_img" src="/public/images/docker.svg" title="docker"/>
                         <img class="artifact_img" src="/public/images/aws.jpeg" title="aws"/>
@@ -171,9 +232,9 @@ share: false
                 <h5>Contributions</h5>
                 <div class="body">
                     <ul>
-                        <li><span>4개 마이크로서비스 REST API 개발: store, account, resource, manager</span></li>
-                        <li><span>사용자 인증 설계, 개발</span></li>
-                        <li><span>메뉴, 옵션, 장바구니 데이터모델 설계</span></li>
+                        <li><span><b>[BE]</b> 매장, 계정, 리소스, 관리자 micro services</span></li>
+                        <li><span><b>[BE]</b> 사용자 인증 설계, 개발</span></li>
+                        <li><span><b>[DB]</b> 메뉴, 옵션, 장바구니 Table Schema 설계</span></li>
                     </ul>
                 </div>
             </div>
@@ -199,24 +260,25 @@ share: false
                     <span>ANSI SQL</span>
                 </li>
                 <li>
-                    <span>Spring AOP</span>
                     <span>Spring Boot</span>
-                    <span>Spring Cloud Open Feign</span>
                     <span>Spring Social</span>
+                    <span>Spring AOP</span>
+                    <span>Spring Cloud Open Feign</span>
                     <span>Spring WebClient</span>
                     <span>Spring Webflux</span>
                 </li>
                 <li>
+                    <span>Spring Data JPA</span>
+                    <span>Querydsl-JPA</span>
+                    <span>MyBatis</span>
+                </li>
+                <li>
+                    <span>Gradle</span>
+                    <span>Maven</span>
+                </li>
+                <li>
                     <span>Amazon S3 java sdk</span>
                     <span>JavaMailSender</span>
-                </li>
-                <li>
-                    <span>MyBatis</span>
-                    <span>Spring Data JPA</span>
-                </li>
-                <li>
-                    <span>Maven</span>
-                    <span>Gradle</span>
                 </li>
             </ul>
         </div>
@@ -228,15 +290,16 @@ share: false
         <div class="content">
             <ul>
                 <li>
-                    <span>CSS 3 (SCSS)</span>
                     <span>HTML 5</span>
+                    <span>CSS 3 (SCSS)</span>
                     <span>JavaScript (ES6)</span>
                     <span>TypeScript</span>
                 </li>
                 <li>
+                    <span>Material-UI</span>
+                    <span>MobX</span>
                     <span>Context API</span>
                     <span>Formik</span>
-                    <span>Material-UI</span>
                     <span>React-Bootstrap</span>
                     <span>React Router</span>
                     <span>styled-components</span>
@@ -260,10 +323,10 @@ share: false
                     <span>Heroku</span>
                 </li>
                 <li>
-                    <span>Amazon RDS</span>
                     <span>Flyway</span>
                     <span>MySQL</span>
                     <span>PostgreSQL</span>
+                    <span>Amazon RDS</span>
                 </li>
                 <li>
                     <span>Docker</span>
@@ -308,10 +371,6 @@ share: false
 <!-- ## Achievements -->
 
 ## Competitive Programming 🏆
-
-We all are **athletes**,  
-**problem solving** is a **weight training**,  
-and foods are just food.
 
 <div id="competitive-programming">
     <div class="row" id="codeforces">
@@ -367,12 +426,12 @@ and foods are just food.
                 <span class="handle">jooncco</span>
             </div>
             <div class="row-stats">
-                <span class="current-rating">1776</span>
-                <span class="percentage">7.74%</span>
+                <span class="current-rating">1803</span>
+                <span class="percentage">6.75%</span>
             </div>
             <div class="row-max-rating">
                 <span class="label">max. </span>
-                <span class="max-rating">1774</span>
+                <span class="max-rating">1803</span>
             </div>
         </div>
     </div>
