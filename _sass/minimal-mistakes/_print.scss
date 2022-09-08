@@ -3,7 +3,6 @@
    ========================================================================== */
 
 @media print {
-
   [hidden] {
     display: none;
   }
@@ -176,7 +175,8 @@
 
   a[href^='http://']:after,
   a[href^='https://']:after,
-  a[href^='ftp://']:after {
+  a[href^='ftp://']:after
+  {
     content: " (" attr(href) ")";
     font-size: 80%;
   }
@@ -210,12 +210,12 @@
   }
 
   a.no-reformat:after {
-    content: '';
+    content: "";
   }
 
   abbr[title].no-reformat:after,
   acronym[title].no-reformat:after {
-    content: '';
+    content: "";
   }
 
   .page__hero-caption {
@@ -228,7 +228,7 @@
     }
   }
 
-/*
+  /*
    Hide the following elements on print
    ========================================================================== */
 
@@ -260,10 +260,9 @@ blockquote {
 }
 
 div#project {
-
   .project-card {
     margin: 30px 5px;
-  
+
     .project-title {
       padding: 1% 2.5%;
       border-radius: $border-radius;
@@ -272,24 +271,25 @@ div#project {
       font-weight: bold;
       cursor: pointer;
     }
-  
+
     .project-title:after {
-      content: '\02795';
+      content: "\02795";
       font-size: $type-size-5;
       color: $text-color;
       float: right;
       padding-left: 5px;
     }
-  
-    .project-title:hover, .active {
+
+    .project-title:hover,
+    .active {
       cursor: pointer;
       background-color: rgba($primary-color, 0.15);
     }
-  
+
     .active:after {
-      content: '\2796'; /* Unicode character for "minus" sign (-) */
+      content: "\2796"; /* Unicode character for "minus" sign (-) */
     }
-  
+
     div {
       &.panel {
         padding: 0 2%;
@@ -300,7 +300,7 @@ div#project {
         -ms-transition: max-height 0.5s;
         -o-transition: max-height 0.5s;
         transition: max-height 0.5s;
-  
+
         .panel-header {
           padding: 5px;
           display: flex;
@@ -309,7 +309,7 @@ div#project {
           border: solid;
           border-width: 3px;
           border-color: #ccc;
-  
+
           .column {
             padding: 0 3px;
             display: flex;
@@ -317,7 +317,7 @@ div#project {
             flex: 1;
             font-size: $type-size-8;
           }
-          
+
           .column.head {
             font-weight: 950;
             font-size: $type-size-7;
@@ -326,25 +326,25 @@ div#project {
           .column.data {
             font-size: $type-size-7;
           }
-          
+
           .column.artifacts {
             padding: 1.5%;
             flex: 2;
           }
-          
+
           .cell {
             display: flex;
             flex: 0 0 33.3%;
             -webkit-flex: 0 0 33.3%;
             align-items: center;
           }
-          
+
           .cell-rowspan-2 {
             flex: 0 0 100%;
             -webkit-flex: 0 0 100%;
           }
         }
-    
+
         .description {
           h5 {
             margin: 1% 2%;
@@ -370,10 +370,9 @@ div#project {
               margin: 0;
               padding: 0;
               width: 80%;
-              list-style-type: none;
-  
+
               li {
-                margin: 3px 0;
+                margin: 3px 20px;
                 padding: 0;
                 span {
                   padding: 5px 2% 2px 1.5%;
@@ -391,7 +390,6 @@ div#project {
 } // end of div#project
 
 div#skills {
-
   .row {
     margin: 8px 0;
     display: flex;
@@ -430,7 +428,7 @@ div#skills {
     }
   }
 }
-  
+
 .artifact_img {
   width: 30px;
   height: 30px;
@@ -442,7 +440,6 @@ div#skills {
 } // end of div#skills
 
 div#competitive-programming {
-
   .row {
     padding: 14px 10px;
     display: flex;
@@ -464,7 +461,8 @@ div#competitive-programming {
       line-height: 45px;
       width: 140px;
       padding: 0 10px 0 20px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
       font-size: $type-size-5;
     }
 
@@ -473,7 +471,8 @@ div#competitive-programming {
       padding: 0 30px;
       line-height: 20px;
       width: 280px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
       font-size: $type-size-7;
       font-weight: 400;
 
@@ -501,7 +500,7 @@ div#competitive-programming {
         border-color: #23a9b0;
         font-size: 9px;
         font-weight: 900;
-        color: #23a9b0
+        color: #23a9b0;
       }
 
       .boj-rating-badge {
