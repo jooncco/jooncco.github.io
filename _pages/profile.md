@@ -51,8 +51,8 @@ share: false
                         <img class="artifact_img" src="/public/images/react.svg" title="react"/>
                         <img class="artifact_img" src="/public/images/spring-boot.png" title="spring boot"/>
                         <img class="artifact_img" src="/public/images/spring-data.png" title="spring data jpa"/>
-                        <img class="artifact_img" src="/public/images/querydsl.png" title="querydsl"/>
                         <img class="artifact_img" src="/public/images/hibernate.png" title="hibernate"/>
+                        <img class="artifact_img" src="/public/images/querydsl.png" title="querydsl"/>
                         <img class="artifact_img" src="/public/images/flyway.png" title="flyway"/>
                         <img class="artifact_img" src="/public/images/mysql.svg" title="mysql"/>
                         <img class="artifact_img" src="/public/images/gradle.png" title="gradle"/>
