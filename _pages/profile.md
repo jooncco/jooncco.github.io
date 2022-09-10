@@ -2,7 +2,7 @@
 title: "정준하 (jooncco)"
 excerpt: "About developer jooncco."
 permalink: /profile
-last_modified_at: 2022-06-19T20:49:00+09:00
+last_modified_at: 2022-09-09T18:40:00+09:00
 toc: true
 toc_sticky: true
 share: false
