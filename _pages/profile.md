@@ -78,6 +78,7 @@ share: false
                 <h5>Contributions</h5>
                 <div class="body">
                     <ul>
+                        <li><span>나의 지갑 관리</span></li>
                         <li><span>Ethereum/Solana withdraw</span></li>
                         <li><span>Nft export</span></li>
                         <li><span>사용자가 보유한 NFT 목록조회 rest api</span></li>
