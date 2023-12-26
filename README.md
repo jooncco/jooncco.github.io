@@ -3,12 +3,10 @@
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
 [![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
 
-> [jooncco.com](https://jooncco.com)  
+> [jooncco.github.io](https://jooncco.github.io)  
 
 Jekyll 기반의 테마 [**Minimal Mistakes**](https://rubygems.org/gems/minimal-mistakes-jekyll)를 커스터마이징해서 만든 기술 블로그입니다.  
-블로그가 마음에 드신다면, 마음껏 fork/clone 하셔서 활용하셔도 됩니다.
-
-하지만 Star🌟 는 잊지 말아주세요!
+블로그가 마음에 드신다면, 마음껏 fork/clone 하셔서 활용하셔도 됩니다. 유용하셨다면 Star🌟 는 잊지 말아주세요 :)  
 
 ## Features
 - Gem 테마로 번들되어 있어 쉬운 설치
