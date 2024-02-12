@@ -1,6 +1,5 @@
 ---
 title: "정준하 (jooncco)"
-excerpt: "About developer jooncco."
 permalink: /profile
 last_modified_at: 2022-09-09T18:40:00+09:00
 toc: true
@@ -8,9 +7,7 @@ toc_sticky: true
 share: false
 ---
 
-> **Notice**  
-> 이 블로그는 더이상 운영되지 않습니다.  
-> New url: [about-jooncco](https://about-jooncco.vercel.app)
+> **이 블로그는 2022년에 멈춰있습니다. [새로운 공간](https://about-jooncco.vercel.app)으로 놀러오세요 :)**
 
 안녕하세요. **4년차 개발자** 준꼬입니다.  
 개발을 누구보다 좋아하고, 궁금한게 있으면 집요하게 찾아보고 본질을 파악하는 편이에요.
