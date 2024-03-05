@@ -1,0 +1,46 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<!-- Filter posts by category -->
+{% assign posts = site.posts | where: "category", page.category_filter %}
+
+<!-- All tags from the filtered -->
+{% assign tags = posts | map: 'tags' | join: ',' | split: ',' | uniq | compress | sort %}
+
+<!-- Array of tag with posts -->
+<!-- [ [TAG_NAME_1, [POSTS...]], [TAG_NAME_2, [POSTS...]] ] -->
+{% assign tagObjects = "" | split: "" %}
+{% for tag in tags %}
+    {% assign postsWithTag = posts | where: "tags", tag %}
+    {% assign tagObject = "" | split: "" %}
+    {% assign tagObject = tagObject | push: tag %}
+    {% assign tagObject = tagObject | push: postsWithTag %}
+    {% assign tagObjects = tagObjects | push: tagObject %}
+{% endfor %}
+
+<!-- Render Tags -->
+<ul class="taxonomy__index">
+    {% for tagObject in tagObjects %}
+        <li>
+            <a href="#{{ tagObject[0] | slugify }}">
+                <strong>{{ tagObject[0] }}</strong> <span class="taxonomy__count">{{ tagObject[1] | size }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+<!-- Render Entries -->
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% for tagObject in tagObjects %}
+    <section id="{{ tagObject[0] | slugify }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ tagObject[0] }}</h2>
+        <div class="entries-{{ entries_layout }}">
+            {% for post in tagObject[1] %}
+                {% include archive-single.html type=entries_layout %}
+            {% endfor %}
+        </div>
+    </section>
+{% endfor %}

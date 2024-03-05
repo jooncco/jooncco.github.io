@@ -1,9 +1,11 @@
 ---
 title: "[Git] 변경사항 취소하기"
 header:
-  overlay_image: /public/images/git.jpeg
-categories:
-  - Git
+  teaser: /public/images/git-teaser.png
+  og_image: /public/images/git-teaser.png
+category: web
+tags:
+  - DevOps
 toc: true
 toc_sticky: true
 ---

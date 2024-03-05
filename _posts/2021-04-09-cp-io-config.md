@@ -1,9 +1,11 @@
 ---
 title: "[Algorithms] c++ 표준 입출력 설정"
 header:
-  overlay_image: /public/images/problem-solving-common-header.png
-categories:
-  - Algorithms
+  teaser: /public/images/cpp-teaser.png
+  og_image: /public/images/cpp-teaser.png
+category: competitive-programming
+tags:
+  - Tips
 ---
 
 <cite><b>"test case 입출력이 많을 때 I/O 과정에서 병목이 발생하는걸 방지하자."</b></cite>

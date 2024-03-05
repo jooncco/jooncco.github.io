@@ -4,20 +4,21 @@ layout: archive
 
 {{ content }}
 
-{% assign tags_max = 0 %}
+<!-- Tag names in ascending order -->
+{% assign tagNames = "" | split: "" %}
 {% for tag in site.tags %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
-  {% endif %}
+  {% assign tagNames = tagNames | push: tag[0] %}
 {% endfor %}
+{% assign tagNames = tagNames | sort %}
 
+<!-- Render Tags -->
 <ul class="taxonomy__index">
-  {% for i in (1..tags_max) reversed %}
+  {% for tagName in tagNames %}
     {% for tag in site.tags %}
-      {% if tag[1].size == i %}
+      {% if tag[0] == tagName %}
         <li>
           <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ tag[1] | size }}</span>
           </a>
         </li>
       {% endif %}
@@ -25,10 +26,11 @@ layout: archive
   {% endfor %}
 </ul>
 
+<!-- Render Entries -->
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..tags_max) reversed %}
+{% for tagName in tagNames %}
   {% for tag in site.tags %}
-    {% if tag[1].size == i %}
+    {% if tag[0] == tagName %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
         <div class="entries-{{ entries_layout }}">

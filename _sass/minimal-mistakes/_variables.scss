@@ -6,7 +6,6 @@
    Typography
    ========================================================================== */
 @import "minimal-mistakes/fonts";
-
 $doc-font-size: 16 !default;
 
 /* paragraph indention */
@@ -122,6 +121,10 @@ $link-color-visited: mix(#fff, $link-color, 15%) !default;
 $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
+
+/* notices */
+$notice-background-mix: 80% !default;
+$code-notice-background-mix: 90% !default;
 
 /* syntax highlighting (base16) */
 $base00: #263238 !default;

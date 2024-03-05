@@ -7,7 +7,6 @@ $background-color: #521477 !default;
 $text-color: #fffd86 !default;
 $primary-color: #c327ab !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
-$span-background-color: mix(#000, $primary-color, 67%);
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
@@ -18,6 +17,10 @@ $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+/* notices */
+$notice-background-mix: 70% !default;
+$code-notice-background-mix: 80% !default;
 
 /* plum syntax highlighting (base16) */
 $base00: #ffffff !default;

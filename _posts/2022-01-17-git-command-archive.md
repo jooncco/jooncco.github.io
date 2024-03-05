@@ -1,12 +1,14 @@
 ---
 title: "[Git] 명령어 Cheat Sheet (cumulative)"
 header:
-  overlay_image: /public/images/git.jpeg
-categories:
-  - Git
-last_modified_at: 2022-02-24T02:24:00+09:00
+  teaser: /public/images/git-teaser.png
+  og_image: /public/images/git-teaser.png
+category: web
+tags:
+  - DevOps
 toc: true
 toc_sticky: true
+last_modified_at: 2022-02-24T02:24:00+09:00
 ---
 
 Git 잘쓰는 동료가 좋아요.

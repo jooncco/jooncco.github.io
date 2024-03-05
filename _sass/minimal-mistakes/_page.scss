@@ -72,6 +72,11 @@ body {
   margin-top: 0;
   line-height: 1;
 
+  a {
+    color: $text-color;
+    text-decoration: none;
+  }
+
   & + .page__meta {
     margin-top: -0.5em;
   }
@@ -79,14 +84,13 @@ body {
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 .page__content {
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
-    font-size: $type-size-3;
   }
 
 	h1, h2, h3, h4, h5, h6 {
@@ -109,9 +113,7 @@ body {
   p,
   li,
   dl {
-    font-size: 0.8em;
-    padding: 6px;
-    margin: 0;
+    font-size: 1em;
   }
 
   /* paragraph indents */
@@ -128,8 +130,6 @@ body {
   }
 
   a:not(.btn) {
-    text-decoration: none;
-
     &:hover {
       text-decoration: underline;
 
@@ -139,7 +139,22 @@ body {
     }
   }
 
+  :not(pre) > code {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: 0.8em;
+    background: $code-background-color;
+    border-radius: $border-radius;
+
+    &::before,
+    &::after {
+      letter-spacing: -0.2em;
+      content: "\00a0"; /* non-breaking space*/
+    }
+  }
+
   dt {
+    margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
   }
@@ -342,9 +357,10 @@ body {
   margin-bottom: 2em;
   padding-bottom: 1em;
 
-  &:not(:last-child) {
-    border-bottom: solid 1px $border-color;
-  }
+  // TODO: fix positioning issue when entries_layout: grid
+  // &:not(:last-child) {
+  //   border-bottom: solid 1px $border-color;
+  // }
 
   .archive__item-title {
     margin-top: 0;
@@ -358,7 +374,6 @@ body {
   + .taxonomy__section {
     margin-top: 2em;
   }
-
 }
 
 .taxonomy__title {
@@ -402,7 +417,6 @@ body {
   clear: both;
   color: $muted-text-color;
   font-size: 0.6em;
-  font-weight: bold;
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;

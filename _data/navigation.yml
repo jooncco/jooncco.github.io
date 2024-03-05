@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Profile"
-    url: /profile
-  - title: "Posts"
-    url: /posts
-  - title: "Problem Solving"
-    url: /problem_solving
-  # - title: "Music"
-  #   url: /music
+  - title: "All"
+    url: /all
+  - title: "Web"
+    url: /web
+  - title: "Competitive Programming"
+    url: /competitive-programming
+  - title: "etc"
+    url: /etc

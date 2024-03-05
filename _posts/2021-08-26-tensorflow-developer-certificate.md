@@ -1,9 +1,11 @@
 ---
 title: "[TensorFlow] TDC 자격증 취득후기"
 header:
-  overlay_image: /public/images/tensorFlow-header.png
-categories:
-  - TensorFlow
+  teaser: /public/images/tensorflow-teaser.png
+  og_image: /public/images/tensorflow-teaser.png
+category: etc
+tags:
+  - Retro.
 last_modified_at: 2022-02-18T17:58:00+09:00
 toc: true
 toc_sticky: true

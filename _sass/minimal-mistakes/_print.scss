@@ -3,6 +3,7 @@
    ========================================================================== */
 
 @media print {
+
   [hidden] {
     display: none;
   }
@@ -175,8 +176,7 @@
 
   a[href^='http://']:after,
   a[href^='https://']:after,
-  a[href^='ftp://']:after
-  {
+  a[href^='ftp://']:after {
     content: " (" attr(href) ")";
     font-size: 80%;
   }
@@ -210,12 +210,12 @@
   }
 
   a.no-reformat:after {
-    content: "";
+    content: '';
   }
 
   abbr[title].no-reformat:after,
   acronym[title].no-reformat:after {
-    content: "";
+    content: '';
   }
 
   .page__hero-caption {
@@ -228,7 +228,7 @@
     }
   }
 
-  /*
+/*
    Hide the following elements on print
    ========================================================================== */
 
@@ -250,293 +250,3 @@
     height: 1px !important;
   }
 }
-
-/*
-   Custom elements
-   ========================================================================== */
-
-blockquote {
-  background-color: rgba($primary-color, 0.04);
-}
-
-div#project {
-  .project-card {
-    margin: 30px 5px;
-
-    .project-title {
-      padding: 1% 2.5%;
-      border-radius: $border-radius;
-      background-color: rgba($primary-color, 0.04);
-      color: $text-color;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    .project-title:after {
-      content: "\02795";
-      font-size: $type-size-5;
-      color: $text-color;
-      float: right;
-      padding-left: 5px;
-    }
-
-    .project-title:hover,
-    .active {
-      cursor: pointer;
-      background-color: rgba($primary-color, 0.15);
-    }
-
-    .active:after {
-      content: "\2796"; /* Unicode character for "minus" sign (-) */
-    }
-
-    div {
-      &.panel {
-        padding: 0 2%;
-        max-height: 0;
-        overflow: hidden;
-        -webkit-transition: max-height 0.5s;
-        -moz-transition: max-height 0.5s;
-        -ms-transition: max-height 0.5s;
-        -o-transition: max-height 0.5s;
-        transition: max-height 0.5s;
-
-        .panel-header {
-          padding: 5px;
-          display: flex;
-          width: 96%;
-          flex-wrap: wrap;
-          border: solid;
-          border-width: 3px;
-          border-color: #ccc;
-
-          .column {
-            padding: 0 3px;
-            display: flex;
-            flex-direction: column;
-            flex: 1;
-            font-size: $type-size-8;
-          }
-
-          .column.head {
-            font-weight: 950;
-            font-size: $type-size-7;
-          }
-
-          .column.data {
-            font-size: $type-size-7;
-          }
-
-          .column.artifacts {
-            padding: 1.5%;
-            flex: 2;
-          }
-
-          .cell {
-            display: flex;
-            flex: 0 0 33.3%;
-            -webkit-flex: 0 0 33.3%;
-            align-items: center;
-          }
-
-          .cell-rowspan-2 {
-            flex: 0 0 100%;
-            -webkit-flex: 0 0 100%;
-          }
-        }
-
-        .description {
-          h5 {
-            margin: 1% 2%;
-            font-size: $type-size-5;
-          }
-          .body {
-            margin: 1% 2%;
-            padding: 8px;
-            width: 74%;
-            border-radius: $border-radius;
-            background-color: $span-background-color;
-            font-size: $type-size-7;
-          }
-        }
-        .contributions {
-          h5 {
-            margin: 1% 2%;
-            font-size: $type-size-5;
-          }
-          .body {
-            margin: 1% 2%;
-            ul {
-              margin: 0;
-              padding: 0;
-              width: 80%;
-
-              li {
-                margin: 3px 20px;
-                padding: 0;
-                span {
-                  padding: 5px 2% 2px 1.5%;
-                  border-radius: $border-radius;
-                  background-color: $span-background-color;
-                  font-size: $type-size-6;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-} // end of div#project
-
-div#skills {
-  .row {
-    margin: 8px 0;
-    display: flex;
-    border: solid;
-    border-width: 1px;
-    border-radius: $border-radius;
-    border-color: mix(#000, $text-color, 85%);
-
-    .category {
-      padding: 3%;
-      width: 32%;
-      font-weight: bold;
-      font-size: $type-size-4;
-    }
-
-    .content {
-      padding: 2% 1%;
-      width: 68%;
-
-      ul {
-        margin: 0;
-        font-size: 18px;
-
-        li {
-          padding: 4px;
-
-          span {
-            font-weight: 400;
-            margin: 1px;
-            padding: 1px 4px;
-            border-radius: $border-radius;
-            background-color: $span-background-color;
-          }
-        }
-      }
-    }
-  }
-}
-
-.artifact_img {
-  width: 30px;
-  height: 30px;
-}
-
-.bolster {
-  font-family: CaskaydiaCoveNerdFont;
-  color: $primary-color;
-} // end of div#skills
-
-div#competitive-programming {
-  .row {
-    padding: 14px 10px;
-    display: flex;
-    border-radius: $border-radius;
-    vertical-align: auto;
-
-    .logo {
-      padding: 2.5px 0;
-      width: 45px;
-      height: 45px;
-
-      img {
-        border-radius: 15px;
-        background-color: white;
-      }
-    }
-
-    .title {
-      line-height: 45px;
-      width: 140px;
-      padding: 0 10px 0 20px;
-      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-      font-size: $type-size-5;
-    }
-
-    .description {
-      display: block;
-      padding: 0 30px;
-      line-height: 20px;
-      width: 280px;
-      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-      font-size: $type-size-7;
-      font-weight: 400;
-
-      .row-handle {
-        div.handle {
-          padding: 1px 6px;
-          font-size: 14px;
-        }
-      }
-
-      .row-stats {
-        div {
-          padding: 0 3px;
-        }
-
-        .percentage {
-          color: #999;
-        }
-      }
-
-      .codeforces-rating-badge {
-        padding: 1px 5px;
-        border: solid;
-        border-width: 1px;
-        border-color: #23a9b0;
-        font-size: 9px;
-        font-weight: 900;
-        color: #23a9b0;
-      }
-
-      .boj-rating-badge {
-        padding: 1px 5px;
-        border: solid;
-        border-width: 1px;
-        border-color: #00c78b;
-        font-size: 9px;
-        font-weight: 900;
-        color: #00c78b;
-      }
-
-      .atcoder-rating-badge {
-        padding: 1px 5px;
-        border: solid;
-        border-width: 1px;
-        border-color: #00c78b;
-        font-size: 11px;
-        font-weight: 900;
-        color: #00c78b;
-      }
-
-      .topcoder-rating-badge {
-        padding: 1px 5px;
-        border: solid;
-        border-width: 1px;
-        border-color: #00c78b;
-        font-size: 11px;
-        font-weight: 900;
-        color: #00c78b;
-      }
-    }
-  }
-
-  .row:hover {
-    cursor: pointer;
-    background-color: rgba($base02, 0.5);
-  }
-} // end of div#competitive-programming
