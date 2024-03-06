@@ -10,17 +10,18 @@ minimal_mistakes_skin: "neon" # "default", "air", "aqua", "contrast", "dark", "d
 
 # Site Settings
 locale: "en-US"
-title: "jooncco"
+title: "jooncco.dev"
 title_separator: "|"
-# subtitle: ""
+subtitle: ""
 name: "Junha"
 description: "Knowledge base of full stack engineer jooncco."
 url: "https://jooncco.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "jooncco/jooncco.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: "/opengraph-image.png" # path of fallback teaser image, e.g. "/public/images/500x300.png"
+og_image: "/opengraph-image.png" # Open Graph/Twitter default site image
 logo: "/public/images/favicon/android-chrome-192x192.png" # path of logo image to display in the masthead, e.g. "/public/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "jooncco.dev" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: false # true, false (default)
 words_per_minute: 200
 comments:
@@ -166,8 +167,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn

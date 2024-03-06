@@ -173,14 +173,20 @@ hr {
 
 /* lists */
 
+ul, ol {
+  margin-top: 0.25em;
+  padding-inline-start: 1.25em;
+}
+
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-top: 0.2em;
 }
 
 /*
