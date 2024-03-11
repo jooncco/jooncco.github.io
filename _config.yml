@@ -10,7 +10,7 @@ minimal_mistakes_skin: "neon" # "default", "air", "aqua", "contrast", "dark", "d
 
 # Site Settings
 locale: "en-US"
-title: "jooncco.dev"
+title: "jooncco.github.io"
 title_separator: "|"
 subtitle: ""
 name: "Junha"
@@ -21,7 +21,7 @@ repository: "jooncco/jooncco.github.io" # GitHub username/repo-name e.g. "mmista
 teaser: "/opengraph-image.png" # path of fallback teaser image, e.g. "/public/images/500x300.png"
 og_image: "/opengraph-image.png" # Open Graph/Twitter default site image
 logo: "/public/images/favicon/android-chrome-192x192.png" # path of logo image to display in the masthead, e.g. "/public/images/88x88.png"
-masthead_title: "jooncco.dev" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "jooncco.github.io" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: false # true, false (default)
 words_per_minute: 200
 comments:
@@ -34,7 +34,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid: 278555981041512
     num_posts: 5 # 5 (default)
-    colorscheme: "dark" # "light" (default), "dark"
+    colorscheme: "light" # "light" (default), "dark"
   utterances:
     theme: # "github-light" (default), "github-dark"
     issue_term: # "pathname" (default)
