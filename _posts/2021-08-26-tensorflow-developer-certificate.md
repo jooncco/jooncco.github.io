@@ -47,10 +47,10 @@ Tensorflow의 **활용**에 초점이 맞춰져 있는 시험이지만 실무자
 
 ## Lecture ⭐️⭐️⭐️
 
-**[TensorFlow in Practice | Coursera](https://www.coursera.org/professional-certificates/tensorflow-in-practice)**
+[TensorFlow in Practice \| Coursera](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 
 <img src="/public/images/deeplearning-ai-lecture-instructor.png"/>
 
 ## 예제 코드 ⭐️⭐️⭐️⭐️⭐️
 
-**[https://github.com/lmoroney/dlaicourse](https://github.com/lmoroney/dlaicourse)**
+[https://github.com/lmoroney/dlaicourse](https://github.com/lmoroney/dlaicourse)
