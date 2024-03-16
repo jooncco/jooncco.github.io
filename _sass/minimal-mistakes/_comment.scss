@@ -1,3 +1,5 @@
-.fb-comments {
-  background: #aaa;
+// The facebook comment extension doesn't support dark theme.
+section.fb-comments {
+  background-color: #eef;
+  border-radius: 4px;
 }

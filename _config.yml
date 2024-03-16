@@ -34,7 +34,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid: 278555981041512
     num_posts: 5 # 5 (default)
-    colorscheme: "light" # "light" (default), "dark"
+    colorscheme: "light" # "dark" is not supported by Facebook. Weird.
   utterances:
     theme: # "github-light" (default), "github-dark"
     issue_term: # "pathname" (default)
